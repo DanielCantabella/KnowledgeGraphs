@@ -49,6 +49,7 @@ author = URIRef("http://example.org/author")
 chair = URIRef("http://example.org/chair")
 proceedings = URIRef("http://example.org/proceedings")
 year = URIRef("http://example.org/year")
+type = URIRef("http://example.org/type")
 
 g.add((accepted, RDFS.range, XSD.boolean))
 g.add((accepted, RDFS.domain, decision))
@@ -84,11 +85,9 @@ g.add((year, RDFS.range, XSD.integer))
 g.add((XSD.string, RDFS.domain, area))
 g.add((conference_type, RDFS.domain, conference))
 g.add((conference_type, RDFS.range, XSD.string))
-g.add((RDF.type, RDFS.domain, paper))
-g.add((RDF.type, RDFS.range, XSD.string))
+g.add((type, RDFS.domain, paper))
+g.add((type, RDFS.range, XSD.string))
 
 print(g.serialize())
 v = g.serialize(format="nt")
 g.serialize(destination="tbox.ttl")
-
-
