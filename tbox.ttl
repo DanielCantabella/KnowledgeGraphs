@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/accepted> rdfs:domain <http://example.org/decision> ;
+    rdfs:range xsd:boolean .
+
+<http://example.org/buck_up_text> rdfs:domain <http://example.org/decision> ;
+    rdfs:range xsd:string .
+
+<http://example.org/conference_type> rdfs:domain <http://example.org/conference> ;
+    rdfs:range xsd:string .
+
+<http://example.org/handles> rdfs:domain <http://example.org/chair>,
+        <http://example.org/editor> ;
+    rdfs:range <http://example.org/conference>,
+        <http://example.org/journal> .
+
+<http://example.org/submit> rdfs:domain <http://example.org/reviewer> ;
+    rdfs:range <http://example.org/decision> .
+
+<http://example.org/submits> rdfs:domain <http://example.org/author> ;
+    rdfs:range <http://example.org/paper> .
+
+<http://example.org/to> rdfs:domain <http://example.org/venue> ;
+    rdfs:range <http://example.org/paper> .
+
+<http://example.org/volume> rdfs:domain <http://example.org/journal> ;
+    rdfs:range <http://example.org/paper> .
+
+<http://example.org/year> rdfs:domain <http://example.org/proceedings> ;
+    rdfs:range xsd:integer .
+
+rdf:type rdfs:domain <http://example.org/paper> ;
+    rdfs:range xsd:string .
+
+<http://example.org/area> rdfs:domain <http://example.org/conference>,
+        <http://example.org/journal>,
+        <http://example.org/paper> .
+
+<http://example.org/assigns> rdfs:domain <http://example.org/chair> ;
+    rdfs:range <http://example.org/reviewer> .
+
+<http://example.org/editor> rdfs:domain <http://example.org/assigns> .
+
+<http://example.org/proceedings> rdfs:domain <http://example.org/conference> ;
+    rdfs:range <http://example.org/paper> .
+
+<http://example.org/reviews> rdfs:range <http://example.org/paper> .
+
+<http://example.org/venue> rdfs:subClassOf <http://example.org/conference>,
+        <http://example.org/journal> .
+
+<http://example.org/reviewer> rdfs:domain <http://example.org/reviews> .
+
+xsd:string rdfs:domain <http://example.org/area> .
+
