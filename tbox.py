@@ -49,7 +49,7 @@ author = URIRef("http://example.org/author")
 chair = URIRef("http://example.org/chair")
 proceedings = URIRef("http://example.org/proceedings")
 year = URIRef("http://example.org/year")
-type = URIRef("htt`://example.org/type")
+type = URIRef("http://example.org/type")
 
 g.add((accepted, RDFS.range, XSD.boolean))
 g.add((accepted, RDFS.domain, decision))
