@@ -1,4 +1,3 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -25,14 +24,14 @@
 <http://example.org/to> rdfs:domain <http://example.org/venue> ;
     rdfs:range <http://example.org/paper> .
 
+<http://example.org/type> rdfs:domain <http://example.org/paper> ;
+    rdfs:range xsd:string .
+
 <http://example.org/volume> rdfs:domain <http://example.org/journal> ;
     rdfs:range <http://example.org/paper> .
 
 <http://example.org/year> rdfs:domain <http://example.org/proceedings> ;
     rdfs:range xsd:integer .
-
-rdf:type rdfs:domain <http://example.org/paper> ;
-    rdfs:range xsd:string .
 
 <http://example.org/area> rdfs:domain <http://example.org/conference>,
         <http://example.org/journal>,
@@ -54,4 +53,3 @@ rdf:type rdfs:domain <http://example.org/paper> ;
 <http://example.org/reviewer> rdfs:domain <http://example.org/reviews> .
 
 xsd:string rdfs:domain <http://example.org/area> .
-
