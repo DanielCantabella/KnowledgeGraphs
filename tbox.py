@@ -1,4 +1,4 @@
-from rdflib.namespace import RDFS, RDF, XSD
+from rdflib.namespace import RDFS, RDF, XSD, Namespace
 from rdflib import Graph, URIRef, Literal, BNode
 
 g = Graph()
@@ -27,29 +27,31 @@ g = Graph()
 # proceedings = BNode()
 # year = BNode()
 
-accepted = URIRef("http://example.org/accepted")
-buck_up_text = URIRef("http://example.org/buck_up_text")
-decision = URIRef("http://example.org/decision")
-submit = URIRef("http://example.org/submit")
-reviewer = URIRef("http://example.org/reviewer")
-assigns = URIRef("http://example.org/assigns")
-editor = URIRef("http://example.org/editor")
-handles = URIRef("http://example.org/handles")
-journal = URIRef("http://example.org/journal")
-volume = URIRef("http://example.org/volume")
-venue = URIRef("http://example.org/venue")
-to = URIRef("http://example.org/to")
-reviews = URIRef("http://example.org/reviews")
-paper = URIRef("http://example.org/paper")
-conference_type = URIRef("http://example.org/conference_type")
-area = URIRef("http://example.org/area")
-conference = URIRef("http://example.org/conference")
-submits = URIRef("http://example.org/submits")
-author = URIRef("http://example.org/author")
-chair = URIRef("http://example.org/chair")
-proceedings = URIRef("http://example.org/proceedings")
-year = URIRef("http://example.org/year")
-type = URIRef("http://example.org/type")
+EX = Namespace('http://example.org/')
+
+accepted = EX.accepted  # http://example.org/accepted/
+buck_up_text = EX.buck_up_text
+decision = EX.decision
+submit = EX.submit
+reviewer = EX.reviewer
+assigns = EX.assigns
+editor = EX.editor
+handles = EX.handles
+journal = EX.journal
+volume = EX.volume
+venue = EX.venue
+to = EX.to
+reviews = EX.reviews
+paper = EX.paper
+conference_type = EX.conference_type
+area = EX.area
+conference = EX.conference
+submits = EX.submits
+author = EX.author
+chair = EX.chair
+proceedings = EX.proceedings
+year = EX.year
+type = EX.type
 
 g.add((accepted, RDFS.range, XSD.boolean))
 g.add((accepted, RDFS.domain, decision))
@@ -91,3 +93,11 @@ g.add((type, RDFS.range, XSD.string))
 print(g.serialize())
 v = g.serialize(format="nt")
 g.serialize(destination="tbox.ttl")
+
+
+
+
+
+
+
+
