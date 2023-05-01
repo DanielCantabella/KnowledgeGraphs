@@ -1,55 +1,90 @@
+@prefix ex: <http://example.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/accepted> rdfs:domain <http://example.org/decision> ;
+ex:abstract rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:accepted rdfs:domain ex:decision ;
     rdfs:range xsd:boolean .
 
-<http://example.org/buck_up_text> rdfs:domain <http://example.org/decision> ;
+ex:assigns rdfs:domain ex:chair,
+        ex:editor ;
+    rdfs:range ex:reviewer .
+
+ex:buck_up_text rdfs:domain ex:decision ;
     rdfs:range xsd:string .
 
-<http://example.org/conference_type> rdfs:domain <http://example.org/conference> ;
+ex:conference_type rdfs:domain ex:conference ;
     rdfs:range xsd:string .
 
-<http://example.org/handles> rdfs:domain <http://example.org/chair>,
-        <http://example.org/editor> ;
-    rdfs:range <http://example.org/conference>,
-        <http://example.org/journal> .
-
-<http://example.org/submit> rdfs:domain <http://example.org/reviewer> ;
-    rdfs:range <http://example.org/decision> .
-
-<http://example.org/submits> rdfs:domain <http://example.org/author> ;
-    rdfs:range <http://example.org/paper> .
-
-<http://example.org/to> rdfs:domain <http://example.org/venue> ;
-    rdfs:range <http://example.org/paper> .
-
-<http://example.org/type> rdfs:domain <http://example.org/paper> ;
+ex:doi rdfs:domain ex:paper ;
     rdfs:range xsd:string .
 
-<http://example.org/volume> rdfs:domain <http://example.org/journal> ;
-    rdfs:range <http://example.org/paper> .
+ex:endDate rdfs:domain ex:proceedings ;
+    rdfs:range xsd:date .
 
-<http://example.org/year> rdfs:domain <http://example.org/proceedings> ;
+ex:handles rdfs:domain ex:chair,
+        ex:editor ;
+    rdfs:range ex:conference,
+        ex:journal .
+
+ex:issn rdfs:domain ex:conference,
+        ex:journal ;
+    rdfs:range xsd:string .
+
+ex:name rdfs:domain ex:author,
+        ex:conference,
+        ex:journal ;
+    rdfs:range xsd:string .
+
+ex:publicationDate rdfs:domain ex:paper ;
+    rdfs:range xsd:date .
+
+ex:reviews rdfs:domain ex:reviewer ;
+    rdfs:range ex:paper .
+
+ex:startDate rdfs:domain ex:proceedings ;
+    rdfs:range xsd:date .
+
+ex:submit rdfs:domain ex:reviewer ;
+    rdfs:range ex:decision .
+
+ex:submits rdfs:domain ex:author ;
+    rdfs:range ex:paper .
+
+ex:title rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:to rdfs:domain ex:venue ;
+    rdfs:range ex:paper .
+
+ex:type rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:updated rdfs:domain ex:paper ;
+    rdfs:range xsd:dateTimeStamp .
+
+ex:url rdfs:domain ex:conference,
+        ex:journal,
+        ex:paper ;
+    rdfs:range xsd:string .
+
+ex:year rdfs:domain ex:volume ;
     rdfs:range xsd:integer .
 
-<http://example.org/area> rdfs:domain <http://example.org/conference>,
-        <http://example.org/journal>,
-        <http://example.org/paper> .
+ex:area rdfs:domain ex:conference,
+        ex:journal,
+        ex:paper .
 
-<http://example.org/assigns> rdfs:domain <http://example.org/chair> ;
-    rdfs:range <http://example.org/reviewer> .
+ex:venue rdfs:subClassOf ex:conference,
+        ex:journal .
 
-<http://example.org/editor> rdfs:domain <http://example.org/assigns> .
+ex:volume rdfs:domain ex:journal ;
+    rdfs:range ex:paper .
 
-<http://example.org/proceedings> rdfs:domain <http://example.org/conference> ;
-    rdfs:range <http://example.org/paper> .
+ex:proceedings rdfs:domain ex:conference ;
+    rdfs:range ex:paper .
 
-<http://example.org/reviews> rdfs:range <http://example.org/paper> .
+xsd:string rdfs:domain ex:area .
 
-<http://example.org/venue> rdfs:subClassOf <http://example.org/conference>,
-        <http://example.org/journal> .
-
-<http://example.org/reviewer> rdfs:domain <http://example.org/reviews> .
-
-xsd:string rdfs:domain <http://example.org/area> .
