@@ -8,7 +8,6 @@ from datetime import datetime
 import random
 import subprocess
 
-
 def loadPapers(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]
     id = EX[data[0]]
     titleAtt = Literal(data[1], datatype=XSD.string)
@@ -48,7 +47,6 @@ def correctPaperData(data):
         else:
             data[i] = None
     return data
-
 def getAbstractData(corpusid):
     with open('./data/abstracts-sample.csv', newline='') as abstracts:
         reader = csv.DictReader(abstracts)
@@ -67,7 +65,6 @@ def loadAuthors(data): #[id, name]
         g.add((id,RDF.type,tbox.author))
     if data[1] is not None: #name
         g.add((id,tbox.name,nameAtt))
-
 def correctAuthorData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -89,7 +86,6 @@ def loadVolumes(data): #[id, year, volume_number_of_the_year]
         g.add((id, tbox.year, yearAtt))
     if data[2] is not None:  # volume_number_of_the_year
         g.add((id, tbox.volumeNr, volumeNrAtt))
-
 def correctVolumeData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -127,7 +123,6 @@ def loadProceedings(data):
         g.add((id, tbox.startDate, startDateAtt))
     if data[2] is not None:  # endDate
         g.add((id, tbox.endDate, endDateAtt))
-
 def correctProceedingData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -139,6 +134,7 @@ def correctProceedingData(data):
         else:
             data[i] = None
     return data
+
 def loadConferences(data): #[id, name, issn, url, type]
     id = EX[data[0]]
     nameAtt = Literal(data[1], datatype=XSD.string)
@@ -156,7 +152,6 @@ def loadConferences(data): #[id, name, issn, url, type]
         g.add((id, tbox.url, urlAtt))
     if data[4] is not None:  # type
         g.add((id, tbox.conference_type, typeAtt))
-
 def correctConferenceData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -181,7 +176,6 @@ def loadJournals(data):
         g.add((id, tbox.issn, issnAtt))
     if data[3] is not None:  # url
         g.add((id, tbox.url, urlAtt))
-
 def correctJournalData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -195,18 +189,17 @@ def correctJournalData(data):
 def loadDecisions(data):
     id = EX[data[0]]
     acceptedAtt = Literal(data[1], datatype=XSD.boolean)
-    buck_up_textAtt = Literal(data[2], datatype=XSD.string)
+    back_up_textAtt = Literal(data[2], datatype=XSD.string)
 
     if data[0] is not None:  # id
         g.add((id, RDF.type, tbox.decision))
     if data[1] is not None:  # accepted
         g.add((id, tbox.accepted, acceptedAtt))
-    if data[2] is not None:  # buck_up_text
-        g.add((id, tbox.buck_up_text, buck_up_textAtt))
-
+    if data[2] is not None:  # back_up_text
+        g.add((id, tbox.back_up_text, back_up_textAtt))
 def correctDecisionData(data): #paperId, reviewerID, grade, review
     numFields = len(data)
-    newData=[str(data[0]+"-"+data[1]), "accepted", "buck_up_text"] #id is paperId-reviewerID
+    newData=[str(data[0]+"-"+data[1]), "accepted", "back_up_text"] #id is paperId-reviewerID
     for i in range(0, numFields):
         if bool(data[i]) == True:
             if i in [2]: #accepted

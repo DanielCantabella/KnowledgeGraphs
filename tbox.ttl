@@ -77,14 +77,15 @@ ex:area rdfs:domain ex:conference,
         ex:journal,
         ex:paper .
 
-ex:venue rdfs:subClassOf ex:conference,
-        ex:journal .
-
 ex:volume rdfs:domain ex:journal ;
     rdfs:range ex:paper .
 
 ex:proceeding rdfs:domain ex:conference ;
     rdfs:range ex:paper .
+
+ex:journal rdfs:subClassOf ex:venue .
+
+ex:conference rdfs:subClassOf ex:venue .
 
 xsd:string rdfs:domain ex:area .
 

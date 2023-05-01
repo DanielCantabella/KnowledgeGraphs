@@ -30,7 +30,7 @@ year = EX.year
 #Attributes
 #Decision
 accepted = EX.accepted
-buck_up_text = EX.buck_up_text
+back_up_text = EX.back_up_text
 #Paper
 type = EX.type
 title = EX.title
@@ -64,10 +64,10 @@ g.add((handles, RDFS.domain, editor))
 g.add((handles, RDFS.range, journal))
 g.add((volume, RDFS.domain, journal))
 g.add((volume, RDFS.range, paper))
-g.add((venue, RDFS.subClassOf, journal))
+g.add((journal, RDFS.subClassOf, venue))
 g.add((to, RDFS.domain, venue))
 g.add((to, RDFS.range, paper))
-g.add((venue, RDFS.subClassOf, conference))
+g.add((conference, RDFS.subClassOf, venue))
 g.add((assigns, RDFS.range, reviewer))
 g.add((submits, RDFS.domain, author))
 g.add((submits, RDFS.range, paper))
@@ -84,8 +84,8 @@ g.add((proceeding, RDFS.range, paper))
 ##Decision
 g.add((accepted, RDFS.domain, decision))
 g.add((accepted, RDFS.range, XSD.boolean))
-g.add((buck_up_text, RDFS.domain, decision))
-g.add((buck_up_text, RDFS.range, XSD.string))
+g.add((back_up_text, RDFS.domain, decision))
+g.add((back_up_text, RDFS.range, XSD.string))
 #Paper
 g.add((type, RDFS.domain, paper))
 g.add((type, RDFS.range, XSD.string))
