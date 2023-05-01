@@ -24,7 +24,7 @@ conference = EX.conference
 submits = EX.submits
 author = EX.author
 chair = EX.chair
-proceedings = EX.proceedings
+proceeding = EX.proceeding
 year = EX.year
 
 #Attributes
@@ -43,6 +43,7 @@ publicationDate = EX.publicationDate
 name = EX.name #Repeated
 #Volume
 year = EX.year
+volumeNr = EX.year
 #Proceedings
 startDate = EX.startDate
 endDate = EX.endDate
@@ -76,8 +77,8 @@ g.add((handles, RDFS.range, conference))
 g.add((area, RDFS.domain, paper))
 g.add((area, RDFS.domain, journal))
 g.add((area, RDFS.domain, conference))
-g.add((proceedings, RDFS.domain, conference))
-g.add((proceedings, RDFS.range, paper))
+g.add((proceeding, RDFS.domain, conference))
+g.add((proceeding, RDFS.range, paper))
 
 #Attributes
 ##Decision
@@ -106,10 +107,12 @@ g.add((name, RDFS.range, XSD.string))
 #Volume
 g.add((year, RDFS.domain, volume))
 g.add((year, RDFS.range, XSD.integer))
+g.add((volumeNr, RDFS.domain, volume))
+g.add((volumeNr, RDFS.range, XSD.integer))
 #Proceedings
-g.add((startDate, RDFS.domain, proceedings))
+g.add((startDate, RDFS.domain, proceeding))
 g.add((startDate, RDFS.range, XSD.date))
-g.add((endDate, RDFS.domain, proceedings))
+g.add((endDate, RDFS.domain, proceeding))
 g.add((endDate, RDFS.range, XSD.date))
 #Conference
 g.add((conference_type, RDFS.domain, conference))

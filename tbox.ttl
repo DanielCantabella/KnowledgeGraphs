@@ -21,7 +21,7 @@ ex:conference_type rdfs:domain ex:conference ;
 ex:doi rdfs:domain ex:paper ;
     rdfs:range xsd:string .
 
-ex:endDate rdfs:domain ex:proceedings ;
+ex:endDate rdfs:domain ex:proceeding ;
     rdfs:range xsd:date .
 
 ex:handles rdfs:domain ex:chair,
@@ -44,7 +44,7 @@ ex:publicationDate rdfs:domain ex:paper ;
 ex:reviews rdfs:domain ex:reviewer ;
     rdfs:range ex:paper .
 
-ex:startDate rdfs:domain ex:proceedings ;
+ex:startDate rdfs:domain ex:proceeding ;
     rdfs:range xsd:date .
 
 ex:submit rdfs:domain ex:reviewer ;
@@ -83,7 +83,7 @@ ex:venue rdfs:subClassOf ex:conference,
 ex:volume rdfs:domain ex:journal ;
     rdfs:range ex:paper .
 
-ex:proceedings rdfs:domain ex:conference ;
+ex:proceeding rdfs:domain ex:conference ;
     rdfs:range ex:paper .
 
 xsd:string rdfs:domain ex:area .
