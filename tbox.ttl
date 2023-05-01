@@ -12,7 +12,7 @@ ex:assigns rdfs:domain ex:chair,
         ex:editor ;
     rdfs:range ex:reviewer .
 
-ex:buck_up_text rdfs:domain ex:decision ;
+ex:back_up_text rdfs:domain ex:decision ;
     rdfs:range xsd:string .
 
 ex:conference_type rdfs:domain ex:conference ;

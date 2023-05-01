@@ -6,6 +6,7 @@ import csv
 import datetime
 from datetime import datetime
 import random
+from tbox import g
 import subprocess
 
 def loadPapers(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]

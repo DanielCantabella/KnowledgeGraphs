@@ -43,7 +43,7 @@ publicationDate = EX.publicationDate
 name = EX.name #Repeated
 #Volume
 year = EX.year
-volumeNr = EX.year
+volumeNr = EX.volumeNr
 #Proceedings
 startDate = EX.startDate
 endDate = EX.endDate
