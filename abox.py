@@ -217,12 +217,6 @@ def correctDecisionData(data): #paperId, reviewerID, grade, review
 def loadRelations(subject, predicate, object):
     if subject is not None and object is not None:  # id
         g.add((EX[subject], predicate, EX[object]))
-def loadWrites(data):
-    paperID = EX[data[0]]
-    authorID = EX[data[1]]
-    if data[0] is not None and data[1] is not None:  # id
-        g.add((authorID, tbox.writes, paperID))
-
 def correctPropertiesData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -233,11 +227,6 @@ def correctPropertiesData(data):
             data[i] = None
     return data
 
-def loadSubmits(data):
-    paperID = EX[data[0]]
-    reviewerID = EX[data[1]]
-    if data[0] is not None and data[1] is not None:  # id
-        g.add((reviewerID, tbox.submits, paperID))
 
 if __name__ == "__main__":
 #LOAD TBOX

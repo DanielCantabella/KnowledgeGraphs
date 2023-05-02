@@ -1167,7 +1167,7 @@ ex:3ehgs33g-d95e-vaq5-mdgq-itty8ga0grri a ex:proceeding ;
     rdfs:subClassOf ex:945aea8e-5af0-4cc3-bf02-caa0e7d1dd95 .
 
 ex:3fdcd86c-8033-4ae8-bb00-dd0e206fbadc a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "0104-270X"^^xsd:string ;
     ex:name "Vidya educação"^^xsd:string ;
     ex:url "http://sites.unifra.br/Default.aspx?alias=sites.unifra.br/vidya"^^xsd:string .
@@ -1249,7 +1249,7 @@ ex:43z31mbk-ujtc-snd8-fced-nuoo34ftbxw9 a ex:volume ;
     rdfs:subClassOf ex:af9217e1-baa5-48b2-af0f-94eeaef5070f .
 
 ex:440aa3ea-7d64-4773-9a72-c784812f9be7 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "1100-2573"^^xsd:string ;
     ex:name "Lambda Nordica: Tidskrift om homosexualitet"^^xsd:string ;
     ex:url "https://lambdanordica.org/index.php/lambdanordica"^^xsd:string .
@@ -1903,7 +1903,7 @@ ex:8bidylwe-v3zu-bubs-gqin-b5dj6wlia7rl a ex:volume ;
     rdfs:subClassOf ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 .
 
 ex:8f699f99-483c-49b2-9121-5d411659fc1f a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "2587-1234"^^xsd:string ;
     ex:name "Bölgesel araştırmalar dergisi"^^xsd:string ;
     ex:url "https://dergipark.org.tr/tr/pub/bader"^^xsd:string .
@@ -2124,7 +2124,7 @@ ex:a436k0zx-48xv-xs7u-8u7r-ymkblug4rftu a ex:volume ;
     rdfs:subClassOf ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1 .
 
 ex:a6c29f49-e057-410f-861d-48df48f4e6a7 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "1212-6098"^^xsd:string ;
     ex:name "Kutnohorsko. Vlastivědný sborník"^^xsd:string ;
     ex:url "https://www.cms-kh.cz/knihy-vydavatelstvi-kuttna"^^xsd:string .
@@ -2317,7 +2317,7 @@ ex:c64g79hm-jqj9-h3s2-tezs-m17u8yfo8ut9 a ex:proceeding ;
     rdfs:subClassOf ex:bde28bb6-4c6c-4d8e-b6d1-01937b87484f .
 
 ex:c6c4dde3-3125-4620-988e-9bea2de39345 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "1507-1383"^^xsd:string ;
     ex:name "Bulletin Polish Economic Society"^^xsd:string ;
     ex:url "http://www.pte.pl/223_biuletyny_pte.html"^^xsd:string .
@@ -4482,13 +4482,13 @@ ex:zyz5wfux-1ao0-ghc1-40qc-9ovce6xxmxep a ex:proceeding ;
     rdfs:subClassOf ex:23019876-9321-4840-8fb7-10fe82b7a015 .
 
 ex:12a8ef42-b7bf-456f-9f91-53324ebd16be a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "0748-9234"^^xsd:string ;
     ex:name "University of California Berkeley Wellness Letter"^^xsd:string ;
     ex:url "http://www.wellnessletter.com/"^^xsd:string .
 
 ex:60b5340f-dd94-499b-9d5d-d4fde68f0709 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "0029-053X"^^xsd:string ;
     ex:name "Nimrod International Journal"^^xsd:string .
 
@@ -4497,7 +4497,7 @@ ex:aerospace_engineering a ex:area .
 ex:artificial_intelligence a ex:area .
 
 ex:b7b8bcb9-270c-4501-a5da-4a276d8f2651 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "2005-873X"^^xsd:string ;
     ex:name "Studies in Urban Humanities"^^xsd:string .
 
@@ -4514,7 +4514,7 @@ ex:data_management a ex:area .
 ex:data_science a ex:area .
 
 ex:ff19f9df-b1e8-409f-b226-7f7040261537 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "1993-6508"^^xsd:string ;
     ex:name "Regional Anesthesia and Acute Pain Management"^^xsd:string ;
     ex:url "https://journals.eco-vector.com/1993-6508/index"^^xsd:string .
@@ -5314,13 +5314,13 @@ ex:64797097-2078702342 a ex:decision ;
     ex:back_up_text "The research was insightful."^^xsd:string .
 
 ex:6d2c2dff-f049-4549-9d7a-6fd0be204e80 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "1298-9800"^^xsd:string ;
     ex:name "La Revue pour l'histoire du CNRS"^^xsd:string ;
     ex:url "https://journals.openedition.org/histoire-cnrs/"^^xsd:string .
 
 ex:6e0ee596-3eb3-4951-b659-b2d8cdf66a2b a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "1296-7645"^^xsd:string ;
     ex:name "Accademia : revue de la Société Marsile Ficin"^^xsd:string .
 
@@ -5334,7 +5334,7 @@ ex:accounting a ex:area .
 ex:big_data a ex:area .
 
 ex:c5aefac7-151e-446e-8249-167c5b765a38 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:name "International Conference of Soft Computing and Pattern Recognition"^^xsd:string .
 
 ex:cancer_research a ex:area .
@@ -5354,18 +5354,18 @@ ex:data_storage a ex:area .
 ex:data_visualization a ex:area .
 
 ex:dd7f68a9-b6a3-4dc2-9457-23e2ee5eb640 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "2078-1768"^^xsd:string ;
     ex:name "Bulletin of Kemerovo State University of culture adn arts"^^xsd:string .
 
 ex:dd8f14f5-34b7-4f7f-9156-0ee9dc9c8bfb a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "2468-6077"^^xsd:string ;
     ex:name "Methods in Chemical Process Safety"^^xsd:string ;
     ex:url "https://www.elsevier.com/books/book-series/methods-in-chemical-process-safety"^^xsd:string .
 
 ex:dec94590-0bc8-4c8a-8911-c2e773bf28ac a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "2786-6025"^^xsd:string ;
     ex:name "Наука і техніка сьогодні"^^xsd:string .
 
@@ -5402,13 +5402,13 @@ ex:physiology a ex:area .
 ex:text_mining a ex:area .
 
 ex:02d04afc-22d9-4b20-b847-286c4639edbe a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "2358-243X"^^xsd:string ;
     ex:name "Redfoco"^^xsd:string ;
     ex:url "http://periodicos.uern.br/index.php/redfoco"^^xsd:string .
 
 ex:15722358-6a29-4c88-aed4-06e92356e9f6 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "2564-6605"^^xsd:string ;
     ex:name "Ömer Halisdemir Üniversitesi Mühendislik Bilimleri Dergisi"^^xsd:string ;
     ex:url "https://dergipark.org.tr/en/pub/ngumuh"^^xsd:string .
@@ -5421,12 +5421,12 @@ ex:189521017 a ex:publication ;
         ex:human_resource_management,
         ex:renewable_energy ;
     ex:title "Pastelli e grafite nella produzione di Mario Schifano"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T09:49:52.435000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/2c4245d623ab1a1d4a975285b44eaaaa3e5306d8"^^xsd:string .
 
 ex:ae1921e8-2067-45f0-beae-ac5b306a6cfe a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "2158-4915"^^xsd:string ;
     ex:name "Pulsed Power Conference (PPC), IEEE"^^xsd:string ;
     ex:url "http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000597"^^xsd:string .
@@ -5434,7 +5434,7 @@ ex:ae1921e8-2067-45f0-beae-ac5b306a6cfe a ex:conference ;
 ex:archaeology a ex:area .
 
 ex:bf7063d0-5f4f-4385-8fbb-58d3944e6f32 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "1633-8049"^^xsd:string ;
     ex:name "Rencontres médiévales européennes"^^xsd:string .
 
@@ -5451,7 +5451,7 @@ ex:data_processing a ex:area .
 ex:drug_discovery a ex:area .
 
 ex:e939b18e-980b-44ec-8d7c-e8ea281e4bf6 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "1514-5603"^^xsd:string ;
     ex:name "Revista argentina de psicopedagogía"^^xsd:string ;
     ex:url "https://dialnet.unirioja.es/servlet/revista?codigo=4990"^^xsd:string .
@@ -5497,7 +5497,7 @@ ex:supply_chain_management a ex:area .
 ex:transportation a ex:area .
 
 ex:0461cdb5-14bc-497e-a266-ca77fd1304b0 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "2607-1592"^^xsd:string ;
     ex:name "Cultures de l'information"^^xsd:string ;
     ex:url "https://cultinfo.hypotheses.org/"^^xsd:string .
@@ -5508,7 +5508,7 @@ ex:157594369 a ex:publication ;
         ex:operations_management ;
     ex:publicationDate "2014-05-15"^^xsd:date ;
     ex:title "Subimperalismo brasileiro na era do padrão de desenvolvimento liberal- periférico (1990 a 2013)"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T18:36:34.813000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/6dbf2087ca3fe99dc1fb9466894252543a3f6571"^^xsd:string .
 
@@ -5519,7 +5519,7 @@ ex:168066549 a ex:publication ;
         ex:microbiology ;
     ex:publicationDate "1975-02-19"^^xsd:date ;
     ex:title "S.741 - National Catastrophic Disaster Insurance Act"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T18:36:58.336000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/65a0443c20b00b838004d46d2d47fe71e42f9396"^^xsd:string .
 
@@ -5528,7 +5528,7 @@ ex:176571933 a ex:publication ;
         ex:176571933-2167972193 ;
     ex:isRelatedTo ex:renewable_energy ;
     ex:title "创新 改革 联合 发展——“第二十二届华东电视技术年会暨第三届华协体发展峰会”隆重召开"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T15:23:52.777000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4d1dbeae807c3f3324b2c37239dec9929640f4f4"^^xsd:string .
 
@@ -5538,7 +5538,7 @@ ex:181248569 a ex:publication ;
     ex:isRelatedTo ex:cloud_computing,
         ex:drug_discovery ;
     ex:title "Sur une hache néolithique, cassée et recollée à une époque indéterminée"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T13:15:54.548000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8622e759c5b396e9b5ff78fca0c4e2039e6dfc45"^^xsd:string .
 
@@ -5550,7 +5550,7 @@ ex:185872534 a ex:publication ;
         ex:immunology ;
     ex:publicationDate "2016-12-26"^^xsd:date ;
     ex:title "طراحی الگوی مدیریت منابع انسانی فرماندهان دفاع مقدس (مطالعه موردی: سیره شهید محمدابراهیم همت)"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T19:18:33.112000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/e0c9b0332c80c14f63779ee79798087949e4cd9c"^^xsd:string .
 
@@ -5560,7 +5560,7 @@ ex:213814050 a ex:publication ;
     ex:isRelatedTo ex:developmental_biology ;
     ex:publicationDate "2019-10-01"^^xsd:date ;
     ex:title "Thuis in huis en buurt? : Over thuisgevoel en participatie van mensen met psychische problemen"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T18:06:03.109000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a01521904fe21e4017a8cb115528f653f627d6f8"^^xsd:string .
 
@@ -5570,7 +5570,7 @@ ex:229751191 a ex:publication ;
     ex:isRelatedTo ex:robotics ;
     ex:publicationDate "2008-05-20"^^xsd:date ;
     ex:title "Se regrouper pour être plus forts"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T02:31:12.063000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/3290090243b20f3a3ab5ccc17c9af9b5741ea851"^^xsd:string .
 
@@ -5598,13 +5598,13 @@ ex:climate_change a ex:area .
 ex:data_querying a ex:area .
 
 ex:e2c6a445-18dd-4d4d-bbac-6150d798d2b6 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "0949-1880"^^xsd:string ;
     ex:name "HALMA. Hallische Medienarbeiten"^^xsd:string ;
     ex:url "http://www.medienkomm.uni-halle.de/publikationen/halma/"^^xsd:string .
 
 ex:ea2f25bf-85c6-412c-81fd-df91179b2607 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "0011-2186"^^xsd:string ;
     ex:name "Crux"^^xsd:string .
 
@@ -5634,7 +5634,7 @@ ex:159894344 a ex:publication ;
         ex:indexing,
         ex:psychology ;
     ex:title "Medio llena o medio vacía: el estado del Objetivo de Desarrollo del Milenio sobre Educación Primaria"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T23:02:21.708000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/ee04bbf555025309cabf23e01b8266521cdd7b71"^^xsd:string .
 
@@ -5647,7 +5647,7 @@ ex:167439579 a ex:publication ;
         ex:library_science ;
     ex:publicationDate "2014-12-01"^^xsd:date ;
     ex:title "Application of the Balanced Scorecard Framework in Performance Measurement of E-Government Services: Case of Kenya Revenue Authority"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T18:59:12.619000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/7c7bfc00af49012aed68d61d27e733679e0eb27c"^^xsd:string .
 
@@ -5659,7 +5659,7 @@ ex:173678903 a ex:publication ;
         ex:robotics ;
     ex:publicationDate "1997-07-30"^^xsd:date ;
     ex:title "20081 複雑地形まわりの強風予測に関する系統的研究 : その1 曲面で構成される二次元地形の風洞実験"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T20:58:31.556000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4f6dbf6258755a17fa3c98abccb0ecc8f48d9eae"^^xsd:string .
 
@@ -5673,7 +5673,7 @@ ex:176697133 a ex:publication ;
         ex:natural_language_processing,
         ex:neurology ;
     ex:title "“洪”篇巨制 源于生活——“洪源文集”读后"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T15:22:26.095000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c1b1edba4978871668d691f4e7458302cd5d182e"^^xsd:string .
 
@@ -5683,7 +5683,7 @@ ex:178858477 a ex:publication ;
         ex:178858477-2100667744 ;
     ex:isRelatedTo ex:drug_discovery ;
     ex:title "Istanze servili alle libertates : alle origini della disciplina constantiniana De his qui in ecclesiis manumittuntur"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T14:14:09.212000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/34e8ba9552c678ddc0095d67e94b4f31d89494dc"^^xsd:string .
 
@@ -5718,12 +5718,12 @@ ex:199910086 a ex:publication ;
     ex:isRelatedTo ex:data_modeling,
         ex:geology ;
     ex:title "Повседневность русских городских обывателей : исторические анекдоты из провинциальной жизни XVIII века"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T05:25:11.071000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9f6c7bf938afc405ddb52492adadab453fc0acd5"^^xsd:string .
 
 ex:19c1a290-3fa7-433a-b5fa-dc833477d313 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "1022-7245"^^xsd:string ;
     ex:name "Mémoires du Service géologique de l'Indochine"^^xsd:string .
 
@@ -5747,7 +5747,7 @@ ex:236062113 a ex:publication ;
         ex:medical_devices ;
     ex:publicationDate "2016-08-03"^^xsd:date ;
     ex:title "F-CECUNA-10 Declaración Jurada General"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T11:02:45.297000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/bd3b9f64d4f8077f1aaaee98c51943814cebbfea"^^xsd:string .
 
@@ -5780,24 +5780,24 @@ ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 a ex:journal ;
 ex:computer_vision a ex:area .
 
 ex:d6d936b6-b6ec-4402-a0b4-921dbfe6c96a a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "2081-4712"^^xsd:string ;
     ex:name "Zarządzanie kulturą"^^xsd:string ;
     ex:url "http://goo.gl/zfUTh3"^^xsd:string .
 
 ex:dd7777ae-f733-445c-bf89-2486b3117cae a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "0250-491X"^^xsd:string ;
     ex:name "Studies in philosophy of medicine"^^xsd:string .
 
 ex:ed8c3c93-9e65-41de-8bd0-4d9d4b2eeb41 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "2368-6669"^^xsd:string ;
     ex:name "Quality Advancement in Nursing Education - Avancées en formation infirmière"^^xsd:string ;
     ex:url "https://qane-afi.casn.ca/journal/"^^xsd:string .
 
 ex:fe7599c8-3cc9-45de-893c-70a3372fc3e9 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "1229-4543"^^xsd:string ;
     ex:name "Peace Studies"^^xsd:string .
 
@@ -5860,7 +5860,7 @@ ex:173612339 a ex:publication ;
         ex:neurology,
         ex:supply_chain_management ;
     ex:title "Médicos de Familia: un único colectivo"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T15:57:38.706000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/1948c5fea5c7d2b3c84905cdb8042790645a176e"^^xsd:string .
 
@@ -5869,7 +5869,7 @@ ex:178684730 a ex:publication ;
     ex:isRelatedTo ex:augmented_reality,
         ex:data_processing ;
     ex:title "尺牘揷入春書 외 1부"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T14:17:45.655000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/30d0d676d7b08f93d3016cb1d2fe68c79383a2bc"^^xsd:string .
 
@@ -5883,7 +5883,7 @@ ex:182967188 a ex:publication ;
         ex:philosophy,
         ex:supply_chain_management ;
     ex:title "隆昌县 严把“三关”推进基层党建项目化管理"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T12:35:34.666000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fd5d0f4166112b3c79eb0ce9ae387b6b2a2fe5ff"^^xsd:string .
 
@@ -5895,7 +5895,7 @@ ex:187652919 a ex:publication ;
         ex:curriculum_development,
         ex:medical_devices ;
     ex:title "Осложнения инородных тел пищевода у детей"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T10:36:27.564000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/1c3233b5df422382e6c0fcc8852e6721cfb07745"^^xsd:string .
 
@@ -5923,7 +5923,7 @@ ex:221658971 a ex:publication ;
     ex:isRelatedTo ex:renewable_energy,
         ex:virology ;
     ex:title "A Rural Institutional Platform Mobilizes Communities to Become Effective Partners in Agricultural Innovation in Andhra Pradesh"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T13:03:23.547000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fd074f5f5a589379413cd754cd941fb191ba9fb5"^^xsd:string .
 
@@ -5988,7 +5988,7 @@ ex:9210d210-bca6-40ed-a5fe-580255c0b0e6 a ex:journal ;
     ex:url "https://www.jstage.jst.go.jp/browse/kikaic/list/-char/ja"^^xsd:string .
 
 ex:9f0e882d-976a-40ca-ac22-ebf18a7402c1 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "1050-8538"^^xsd:string ;
     ex:name "Modern warfare"^^xsd:string .
 
@@ -6029,13 +6029,13 @@ ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a a ex:journal ;
     ex:url "http://www.ophthalmology.org/judge/"^^xsd:string .
 
 ex:ecf8b9ec-fb19-4803-8b52-05e8791232e4 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "0039-3339"^^xsd:string ;
     ex:name "Studia Romanica et Anglica Zagrabiensia"^^xsd:string ;
     ex:url "https://hrcak.srce.hr/sraz"^^xsd:string .
 
 ex:f2e2efab-bec8-4776-8d13-fb9e1349f303 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "1680-0419"^^xsd:string ;
     ex:name "Études de politique fiscale de l'OCDE"^^xsd:string .
 
@@ -6051,7 +6051,7 @@ ex:microbiology a ex:area .
 ex:neurology a ex:area .
 
 ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:name "international workshop on Decentralized Resource Sharing in Mobile Computing and Networking"^^xsd:string .
 
 ex:157091040 a ex:publication ;
@@ -6063,7 +6063,7 @@ ex:157091040 a ex:publication ;
         ex:law,
         ex:physiology ;
     ex:title "2 Visions: Foreign Affairs in Domestic Debate 1660-1689"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-09T00:27:04.994000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/d8ab1b45f0011dc37d483c7d0fd8ecb402953c4b"^^xsd:string .
 
@@ -6075,7 +6075,7 @@ ex:163651584 a ex:publication ;
         ex:transportation,
         ex:virtual_reality ;
     ex:title "De Boris a Boris"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T21:06:47.582000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a8a8d91424b75e8842c4cedd175c73be1bcd06e5"^^xsd:string .
 
@@ -6088,7 +6088,7 @@ ex:165429097 a ex:publication ;
         ex:text_mining ;
     ex:publicationDate "2019-01-17"^^xsd:date ;
     ex:title "Feminist Solidarity and Experiment in Kathy Acker’s Early Writings"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T07:08:24.865000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/aa2ca2869c7fa8c84377212f8e9838621fb65a11"^^xsd:string .
 
@@ -6123,7 +6123,7 @@ ex:183446688 a ex:publication ;
     ex:isRelatedTo ex:evolutionary_biology,
         ex:psychology ;
     ex:title "挑战极限 超越自我——近访陈笑风"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T12:22:08.065000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/82e0610f6f6f36c31ac8c008c44c6e98145be896"^^xsd:string .
 
@@ -6133,7 +6133,7 @@ ex:188779287 a ex:publication ;
         ex:library_science,
         ex:sustainability ;
     ex:title "Ferrara Futurista. Fondazione e riviste del fascio futurista ferrarese"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T10:07:54.795000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c5d45a3e303088ed65b4e3f3c9a315eb9c914874"^^xsd:string .
 
@@ -6155,7 +6155,7 @@ ex:199847329 a ex:publication ;
     ex:isRelatedTo ex:computer_vision,
         ex:psychiatry ;
     ex:title "韓國婚姻考 : 法制와 婚俗"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T05:30:12.763000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fc67dd85ccd464c236b74146d9f754cc9d5117ee"^^xsd:string .
 
@@ -6168,7 +6168,7 @@ ex:223450973 a ex:publication ;
         ex:civil_engineering ;
     ex:publicationDate "2010-12-02"^^xsd:date ;
     ex:title "「主婦」の誕生 : 婦人雑誌と女性たちの近代"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T07:01:45.463000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c5de5d1f6904a84a441a8e9deced2513022fbe9e"^^xsd:string .
 
@@ -6178,7 +6178,7 @@ ex:233661923 a ex:publication ;
     ex:isRelatedTo ex:machine_learning ;
     ex:publicationDate "2021-03-25"^^xsd:date ;
     ex:title "Revisión Acerca de Comamonas Kerstersii como Agente Infeccioso."^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-24T22:57:42.952000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/6f7e407b38ceac2456a777491dbc50ab1dc65cb3"^^xsd:string .
 
@@ -6215,7 +6215,7 @@ ex:7b328dcc-4ced-46c5-afe5-d4d091163176 a ex:journal ;
     ex:name "The Healthcare Forum journal"^^xsd:string .
 
 ex:9042c24c-4c19-4e6a-8334-449eef16f57a a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "2297-6035"^^xsd:string ;
     ex:name "UZH Journal"^^xsd:string ;
     ex:url "http://www.kommunikation.uzh.ch/publications/journal.html"^^xsd:string .
@@ -6253,7 +6253,7 @@ ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d a ex:journal ;
     ex:url "http://recyt.fecyt.es/index.php/Hyp/index"^^xsd:string .
 
 ex:bde28bb6-4c6c-4d8e-b6d1-01937b87484f a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "0770-3724"^^xsd:string ;
     ex:name "Bulletin of Comparative Labour Relations"^^xsd:string ;
     ex:url "http://www.aspenpublishers.com/Product.asp?catalog_name=Aspen&category_name=&product_id=9888880011"^^xsd:string .
@@ -6278,20 +6278,20 @@ ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 a ex:journal ;
     ex:url "https://bultech.enu.kz/"^^xsd:string .
 
 ex:fa7d940e-a956-44bb-ae0a-cd6835741229 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:issn "0014-3502"^^xsd:string ;
     ex:name "Evangelische Theologie"^^xsd:string ;
     ex:url "https://www.degruyter.com/view/j/evth"^^xsd:string .
 
 ex:ff27e671-d9b7-4a58-8044-7a3cb284547f a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "2010-2089"^^xsd:string ;
     ex:name "World Scientific Series in Global Health Economics and Public Policy"^^xsd:string .
 
 ex:leadership a ex:area .
 
 ex:04d55eb2-9d8a-4366-baad-c0838563c870 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "0790-7850"^^xsd:string ;
     ex:name "The Irish Review"^^xsd:string ;
     ex:url "https://theirishreview.com/"^^xsd:string .
@@ -6305,7 +6305,7 @@ ex:162029619 a ex:publication ;
         ex:logistics ;
     ex:publicationDate "2011-05-18"^^xsd:date ;
     ex:title "Linhagem e estruturas de parentesco: Algumas reflexões"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T21:56:31.675000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9b6ab70ce2769c8a6ba7187819de82fbc07e0ac4"^^xsd:string .
 
@@ -6315,7 +6315,7 @@ ex:174171849 a ex:publication ;
     ex:isRelatedTo ex:operations_management,
         ex:supply_chain_management ;
     ex:title "Effetti del giudicato rispetto ai terzi: due casi in materia di pegno"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T15:48:48.151000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/f575caefa7f57d1b12c4fa39ff405839f3e98b90"^^xsd:string .
 
@@ -6326,7 +6326,7 @@ ex:176790486 a ex:publication ;
     ex:isRelatedTo ex:natural_language_processing ;
     ex:publicationDate "1996-08-15"^^xsd:date ;
     ex:title "PICKER社製第4世代スパイラルCT PQ-5000の使用経験"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T10:28:29.001000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/45a61cf01ba7a26a4add317c3af99a02608d47b3"^^xsd:string .
 
@@ -6335,7 +6335,7 @@ ex:180139250 a ex:publication ;
         ex:180139250-2091352504 ;
     ex:isRelatedTo ex:statistics ;
     ex:title "开展标准化执法 实施人性化服务 努力营造和谐执法环境"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T13:38:44.868000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/ab2da009413d8562d989d4ee01181c927a0d603a"^^xsd:string .
 
@@ -6345,7 +6345,7 @@ ex:180368883 a ex:publication ;
     ex:isRelatedTo ex:computer_vision,
         ex:ecology ;
     ex:title "ENG 02298 TRABALHO DE DIPLOMAÇÃO"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T13:32:06.215000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/2190a673d30a8ba64a10f46af43f13ec8abefeac"^^xsd:string .
 
@@ -6357,7 +6357,7 @@ ex:180547178 a ex:publication ;
         ex:philosophy,
         ex:statistics ;
     ex:title "永远的英雄 祖国的骄傲——纪念中国人民解放军建军80周年"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T13:26:41.441000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/f39a5aba78202a72b630c6c972f407830b82cb99"^^xsd:string .
 
@@ -6365,7 +6365,7 @@ ex:192803013 a ex:publication ;
     ex:hasDecision ex:192803013-67091075 ;
     ex:isRelatedTo ex:leadership ;
     ex:title "Darcy Ribeiro in Italia: analisi descrittive dei romanzi Maíra e utopia selvagem"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T08:40:34.978000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/070487300498d5499fa6883dbe19d8c6343b8e18"^^xsd:string .
 
@@ -6385,12 +6385,12 @@ ex:43684def-b4ea-439b-a4e9-d5a1ea786e3a a ex:conference ;
     ex:url "http://www.colognet.org/"^^xsd:string .
 
 ex:a6ac75af-84de-4f00-965e-bbf758d6a71f a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:issn "2798-4613"^^xsd:string ;
     ex:name "Jurnal Ilmu Sosial Dan Politik"^^xsd:string .
 
 ex:f00f504c-ecd7-4b17-877f-aa67ce382f58 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "0430-3393"^^xsd:string ;
     ex:name "Festkörperprobleme 31"^^xsd:string .
 
@@ -6407,7 +6407,7 @@ ex:172832805 a ex:publication ;
         ex:sustainability ;
     ex:publicationDate "1978-04-01"^^xsd:date ;
     ex:title "A-15. 十二指腸嚢胞状重複症の 1 例(第 12 回日本小児外科学会関東甲信越地方会)"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T18:57:00.635000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fe7633469800f79b1effbf79ddbfe97673590de8"^^xsd:string .
 
@@ -6421,7 +6421,7 @@ ex:180016089 a ex:publication ;
         ex:leadership,
         ex:psychology ;
     ex:title "传承中华美德 激扬爱国情怀——国学课上巧妙渗透爱国主义教育"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T13:42:22.894000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c6351ab3b0bc7e7ac40539e24efe6b1f8842d808"^^xsd:string .
 
@@ -6439,7 +6439,7 @@ ex:192650398 a ex:publication ;
     ex:url "https://www.semanticscholar.org/paper/078977bfac5cd3879f61cb0c0d14124d2d36ee2b"^^xsd:string .
 
 ex:23019876-9321-4840-8fb7-10fe82b7a015 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "0579-9392"^^xsd:string ;
     ex:name "Vestnik Moskovskogo universiteta. Serii︠a︡ III, Fizika, astronomii︠a︡"^^xsd:string .
 
@@ -6450,12 +6450,12 @@ ex:233364818 a ex:publication ;
     ex:isRelatedTo ex:genetics,
         ex:human-computer_interaction ;
     ex:title "Finally, therefore, this book is a little disappointing, in so far as it addresses on its title-page the problem of the influence of Hellenism on the trinitarian theology of Basil, but touches the central issue in a slightly unsatisfactory manner"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T15:57:12.999000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/db4b184fe8bf2eef7ec5808bb37b0fbac73bf724"^^xsd:string .
 
 ex:83e0793c-9677-422e-ab1d-806afdeaaad5 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "2027-6745"^^xsd:string ;
     ex:name "CITECSA"^^xsd:string ;
     ex:url "http://www.unipaz.edu.co/ojs/index.php/revcitecsa"^^xsd:string .
@@ -6477,18 +6477,18 @@ ex:a4b7b987-6221-4657-90c5-8f51d7b1126f a ex:conference ;
     ex:name "Sinergiâ"^^xsd:string .
 
 ex:b528d16b-359b-4d76-ace2-c64a1d496ffe a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "2947-910X"^^xsd:string ;
     ex:name "Palgrave Studies in Water Governance: Policy and Practice"^^xsd:string .
 
 ex:cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:issn "1666-6917"^^xsd:string ;
     ex:name "Revista Tecnología y Ciencia"^^xsd:string ;
     ex:url "http://rtyc.utn.edu.ar/"^^xsd:string .
 
 ex:ea96e9af-b142-41b8-a817-2fc1bcb6f6fe a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:issn "2088-2025"^^xsd:string ;
     ex:name "Jurnal Linguistik Terapan"^^xsd:string .
 
@@ -6501,7 +6501,7 @@ ex:220171483 a ex:publication ;
         ex:psychiatry ;
     ex:publicationDate "2009-01-28"^^xsd:date ;
     ex:title "Purpose and procedure"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T23:17:34.300000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4ea42fe22d1406a49547550c8051989b9d4abc07"^^xsd:string .
 
@@ -6512,7 +6512,7 @@ ex:163245903 a ex:publication ;
     ex:isRelatedTo ex:cloud_computing,
         ex:cultural_studies ;
     ex:title "Libros. WITZ, Claude: «Droit privé allemand. 1. Actes juridiques, droits subjectifs», ed. Litec (parís, 1992), 625 páginas."^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T21:20:33.502000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/3b02ac4809b9554ba3fe65055883515ec1ef333a"^^xsd:string .
 
@@ -6525,7 +6525,7 @@ ex:187221758 a ex:publication ;
         ex:robotics ;
     ex:publicationDate "2005-11-23"^^xsd:date ;
     ex:title "Preparations hydro-alcooliques d'agents antibacteriens a base d'oxazolidinone"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T21:24:19.673000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4636c90277a8642fe2614daa2345dc8bf6034265"^^xsd:string .
 
@@ -6535,7 +6535,7 @@ ex:64797097 a ex:publication ;
         ex:civil_engineering,
         ex:nanotechnology ;
     ex:title "PENGARUH PEMBELAJARAN KOOPERATIF DAN MINAT TERHADAP PRESTASI BELAJAR"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T20:40:57.216000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/173bf767b70c519e2dee53f898e6a63049e56f5f"^^xsd:string .
 
@@ -6547,7 +6547,7 @@ ex:110184512 a ex:publication ;
         ex:machine_learning,
         ex:transportation ;
     ex:title "Wiadomości Fabryczne : organ Komitetu Fabrycznego PZPR, ZF ZMP, Rady Zakładowej i Dyrekcji WSK Rzeszów. 1952, R. 1, nr 7 (6 października)"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T11:15:34.029000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/3869f4ecc17d536bb40bb919c7d8dba763377bf3"^^xsd:string .
 
@@ -6556,7 +6556,7 @@ ex:159212743 a ex:publication ;
     ex:hasDecision ex:159212743-102147990 ;
     ex:isRelatedTo ex:leadership ;
     ex:title "Impact de linteraction entre le comit daudit et la fonction de laudit interne sur lefficacit de laudit interne"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T23:21:21.320000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/86a488b1fee332ca12636a67d44b8b0d3ea8f52c"^^xsd:string .
 
@@ -6568,7 +6568,7 @@ ex:161317546 a ex:publication ;
         ex:organizational_behavior,
         ex:virology ;
     ex:title "Hilos de esperanza"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T16:11:11.727000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b3c20751314fe98cf9d453db6a09d137c5a67704"^^xsd:string .
 
@@ -6590,7 +6590,7 @@ ex:187609691 a ex:publication ;
         ex:logistics ;
     ex:publicationDate "2018-03-19"^^xsd:date ;
     ex:title "การพัฒนาโมเดลการยอมรับทางการเงิน บริบท การซื้อขายหุ้นผ่านแอพพลิเคชัน Streaming บนมือถือ"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T22:39:18.629000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/1c53b1695657edeeb0914efe60eceb734384f48e"^^xsd:string .
 
@@ -6599,7 +6599,7 @@ ex:236770002 a ex:publication ;
     ex:isRelatedTo ex:anthropology,
         ex:library_science ;
     ex:title "MULTIFILAMENT YARNS FOR REINFORCING ELASTIC ARTICLES"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-27T06:11:37.545000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8e9a6fd888ee840b288106f52c12854ea49cea27"^^xsd:string .
 
@@ -6619,7 +6619,7 @@ ex:165054883 a ex:publication ;
     ex:isRelatedTo ex:data_mining,
         ex:psychology ;
     ex:title "Chapitre VII. 1499-1503, la brève apothéose des Borgia"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T20:08:46.387000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/42479dc0110a9b2aee4edff46060a9350cff2ea3"^^xsd:string .
 
@@ -6633,7 +6633,7 @@ ex:171325798 a ex:publication ;
         ex:data_processing,
         ex:information_retrieval ;
     ex:title "Eulogy of Northern Song Dynasty:On Liuyong's Eulogy Style Ci"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T16:53:26.568000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/747f1f1f0480914cf8e7f76d0c584032a58095f2"^^xsd:string .
 
@@ -6659,7 +6659,7 @@ ex:214235867 a ex:publication ;
         ex:mathematics ;
     ex:publicationDate "2019-06-30"^^xsd:date ;
     ex:title "BATI TRAKYA TÜRK AZINLIĞININ İKİ DİLLİ EĞİTİM MODELİNE YÖNELİK BİR DEĞERLENDİRME"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T23:06:01.048000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a55cac12cfff4e1193bf3ffc54a2e3f82bd25bcb"^^xsd:string .
 
@@ -6670,7 +6670,7 @@ ex:223988116 a ex:publication ;
         ex:text_mining ;
     ex:publicationDate "2015-07-27"^^xsd:date ;
     ex:title "◆ マウンテンバイク◆【中古】トレック TREK 2011年モデル 8000 DISC SLX/XT/XTR SLX/XT/XTR 2011年モデル アルミ マウンテンバイク 3×10速 26インチ MTB ディスクブレーキ：ベリーグッドストアスポーツ自転車の高価買取と即日出張のサイクルパラダイス大阪【自転車専門店】自転車 通勤 通学 完成車 シマノ SHIMANO"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T13:09:39.732000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5325b20a0d56abac4b8ba47c12bbda5baabaf840"^^xsd:string .
 
@@ -6681,7 +6681,7 @@ ex:182958528 a ex:publication ;
         ex:climate_change,
         ex:microbiology ;
     ex:title "8.3 Klinische Untersuchung"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T12:35:52.687000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5392bab355f2d487c9b412d22fb3b44bdfdc37e3"^^xsd:string .
 
@@ -6691,7 +6691,7 @@ ex:188059646 a ex:publication ;
         ex:188059646-3329482 ;
     ex:isRelatedTo ex:virtual_reality ;
     ex:title "Neumodulierung und Glykokonjugation von Faktor IX"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T10:25:03.678000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c396cbbe6c9b5c6f9b6da1229a84ac5d9e82185b"^^xsd:string .
 
@@ -6705,7 +6705,7 @@ ex:191106316 a ex:publication ;
         ex:microbiology ;
     ex:publicationDate "2012-12-15"^^xsd:date ;
     ex:title "Reclamando sus misterios: La conferencia de la Diosa Ibérica"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T09:09:41.772000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8390af8762f5492e54e90ba3356e20b0b962c16a"^^xsd:string .
 
@@ -6716,7 +6716,7 @@ ex:211992081 a ex:publication ;
         ex:renewable_energy ;
     ex:publicationDate "2014-02-28"^^xsd:date ;
     ex:title "これからの時代に音楽を「売る」こと"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T01:46:05.036000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/0f9ee691f6205fff05fa41c041540384da663c05"^^xsd:string .
 
@@ -6728,7 +6728,7 @@ ex:109900804 a ex:publication ;
         ex:data_querying ;
     ex:publicationDate "2014-07-01"^^xsd:date ;
     ex:title "Analysis on Exterior Wall Conformation of Low-Rise Light Steel Structure Residence Based on Thermal Theory"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T04:42:31.694000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/144a6d7b3640f1076651f2b16a27413323746fb7"^^xsd:string .
 
@@ -6740,7 +6740,7 @@ ex:163583508 a ex:publication ;
         ex:virology ;
     ex:publicationDate "2012-11-18"^^xsd:date ;
     ex:title "Krystian Lupa: Z Polski nie wyjadę"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T21:09:39.171000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/16e65f31100541f55bc56e2bbfce18b51e7924e3"^^xsd:string .
 
@@ -6749,7 +6749,7 @@ ex:177163529 a ex:publication ;
     ex:isRelatedTo ex:neurology ;
     ex:publicationDate "2003-04-01"^^xsd:date ;
     ex:title "シンポジウム2 救急・重傷集中ケアにおける家族看護--家族ケアにエビデンスを求めて〔含 Discussion,司会のまとめ〕 (救急NOW 第4回日本救急看護学会学術集会集録(主要講演))"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T18:31:00.651000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b4953c9e4cbc50973828569db65c16fba34821dc"^^xsd:string .
 
@@ -6769,7 +6769,7 @@ ex:182160933 a ex:publication ;
     ex:isRelatedTo ex:electrical_engineering ;
     ex:publicationDate "1991-08-01"^^xsd:date ;
     ex:title "VIII-3. 後肢懸垂法を用いた骨格筋の萎縮と発達阻害 : αB-クリスタリンタンパク質の発現動態からの解析(1部,シンポジウム,シンポジウムVIII:運動器系の発達,第4回体力医学会シンポジウム)"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T21:03:25.563000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9debe3cd7ea6ccc3e371ddb5c5e0543094fb7e0f"^^xsd:string .
 
@@ -6794,7 +6794,7 @@ ex:189615356 a ex:publication ;
         ex:physiology ;
     ex:publicationDate "2018-01-25"^^xsd:date ;
     ex:title "ANÁLISE E PROPOSTA DE MELHORIA DO LAYOUT DE UMA INDÚSTRIA DE BEBIDAS"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-24T21:08:52.225000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/09b89021953acb3176ec3e9887c1bdeaedd4b315"^^xsd:string .
 
@@ -6805,7 +6805,7 @@ ex:192486022 a ex:publication ;
         ex:philosophy ;
     ex:publicationDate "2016-04-22"^^xsd:date ;
     ex:title "Quinns Beach mosaic makeover"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T08:47:03.597000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/20a317f3a59d9980c7e68dd7088289c16bf2ca9e"^^xsd:string .
 
@@ -6816,7 +6816,7 @@ ex:223680107 a ex:publication ;
         ex:climate_change,
         ex:pharmacology ;
     ex:title "“万里挑一·富士杯”《垂钓》杂志钓鱼联赛（京津塘站）圆满落幕"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T17:01:07.424000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/285e1e9167768f7ffd85aa408a784aa1d0259ede"^^xsd:string .
 
@@ -6826,7 +6826,7 @@ ex:224597913 a ex:publication ;
     ex:isRelatedTo ex:transportation ;
     ex:publicationDate "2001-02-01"^^xsd:date ;
     ex:title "研究開発にかかわる法的諸問題と対策(57)技術開発要員の解雇"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T22:18:26.467000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/f9ad0a56200c4f290f89593b13be184f365776a4"^^xsd:string .
 
@@ -6837,7 +6837,7 @@ ex:246009114 a ex:publication ;
     ex:isRelatedTo ex:blockchain,
         ex:electrical_engineering ;
     ex:title "REAL TIME OBJECT DETECTION AND 3D MODELING FOR COMPUTER VISION"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-19T15:23:48.149000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/e50af5840b30442dd4c989975851077bb532d976"^^xsd:string .
 
@@ -6861,7 +6861,7 @@ ex:158594015 a ex:publication ;
         ex:mechanical_engineering,
         ex:physics ;
     ex:title "The Role of Theoretical Restrictions in Price Forecasting with Inverse Demand Models"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T23:41:48.037000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a694a9e04dd39cd068e6e3b897e65f21e1df9075"^^xsd:string .
 
@@ -6873,7 +6873,7 @@ ex:183655203 a ex:publication ;
         ex:logistics,
         ex:microbiology ;
     ex:title "广阔天地 大有作为——对农行枝江市三农事业部运行情况的调查与思考"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T12:15:48.291000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b855c072a311eb0fa27c4908876dfb054124c5f3"^^xsd:string .
 
@@ -6882,7 +6882,7 @@ ex:162433415 a ex:publication ;
         ex:162433415-2091352504 ;
     ex:isRelatedTo ex:computer_vision ;
     ex:title "El fondo antiguo del Ayuntamiento de Bolaños"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T21:44:11.791000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/0796b6319d18938cb4132d51ca7c3c89f80e3946"^^xsd:string .
 
@@ -6894,7 +6894,7 @@ ex:166697705 a ex:publication ;
         ex:medical_imaging ;
     ex:publicationDate "2007-06-01"^^xsd:date ;
     ex:title "Doing Business 2008 Morocco : comparing regulation in 178 economies"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T19:21:14.503000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c32633f7254f5846f4469c3271781b9ee023577b"^^xsd:string .
 
@@ -6906,7 +6906,7 @@ ex:171188162 a ex:publication ;
         ex:sustainability,
         ex:virtual_reality ;
     ex:title "Metafisica delle forme simboliche. Note su Cassirer inedito"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T16:57:52.072000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/821cb451d598cd93746194acb16c3e04272cdbbc"^^xsd:string .
 
@@ -6918,7 +6918,7 @@ ex:160964077 a ex:publication ;
         ex:ecology,
         ex:finance ;
     ex:title "Die Kommentare von Raschi, Ibn Esra, Radaq, zu Joel"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T19:10:10.509000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/46e705f1bd730e3d204d39b6c3a9d86b53381920"^^xsd:string .
 
@@ -6930,7 +6930,7 @@ ex:194092568 a ex:publication ;
         ex:computational_biology ;
     ex:publicationDate "1995-10-01"^^xsd:date ;
     ex:title "Rinascimento in controluce : poeti, pittori, cortigiane e teatranti sul palcoscenico rinascimentale"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T08:16:49.127000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5b9a05b90b27dc7fff5a562228e990845bd1ec1b"^^xsd:string .
 
@@ -6939,7 +6939,7 @@ ex:168785648 a ex:publication ;
     ex:isRelatedTo ex:geology,
         ex:paleontology ;
     ex:title "Budowa trasy tramwaju szybkiego do Wilanowa"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T18:09:57.773000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/aa496d36c0531658bed850535366d5ae990b34f0"^^xsd:string .
 
@@ -6983,7 +6983,7 @@ ex:184226317 a ex:publication ;
         ex:184226317-2198810921 ;
     ex:isRelatedTo ex:leadership ;
     ex:title "III. Jüdische moralische Wahrnehmungen von Kindesaussetzung"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T11:59:24.110000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/01eb3122e70c477c2cd7f418b9743ba8d6046ac0"^^xsd:string .
 
@@ -6996,7 +6996,7 @@ ex:222186672 a ex:publication ;
         ex:materials_science,
         ex:robotics ;
     ex:title "IN VIVO OPTICAL BIOPSY BASED ON LEAST-INVASIVE HARMONIC GENERATION MICROSCOPY"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T02:17:42.702000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/50fa40cecbe4e1dcb67951f251c0610ffe5c1ae4"^^xsd:string .
 
@@ -7008,7 +7008,7 @@ ex:169100438 a ex:publication ;
         ex:leadership,
         ex:virology ;
     ex:title "Descendimiento de Hernán Barra Salomone"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-27T14:47:45.530000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5dc05e4613701c23a70af9b2d399bfa4aa0dde9a"^^xsd:string .
 
@@ -7020,7 +7020,7 @@ ex:178755305 a ex:publication ;
         ex:machine_learning,
         ex:organizational_behavior ;
     ex:title "이 계절의 시 : 장님 걸인-외 1편"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T14:16:27.883000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/11a0f31c605385fe1e13fff218ea6ae033590613"^^xsd:string .
 
@@ -7033,7 +7033,7 @@ ex:193828225 a ex:publication ;
         ex:language_learning,
         ex:literature ;
     ex:title "Els inicis de l’electricitat a Catalunya, el present i el futur: Història hidroelèctrica de Seròs amb la “Canadenca”"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T08:19:17.074000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/3afffbfd17a98c1bb2ca1402f8d0d96c10024d2e"^^xsd:string .
 
@@ -7058,7 +7058,7 @@ ex:171903526 a ex:publication ;
         ex:human_resource_management ;
     ex:publicationDate "2007-09-12"^^xsd:date ;
     ex:title "CURVAS DE NEUTRALIZAÇÃO DE SOLOS NUMA SUCESSÃO DE FLORESTA COM PASTAGEM NO MUNICÍPIO DE JI-PARANÁ"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T16:35:35.516000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/0aa04a130cf7dac3e43d240fd5fee6aface97048"^^xsd:string .
 
