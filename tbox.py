@@ -31,6 +31,8 @@ publication = EX.publication
 includes = EX.includes
 isRelatedTo = EX.isRelatedTo
 hasDecision = EX.hasDecision
+fromJournal = EX.fromJournal
+fromConference = EX.fromConference
 
 #Attributes
 #Decision
@@ -67,7 +69,9 @@ g.add((assigns, RDFS.range, reviewer))
 g.add((assigns, RDFS.domain, editor))
 g.add((handlesJournal, RDFS.domain, editor))
 g.add((handlesJournal, RDFS.range, journal))
-g.add((volume, RDFS.subClassOf, journal))
+# g.add((volume, RDFS.subClassOf, journal))
+g.add((fromJournal, RDFS.domain, volume))
+g.add((fromJournal, RDFS.range, journal))
 # g.add((includes, RDFS.range, publication)) #Repeated
 g.add((includes, RDFS.domain, volume))
 g.add((journal, RDFS.subClassOf, venue))
@@ -84,7 +88,9 @@ g.add((isRelatedTo, RDFS.range, area))
 g.add((isRelatedTo, RDFS.domain, paper))
 g.add((isRelatedTo, RDFS.domain, journal))
 g.add((isRelatedTo, RDFS.domain, conference))
-g.add((proceeding, RDFS.subClassOf, conference))
+# g.add((proceeding, RDFS.subClassOf, conference))
+g.add((fromConference, RDFS.domain, proceeding))
+g.add((fromConference, RDFS.range, conference))
 g.add((includes, RDFS.range, publication))
 g.add((includes, RDFS.domain, proceeding))
 g.add((reviewer, RDFS.subClassOf, author))

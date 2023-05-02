@@ -24,6 +24,12 @@ ex:doi rdfs:domain ex:paper ;
 ex:endDate rdfs:domain ex:proceeding ;
     rdfs:range xsd:date .
 
+ex:fromConference rdfs:domain ex:proceeding ;
+    rdfs:range ex:conference .
+
+ex:fromJournal rdfs:domain ex:volume ;
+    rdfs:range ex:journal .
+
 ex:handlesConference rdfs:domain ex:chair ;
     rdfs:range ex:conference .
 
@@ -91,11 +97,7 @@ ex:year rdfs:domain ex:volume ;
 
 ex:area rdfs:range xsd:string .
 
-ex:proceeding rdfs:subClassOf ex:conference .
-
 ex:reviewer rdfs:subClassOf ex:author .
-
-ex:volume rdfs:subClassOf ex:journal .
 
 ex:journal rdfs:subClassOf ex:venue .
 

@@ -146,20 +146,20 @@ if __name__ == "__main__":
             correctedIncludedData = correctPropertiesData(data)
             loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
-# PROCEEDINGS AND VOLUMES SUB_CLASS_OF
+# FROM_CONFERENCE
     with open('./data/is-from.csv', newline='') as includes: #proceeding subClassOf conference
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['editionID'],include['conferenceID']]
             correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
-
+            loadRelations(correctedReviewedData[0], tbox.fromConference, correctedReviewedData[1])
+# FROM_JOURNAL
     with open('./data/volume-from.csv', newline='') as includes: #volume subClassOf journal
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['volumeID'], include['journalID']]
             correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
+            loadRelations(correctedReviewedData[0], tbox.fromJournal, correctedReviewedData[1])
 
 # ASSIGNS
     with open('./data/affiliated-to.csv', newline='') as assigns: #proceeding subClassOf conference
