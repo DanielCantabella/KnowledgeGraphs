@@ -9,7 +9,7 @@ import random
 from tbox import g
 import subprocess
 
-def loadPapers(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]
+def loadPublications(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]
     id = EX[data[0]]
     titleAtt = Literal(data[1], datatype=XSD.string)
     publicationDateAtt = Literal(data[2], datatype=XSD.date)
@@ -20,7 +20,7 @@ def loadPapers(data): #[id, title, publicationDate, abstract, DOI, URL, updated,
     typeAtt = Literal (data[7], datatype=XSD.string)
 
     if data[0] is not None: #id
-        g.add((id,RDF.type,tbox.paper))
+        g.add((id,RDF.type,tbox.publication))
     if data[1] is not None: #title
         g.add((id,tbox.title,titleAtt))
     if data[2] is not None: #publicationDate
@@ -214,18 +214,45 @@ def correctDecisionData(data): #paperId, reviewerID, grade, review
             newData[i] = None
     return newData
 
+def loadRelations(subject, predicate, object):
+    if subject is not None and object is not None:  # id
+        g.add((EX[subject], predicate, EX[object]))
+def loadWrites(data):
+    paperID = EX[data[0]]
+    authorID = EX[data[1]]
+    if data[0] is not None and data[1] is not None:  # id
+        g.add((authorID, tbox.writes, paperID))
+
+def correctPropertiesData(data):
+    numFields = len(data)
+    for i in range(0, numFields):
+        if bool(data[i]) == True:
+            if i in [0, 1]:
+                data[i] = str(data[i])
+        else:
+            data[i] = None
+    return data
+
+def loadSubmits(data):
+    paperID = EX[data[0]]
+    reviewerID = EX[data[1]]
+    if data[0] is not None and data[1] is not None:  # id
+        g.add((reviewerID, tbox.submits, paperID))
+
 if __name__ == "__main__":
 #LOAD TBOX
 #crear funcio que inici tbox.py
     # subprocess.run(["python3", "tbox.py"])
-#ABOX PAPERS
-    with open('./data/papers-processed.csv', newline='') as papers:
-        reader = csv.DictReader(papers)
-        for paper in reader:
-            data = [paper['corpusid'], paper['title'], paper['publicationdate'], getAbstractData(paper['corpusid']), paper['DOI'], paper['url'],
-                    paper['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
+#LOAD CLASSES
+#ABOX PUBLICATIONS
+    with open('./data/papers-processed.csv', newline='') as publications:
+        reader = csv.DictReader(publications)
+        for publication in reader:
+            data = [publication['corpusid'], publication['title'], publication['publicationdate'],
+                    getAbstractData(publication['corpusid']), publication['DOI'], publication['url'],
+                    publication['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
             correctedPaperData = correctPaperData(data)
-            loadPapers(correctedPaperData)
+            loadPublications(correctedPaperData)
 #ABOX AUTHORS
     with open('./data/authors-sample.csv', newline='') as authors:
         reader = csv.DictReader(authors)
@@ -258,7 +285,8 @@ if __name__ == "__main__":
     with open('./data/conferences.csv', newline='') as conferences:
         reader = csv.DictReader(conferences)
         for conference in reader:
-            data = [conference['conferenceID'],conference['conferenceName'],conference['issn'],conference['url'], random.choice(["workshop", "symposium", "expert group", "regular conference"])]
+            data = [conference['conferenceID'],conference['conferenceName'],conference['issn'],conference['url'],
+                    random.choice(["workshop", "symposium", "expert group", "regular conference"])]
             correctedConferenceData = correctConferenceData(data)
             loadConferences(correctedConferenceData)
 #ABOX JOURNALS
@@ -276,6 +304,67 @@ if __name__ == "__main__":
             correctedDecisionData = correctDecisionData(data)
             loadDecisions(correctedDecisionData)
 
+#LOAD PROPERTIES
+#WRITES
+    with open('./data/written-by.csv', newline='') as writes:
+        reader = csv.DictReader(writes)
+        for write in reader:
+            data = [write['authorID'],write['paperID']]
+            correctedWrittenData = correctPropertiesData(data)
+            loadRelations(correctedWrittenData[0], tbox.writes, correctedWrittenData[1])
+#REVIEWS, SUBMITS & HAS_DECISION
+    with open('./data/reviewed-by.csv', newline='') as submits:
+        reader = csv.DictReader(submits)
+        for submit in reader:
+
+            data = [submit['reviewerID'],submit['paperID']]
+            correctedReviewedData = correctPropertiesData(data)
+            g.add((EX[correctedReviewedData[0]], RDF.type, tbox.reviewer)) #Add reviewers first
+            loadRelations(correctedReviewedData[0], tbox.reviews, correctedReviewedData[1])
+
+            data = [submit['reviewerID'], str(submit['paperID']) + '-' + str(submit['reviewerID'])]  # decision id is paperID-reviewerID
+            correctedSubmittedData = correctPropertiesData(data)
+            loadRelations(correctedSubmittedData[0], tbox.submits, correctedSubmittedData[1])
+
+            data = [submit['paperID'], str(submit['paperID'])+'-'+str(submit['reviewerID'])] #decision id is paperID-reviewerID
+            correctedDecisionData = correctPropertiesData(data)
+            loadRelations(correctedDecisionData[0], tbox.hasDecision, correctedDecisionData[1])
+#IS_RELATED_TO
+    with open('./data/related-to.csv', newline='') as relates:
+        reader = csv.DictReader(relates)
+        for relate in reader:
+            data = [relate['paperID'],str(relate['keyword']).replace(' ', '_')]
+            correctedReviewedData = correctPropertiesData(data)
+            loadRelations(correctedReviewedData[0], tbox.isRelatedTo, correctedReviewedData[1])
+#INCLUDES
+    with open('./data/belongs-to.csv', newline='') as includes: #proceeding includes publication
+        reader = csv.DictReader(includes)
+        for include in reader:
+            data = [include['venueID'],include['paperID']]
+            correctedReviewedData = correctPropertiesData(data)
+            loadRelations(correctedReviewedData[0], tbox.includes, correctedReviewedData[1])
+
+    with open('./data/published-in.csv', newline='') as includes: #volume includes publication
+        reader = csv.DictReader(includes)
+        for include in reader:
+            data = [include['venueID'],include['paperID']]
+            correctedReviewedData = correctPropertiesData(data)
+            loadRelations(correctedReviewedData[0], tbox.includes, correctedReviewedData[1])
+
+#PROCEEDINGS AND VOLUMES SUB_CLASS_OF
+    with open('./data/is-from.csv', newline='') as includes: #proceeding subClassOf conference
+        reader = csv.DictReader(includes)
+        for include in reader:
+            data = [include['editionID'],include['conferenceID']]
+            correctedReviewedData = correctPropertiesData(data)
+            loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
+
+    with open('./data/volume-from.csv', newline='') as includes: #volume subClassOf journal
+        reader = csv.DictReader(includes)
+        for include in reader:
+            data = [include['volumeID'], include['journalID']]
+            correctedReviewedData = correctPropertiesData(data)
+            loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 
 print(g.serialize())
 g.serialize(destination="abox.ttl", format="ttl")

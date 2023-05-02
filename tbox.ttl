@@ -29,6 +29,21 @@ ex:handles rdfs:domain ex:chair,
     rdfs:range ex:conference,
         ex:journal .
 
+ex:has rdfs:domain ex:venue ;
+    rdfs:range ex:paper .
+
+ex:hasDecision rdfs:domain ex:paper ;
+    rdfs:range ex:decision .
+
+ex:includes rdfs:domain ex:proceeding,
+        ex:volume ;
+    rdfs:range ex:publication .
+
+ex:isRelatedTo rdfs:domain ex:conference,
+        ex:journal,
+        ex:paper ;
+    rdfs:range ex:area .
+
 ex:issn rdfs:domain ex:conference,
         ex:journal ;
     rdfs:range xsd:string .
@@ -38,7 +53,7 @@ ex:name rdfs:domain ex:author,
         ex:journal ;
     rdfs:range xsd:string .
 
-ex:publicationDate rdfs:domain ex:paper ;
+ex:publicationDate rdfs:domain ex:publication ;
     rdfs:range xsd:date .
 
 ex:reviews rdfs:domain ex:reviewer ;
@@ -47,17 +62,11 @@ ex:reviews rdfs:domain ex:reviewer ;
 ex:startDate rdfs:domain ex:proceeding ;
     rdfs:range xsd:date .
 
-ex:submit rdfs:domain ex:reviewer ;
+ex:submits rdfs:domain ex:reviewer ;
     rdfs:range ex:decision .
-
-ex:submits rdfs:domain ex:author ;
-    rdfs:range ex:paper .
 
 ex:title rdfs:domain ex:paper ;
     rdfs:range xsd:string .
-
-ex:to rdfs:domain ex:venue ;
-    rdfs:range ex:paper .
 
 ex:type rdfs:domain ex:paper ;
     rdfs:range xsd:string .
@@ -70,22 +79,24 @@ ex:url rdfs:domain ex:conference,
         ex:paper ;
     rdfs:range xsd:string .
 
+ex:volumeNr rdfs:domain ex:volume ;
+    rdfs:range xsd:integer .
+
+ex:writes rdfs:domain ex:author ;
+    rdfs:range ex:paper .
+
 ex:year rdfs:domain ex:volume ;
     rdfs:range xsd:integer .
 
-ex:area rdfs:domain ex:conference,
-        ex:journal,
-        ex:paper .
+ex:area rdfs:range xsd:string .
 
-ex:volume rdfs:domain ex:journal ;
-    rdfs:range ex:paper .
+ex:proceeding rdfs:subClassOf ex:conference .
 
-ex:proceeding rdfs:domain ex:conference ;
-    rdfs:range ex:paper .
+ex:reviewer rdfs:subClassOf ex:author .
+
+ex:volume rdfs:subClassOf ex:journal .
 
 ex:journal rdfs:subClassOf ex:venue .
 
 ex:conference rdfs:subClassOf ex:venue .
-
-xsd:string rdfs:domain ex:area .
 

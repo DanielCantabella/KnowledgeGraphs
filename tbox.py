@@ -7,7 +7,7 @@ g.bind('ex', EX) #Bind prefix to namespace
 
 
 decision = EX.decision # http://example.org/decision/
-submit = EX.submit
+submits = EX.submits
 reviewer = EX.reviewer
 assigns = EX.assigns
 editor = EX.editor
@@ -15,17 +15,21 @@ handles = EX.handles
 journal = EX.journal
 volume = EX.volume
 venue = EX.venue
-to = EX.to
+has = EX.has
 reviews = EX.reviews
 paper = EX.paper
 conference_type = EX.conference_type
 area = EX.area
 conference = EX.conference
-submits = EX.submits
+writes = EX.writes
 author = EX.author
 chair = EX.chair
 proceeding = EX.proceeding
 year = EX.year
+publication = EX.publication
+includes = EX.includes
+isRelatedTo = EX.isRelatedTo
+hasDecision = EX.hasDecision
 
 #Attributes
 #Decision
@@ -54,31 +58,37 @@ conferenceType = EX.conferenceType #Only for conferences
 url = EX.url #Repeated
 
 # Triples
-g.add((submit, RDFS.range, decision))
-g.add((submit, RDFS.domain, reviewer))
+g.add((submits, RDFS.range, decision))
+g.add((submits, RDFS.domain, reviewer))
 g.add((reviews, RDFS.domain, reviewer))
 g.add((reviews, RDFS.range, paper))
 g.add((assigns, RDFS.range, reviewer))
 g.add((assigns, RDFS.domain, editor))
 g.add((handles, RDFS.domain, editor))
 g.add((handles, RDFS.range, journal))
-g.add((volume, RDFS.domain, journal))
-g.add((volume, RDFS.range, paper))
+g.add((volume, RDFS.subClassOf, journal))
+g.add((includes, RDFS.range, publication))
+g.add((includes, RDFS.domain, volume))
 g.add((journal, RDFS.subClassOf, venue))
-g.add((to, RDFS.domain, venue))
-g.add((to, RDFS.range, paper))
+g.add((has, RDFS.domain, venue))
+g.add((has, RDFS.range, paper))
 g.add((conference, RDFS.subClassOf, venue))
 g.add((assigns, RDFS.range, reviewer))
-g.add((submits, RDFS.domain, author))
-g.add((submits, RDFS.range, paper))
+g.add((writes, RDFS.domain, author))
+g.add((writes, RDFS.range, paper))
 g.add((assigns, RDFS.domain, chair))
 g.add((handles, RDFS.domain, chair))
 g.add((handles, RDFS.range, conference))
-g.add((area, RDFS.domain, paper))
-g.add((area, RDFS.domain, journal))
-g.add((area, RDFS.domain, conference))
-g.add((proceeding, RDFS.domain, conference))
-g.add((proceeding, RDFS.range, paper))
+g.add((isRelatedTo, RDFS.range, area))
+g.add((isRelatedTo, RDFS.domain, paper))
+g.add((isRelatedTo, RDFS.domain, journal))
+g.add((isRelatedTo, RDFS.domain, conference))
+g.add((proceeding, RDFS.subClassOf, conference))
+g.add((includes, RDFS.range, publication))
+g.add((includes, RDFS.domain, proceeding))
+g.add((reviewer, RDFS.subClassOf, author))
+g.add((hasDecision, RDFS.range, decision))
+g.add((hasDecision, RDFS.domain, paper))
 
 #Attributes
 ##Decision
@@ -99,7 +109,8 @@ g.add((abstract, RDFS.domain, paper))
 g.add((abstract, RDFS.range, XSD.string))
 g.add((title, RDFS.domain, paper))
 g.add((title, RDFS.range, XSD.string))
-g.add((publicationDate, RDFS.domain, paper))
+#Publication
+g.add((publicationDate, RDFS.domain, publication))
 g.add((publicationDate, RDFS.range, XSD.date))
 #Author
 g.add((name, RDFS.domain, author))
@@ -131,7 +142,7 @@ g.add((issn, RDFS.range, XSD.string)) #Repeated if we name it the same as in con
 g.add((url, RDFS.domain, journal))
 g.add((url, RDFS.range, XSD.string)) #Repeated if we name it the same as in confernces
 #Area
-g.add((XSD.string, RDFS.domain, area))
+g.add((area, RDFS.range, XSD.string))
 
 
 # print(g.serialize())
