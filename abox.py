@@ -366,5 +366,10 @@ if __name__ == "__main__":
             correctedReviewedData = correctPropertiesData(data)
             loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 
+#CHAIRS  ??
+
+#EDITORS ??
+
+
 print(g.serialize())
 g.serialize(destination="abox.ttl", format="ttl")
