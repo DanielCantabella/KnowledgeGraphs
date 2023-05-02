@@ -84,14 +84,14 @@ if __name__ == "__main__":
             loadEditors(correctedEditorsData)
 
 #LOAD PROPERTIES
-#WRITES
+# WRITES
     with open('./data/written-by.csv', newline='') as writes:
         reader = csv.DictReader(writes)
         for write in reader:
             data = [write['authorID'],write['paperID']]
             correctedWrittenData = correctPropertiesData(data)
             loadRelations(correctedWrittenData[0], tbox.writes, correctedWrittenData[1])
-#REVIEWS, SUBMITS & HAS_DECISION
+# REVIEWS, SUBMITS & HAS_DECISION
     with open('./data/reviewed-by.csv', newline='') as submits:
         reader = csv.DictReader(submits)
         for submit in reader:
@@ -108,29 +108,45 @@ if __name__ == "__main__":
             data = [submit['paperID'], str(submit['paperID'])+'-'+str(submit['reviewerID'])] #decision id is paperID-reviewerID
             correctedDecisionData = correctPropertiesData(data)
             loadRelations(correctedDecisionData[0], tbox.hasDecision, correctedDecisionData[1])
-#IS_RELATED_TO
+# IS_RELATED_TO
+    #Paper
     with open('./data/related-to.csv', newline='') as relates:
         reader = csv.DictReader(relates)
         for relate in reader:
             data = [relate['paperID'],str(relate['keyword']).replace(' ', '_')]
-            correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], tbox.isRelatedTo, correctedReviewedData[1])
-#INCLUDES
+            correctedRelatedData = correctPropertiesData(data)
+            loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
+    #Journal
+    with open('./data/journalsAreas.csv', newline='') as relates:
+        reader = csv.DictReader(relates)
+        for relate in reader:
+            data = [relate['journalID'],str(relate['area']).replace(' ', '_')]
+            correctedRelatedData = correctPropertiesData(data)
+            loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
+    #Conference
+    with open('./data/conferencesAreas.csv', newline='') as relates:
+        reader = csv.DictReader(relates)
+        for relate in reader:
+            data = [relate['conferenceID'],str(relate['area']).replace(' ', '_')]
+            correctedRelatedData = correctPropertiesData(data)
+            loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
+
+# INCLUDES
     with open('./data/belongs-to.csv', newline='') as includes: #proceeding includes publication
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], tbox.includes, correctedReviewedData[1])
+            correctedIncludedData = correctPropertiesData(data)
+            loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
     with open('./data/published-in.csv', newline='') as includes: #volume includes publication
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], tbox.includes, correctedReviewedData[1])
+            correctedIncludedData = correctPropertiesData(data)
+            loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
-#PROCEEDINGS AND VOLUMES SUB_CLASS_OF
+# PROCEEDINGS AND VOLUMES SUB_CLASS_OF
     with open('./data/is-from.csv', newline='') as includes: #proceeding subClassOf conference
         reader = csv.DictReader(includes)
         for include in reader:
@@ -145,7 +161,7 @@ if __name__ == "__main__":
             correctedReviewedData = correctPropertiesData(data)
             loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 
-#ASSIGNS
+# ASSIGNS
     with open('./data/affiliated-to.csv', newline='') as assigns: #proceeding subClassOf conference
         reader = csv.DictReader(assigns)
         for assign in reader:
@@ -163,7 +179,7 @@ if __name__ == "__main__":
                 correctedReviewedData = correctPropertiesData(data)
                 loadRelations(correctedReviewedData[0], tbox.handlesConference, correctedReviewedData[1])
 
-# #HANDLES_JOURNALS
+# HANDLES_JOURNALS
     with open('./data/handlesJournals.csv', newline='') as handles: #proceeding subClassOf conference
         reader = csv.DictReader(handles)
         for handle in reader:
