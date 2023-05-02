@@ -11,7 +11,8 @@ submits = EX.submits
 reviewer = EX.reviewer
 assigns = EX.assigns
 editor = EX.editor
-handles = EX.handles
+handlesConference = EX.handlesConference
+handlesJournal = EX.handlesJournal
 journal = EX.journal
 volume = EX.volume
 venue = EX.venue
@@ -44,7 +45,7 @@ doi = EX.doi
 abstract = EX.abstract
 publicationDate = EX.publicationDate
 #Author
-name = EX.name #Repeated
+name_author = EX.name_author #Repeated
 #Volume
 year = EX.year
 volumeNr = EX.volumeNr
@@ -64,21 +65,21 @@ g.add((reviews, RDFS.domain, reviewer))
 g.add((reviews, RDFS.range, paper))
 g.add((assigns, RDFS.range, reviewer))
 g.add((assigns, RDFS.domain, editor))
-g.add((handles, RDFS.domain, editor))
-g.add((handles, RDFS.range, journal))
+g.add((handlesJournal, RDFS.domain, editor))
+g.add((handlesJournal, RDFS.range, journal))
 g.add((volume, RDFS.subClassOf, journal))
-g.add((includes, RDFS.range, publication))
+# g.add((includes, RDFS.range, publication)) #Repeated
 g.add((includes, RDFS.domain, volume))
 g.add((journal, RDFS.subClassOf, venue))
 g.add((has, RDFS.domain, venue))
 g.add((has, RDFS.range, paper))
 g.add((conference, RDFS.subClassOf, venue))
-g.add((assigns, RDFS.range, reviewer))
+# g.add((assigns, RDFS.range, reviewer)) #Repeated
 g.add((writes, RDFS.domain, author))
 g.add((writes, RDFS.range, paper))
 g.add((assigns, RDFS.domain, chair))
-g.add((handles, RDFS.domain, chair))
-g.add((handles, RDFS.range, conference))
+g.add((handlesConference, RDFS.domain, chair))
+g.add((handlesConference, RDFS.range, conference))
 g.add((isRelatedTo, RDFS.range, area))
 g.add((isRelatedTo, RDFS.domain, paper))
 g.add((isRelatedTo, RDFS.domain, journal))

@@ -24,10 +24,11 @@ ex:doi rdfs:domain ex:paper ;
 ex:endDate rdfs:domain ex:proceeding ;
     rdfs:range xsd:date .
 
-ex:handles rdfs:domain ex:chair,
-        ex:editor ;
-    rdfs:range ex:conference,
-        ex:journal .
+ex:handlesConference rdfs:domain ex:chair ;
+    rdfs:range ex:conference .
+
+ex:handlesJournal rdfs:domain ex:editor ;
+    rdfs:range ex:journal .
 
 ex:has rdfs:domain ex:venue ;
     rdfs:range ex:paper .

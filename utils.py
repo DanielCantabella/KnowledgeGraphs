@@ -62,7 +62,7 @@ def loadAuthors(data): #[id, name]
     if data[0] is not None: #id
         g.add((id,RDF.type,tbox.author))
     if data[1] is not None: #name
-        g.add((id,tbox.name,nameAtt))
+        g.add((id,tbox.name_author,nameAtt))
 def correctAuthorData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -210,6 +210,25 @@ def correctDecisionData(data): #paperId, reviewerID, grade, review
         else:
             newData[i] = None
     return newData
+
+def loadChairs(data):
+    id = EX[data[0]]
+    if data[0] is not None:  # id
+        g.add((id, RDF.type, tbox.chair))
+def loadEditors(data):
+    id = EX[data[0]]
+    if data[0] is not None:  # id
+        g.add((id, RDF.type, tbox.editor))
+
+def correctChairEditorData(data):
+    numFields = len(data)
+    for i in range(0, numFields):
+        if bool(data[i]) == True:
+            if i in [0]:
+                data[i] = str(data[i])
+        else:
+            data[i] = None
+    return data
 
 def loadRelations(subject, predicate, object):
     if subject is not None and object is not None:  # id

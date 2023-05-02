@@ -1,4 +1,6 @@
 import random
+
+import tbox
 from utils import *
 
 
@@ -66,6 +68,20 @@ if __name__ == "__main__":
             data = [decision['paperID'],decision['reviewerID'],decision['grade'],decision['review']]
             correctedDecisionData = correctDecisionData(data)
             loadDecisions(correctedDecisionData)
+#ABOX  CHAIRS
+    with open('./data/chairs.csv', newline='') as chairs:
+        reader = csv.DictReader(chairs)
+        for chair in reader:
+            data = [chair['chairID']]
+            correctedChairsData = correctChairEditorData(data)
+            loadChairs(correctedChairsData)
+#ABOX EDITORS
+    with open('./data/editors.csv', newline='') as editors:
+        reader = csv.DictReader(editors)
+        for editor in reader:
+            data = [editor['editorID']]
+            correctedEditorsData = correctChairEditorData(data)
+            loadEditors(correctedEditorsData)
 
 #LOAD PROPERTIES
 #WRITES
@@ -129,9 +145,33 @@ if __name__ == "__main__":
             correctedReviewedData = correctPropertiesData(data)
             loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 
-#CHAIRS  ??
+#ASSIGNS
+    with open('./data/affiliated-to.csv', newline='') as assigns: #proceeding subClassOf conference
+        reader = csv.DictReader(assigns)
+        for assign in reader:
+            data = [assign['affiliation'],assign['authorID']]
+            correctedReviewedData = correctPropertiesData(data)
+            loadRelations(correctedReviewedData[0], tbox.assigns, correctedReviewedData[1])
 
-#EDITORS ??
+# HANDLES_CONFERENCES
+    with open('./data/handlesConferences.csv', newline='') as handles: #proceeding subClassOf conference
+        reader = csv.DictReader(handles)
+        for handle in reader:
+            for i in range(1,len(handle)):
+                chairID = 'chairID'+str(i)
+                data = [handle[chairID],handle['conferenceID']]
+                correctedReviewedData = correctPropertiesData(data)
+                loadRelations(correctedReviewedData[0], tbox.handlesConference, correctedReviewedData[1])
+
+# #HANDLES_JOURNALS
+    with open('./data/handlesJournals.csv', newline='') as handles: #proceeding subClassOf conference
+        reader = csv.DictReader(handles)
+        for handle in reader:
+            for i in range(1,len(handle)):
+                editorID = 'editorID'+str(i)
+                data = [handle[editorID],handle['journalID']]
+                correctedReviewedData = correctPropertiesData(data)
+                loadRelations(correctedReviewedData[0], tbox.handlesJournal, correctedReviewedData[1])
 
 
 print(g.serialize())
