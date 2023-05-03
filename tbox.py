@@ -69,9 +69,9 @@ g.add((assigns, RDFS.range, reviewer))
 g.add((assigns, RDFS.domain, editor))
 g.add((handlesJournal, RDFS.domain, editor))
 g.add((handlesJournal, RDFS.range, journal))
-g.add((volume, RDFS.subClassOf, journal))
-# g.add((fromJournal, RDFS.domain, volume)) #Another option but volumes as subClassesOf journals is better
-# g.add((fromJournal, RDFS.range, journal)) #Another option but volumes as subClassesOf journals is better
+# g.add((volume, RDFS.subClassOf, journal)) #
+g.add((fromJournal, RDFS.domain, volume)) #Another option
+g.add((fromJournal, RDFS.range, journal)) #Another option
 g.add((includes, RDFS.domain, volume))
 g.add((journal, RDFS.subClassOf, venue))
 g.add((has, RDFS.domain, venue))
@@ -86,9 +86,9 @@ g.add((isRelatedTo, RDFS.range, area))
 g.add((isRelatedTo, RDFS.domain, paper))
 g.add((isRelatedTo, RDFS.domain, journal))
 g.add((isRelatedTo, RDFS.domain, conference))
-g.add((proceeding, RDFS.subClassOf, conference))
-# g.add((fromConference, RDFS.domain, proceeding)) #Another option but proceedings as subClassesOf conferences is better
-# g.add((fromConference, RDFS.range, conference)) #Another option but proceedings as subClassesOf conferences is better
+# g.add((proceeding, RDFS.subClassOf, conference)) #
+g.add((fromConference, RDFS.domain, proceeding)) #Another option
+g.add((fromConference, RDFS.range, conference)) #Another option
 g.add((includes, RDFS.range, publication))
 g.add((includes, RDFS.domain, proceeding))
 g.add((reviewer, RDFS.subClassOf, author))

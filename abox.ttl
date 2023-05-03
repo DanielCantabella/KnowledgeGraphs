@@ -1,0 +1,105 @@
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:abstract rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:accepted rdfs:domain ex:review ;
+    rdfs:range xsd:boolean .
+
+ex:assigns rdfs:domain ex:chair,
+        ex:editor ;
+    rdfs:range ex:reviewer .
+
+ex:back_up_text rdfs:domain ex:review ;
+    rdfs:range xsd:string .
+
+ex:conference_type rdfs:domain ex:conference ;
+    rdfs:range xsd:string .
+
+ex:doi rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:endDate rdfs:domain ex:proceeding ;
+    rdfs:range xsd:date .
+
+ex:fromConference rdfs:domain ex:proceeding ;
+    rdfs:range ex:conference .
+
+ex:fromJournal rdfs:domain ex:volume ;
+    rdfs:range ex:journal .
+
+ex:handlesConference rdfs:domain ex:chair ;
+    rdfs:range ex:conference .
+
+ex:handlesJournal rdfs:domain ex:editor ;
+    rdfs:range ex:journal .
+
+ex:has rdfs:domain ex:venue ;
+    rdfs:range ex:paper .
+
+ex:hasReview rdfs:domain ex:paper ;
+    rdfs:range ex:review .
+
+ex:includes rdfs:domain ex:proceeding,
+        ex:volume ;
+    rdfs:range ex:publication .
+
+ex:isRelatedTo rdfs:domain ex:conference,
+        ex:journal,
+        ex:paper ;
+    rdfs:range ex:area .
+
+ex:issn rdfs:domain ex:conference,
+        ex:journal ;
+    rdfs:range xsd:string .
+
+ex:name rdfs:domain ex:author,
+        ex:conference,
+        ex:journal ;
+    rdfs:range xsd:string .
+
+ex:publicationDate rdfs:domain ex:publication ;
+    rdfs:range xsd:date .
+
+ex:reviews rdfs:domain ex:reviewer ;
+    rdfs:range ex:paper .
+
+ex:startDate rdfs:domain ex:proceeding ;
+    rdfs:range xsd:date .
+
+ex:submits rdfs:domain ex:reviewer ;
+    rdfs:range ex:review .
+
+ex:title rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:type rdfs:domain ex:paper ;
+    rdfs:range xsd:string .
+
+ex:updated rdfs:domain ex:paper ;
+    rdfs:range xsd:dateTimeStamp .
+
+ex:url rdfs:domain ex:conference,
+        ex:journal,
+        ex:paper ;
+    rdfs:range xsd:string .
+
+ex:volumeNr rdfs:domain ex:volume ;
+    rdfs:range xsd:integer .
+
+ex:writes rdfs:domain ex:author ;
+    rdfs:range ex:paper .
+
+ex:year rdfs:domain ex:volume ;
+    rdfs:range xsd:integer .
+
+ex:area rdfs:range xsd:string .
+
+ex:reviewer rdfs:subClassOf ex:author .
+
+ex:journal rdfs:subClassOf ex:venue .
+
+ex:conference rdfs:subClassOf ex:venue .
+
