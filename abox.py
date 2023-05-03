@@ -66,7 +66,7 @@ if __name__ == "__main__":
         reader = csv.DictReader(reviews)
         for review in reader:
             data = [review['paperID'],review['reviewerID'],review['grade'],review['review']]
-            correctedReviewData = correctReviewData(data)
+            correctedReviewData,diccAprovedPapers,diccNumberReviewers = correctReviewData(data)
             loadReviews(correctedReviewData)
 #ABOX  CHAIRS
     with open('./data/chairs.csv', newline='') as chairs:
@@ -136,15 +136,17 @@ if __name__ == "__main__":
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            correctedIncludedData = correctPropertiesData(data)
-            loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
+            if diccNumberReviewers[include['paperID']] >= 2 and diccAprovedPapers[include['paperID']] > 0:
+                correctedIncludedData = correctPropertiesData(data)
+                loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
     with open('./data/published-in.csv', newline='') as includes: #volume includes publication
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            correctedIncludedData = correctPropertiesData(data)
-            loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
+            if diccNumberReviewers[include['paperID']] >= 2 and diccAprovedPapers[include['paperID']] > 0:
+                correctedIncludedData = correctPropertiesData(data)
+                loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
 #SUBCLASSES OF
 # FROM_CONFERENCE
