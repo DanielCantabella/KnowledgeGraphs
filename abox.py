@@ -61,13 +61,13 @@ if __name__ == "__main__":
             data = [journal['venueID'],journal['journalName'],journal['issn'],journal['url']]
             correctedJournalData = correctJournalData(data)
             loadJournals(correctedJournalData)
-#ABOX DECISION
-    with open('./data/reviewed-by.csv', newline='') as decisions:
-        reader = csv.DictReader(decisions)
-        for decision in reader:
-            data = [decision['paperID'],decision['reviewerID'],decision['grade'],decision['review']]
-            correctedDecisionData = correctDecisionData(data)
-            loadDecisions(correctedDecisionData)
+#ABOX REVIEWS
+    with open('./data/reviewed-by.csv', newline='') as reviews:
+        reader = csv.DictReader(reviews)
+        for review in reader:
+            data = [review['paperID'],review['reviewerID'],review['grade'],review['review']]
+            correctedReviewData = correctReviewData(data)
+            loadReviews(correctedReviewData)
 #ABOX  CHAIRS
     with open('./data/chairs.csv', newline='') as chairs:
         reader = csv.DictReader(chairs)
@@ -91,7 +91,7 @@ if __name__ == "__main__":
             data = [write['authorID'],write['paperID']]
             correctedWrittenData = correctPropertiesData(data)
             loadRelations(correctedWrittenData[0], tbox.writes, correctedWrittenData[1])
-# REVIEWS, SUBMITS & HAS_DECISION
+# REVIEWS, SUBMITS & HAS_REVIEW
     with open('./data/reviewed-by.csv', newline='') as submits:
         reader = csv.DictReader(submits)
         for submit in reader:
@@ -101,13 +101,13 @@ if __name__ == "__main__":
             g.add((EX[correctedReviewedData[0]], RDF.type, tbox.reviewer)) #Add reviewers first
             loadRelations(correctedReviewedData[0], tbox.reviews, correctedReviewedData[1])
 
-            data = [submit['reviewerID'], str(submit['paperID']) + '-' + str(submit['reviewerID'])]  # decision id is paperID-reviewerID
+            data = [submit['reviewerID'], str(submit['paperID']) + '-' + str(submit['reviewerID'])]  # review id is paperID-reviewerID
             correctedSubmittedData = correctPropertiesData(data)
             loadRelations(correctedSubmittedData[0], tbox.submits, correctedSubmittedData[1])
 
-            data = [submit['paperID'], str(submit['paperID'])+'-'+str(submit['reviewerID'])] #decision id is paperID-reviewerID
-            correctedDecisionData = correctPropertiesData(data)
-            loadRelations(correctedDecisionData[0], tbox.hasDecision, correctedDecisionData[1])
+            data = [submit['paperID'], str(submit['paperID'])+'-'+str(submit['reviewerID'])] #review id is paperID-reviewerID
+            correctedReviewData = correctPropertiesData(data)
+            loadRelations(correctedReviewData[0], tbox.hasReview, correctedReviewData[1])
 # IS_RELATED_TO
     #Paper
     with open('./data/related-to.csv', newline='') as relates:
@@ -152,14 +152,16 @@ if __name__ == "__main__":
         for include in reader:
             data = [include['editionID'],include['conferenceID']]
             correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], tbox.fromConference, correctedReviewedData[1])
+            # loadRelations(correctedReviewedData[0], tbox.fromConference, correctedReviewedData[1])
+            loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 # FROM_JOURNAL
     with open('./data/volume-from.csv', newline='') as includes: #volume subClassOf journal
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['volumeID'], include['journalID']]
             correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], tbox.fromJournal, correctedReviewedData[1])
+            # loadRelations(correctedReviewedData[0], tbox.fromJournal, correctedReviewedData[1])
+            loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 
 # ASSIGNS
     with open('./data/affiliated-to.csv', newline='') as assigns: #proceeding subClassOf conference

@@ -184,18 +184,18 @@ def correctJournalData(data):
             data[i] = None
     return data
 
-def loadDecisions(data):
+def loadReviews(data):
     id = EX[data[0]]
     acceptedAtt = Literal(data[1], datatype=XSD.boolean)
     back_up_textAtt = Literal(data[2], datatype=XSD.string)
 
     if data[0] is not None:  # id
-        g.add((id, RDF.type, tbox.decision))
+        g.add((id, RDF.type, tbox.review))
     if data[1] is not None:  # accepted
         g.add((id, tbox.accepted, acceptedAtt))
     if data[2] is not None:  # back_up_text
         g.add((id, tbox.back_up_text, back_up_textAtt))
-def correctDecisionData(data): #paperId, reviewerID, grade, review
+def correctReviewData(data): #paperId, reviewerID, grade, review
     numFields = len(data)
     newData=[str(data[0]+"-"+data[1]), "accepted", "back_up_text"] #id is paperId-reviewerID
     for i in range(0, numFields):
