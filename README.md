@@ -28,7 +28,22 @@ WHERE {
 
 # Q3. Find all properties whose domain is either Conference or Journal
 ```
+PREFIX ex: <http://example.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
+SELECT DISTINCT ?property
+WHERE {
+   { 
+     ?property rdfs:domain ?n .
+     ex:conference rdfs:subClassOf ?n .
+   }
+    UNION
+    {
+     ?property rdfs:domain ?n .
+     ex:journal rdfs:subClassOf ?n .        
+    }
+}
 ```
 
 # Q4. Find all the papers written by a given author that where published in database conferences.
