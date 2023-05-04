@@ -9,15 +9,15 @@ if __name__ == "__main__":
 #crear funcio que inici tbox.py
     # subprocess.run(["python3", "tbox.py"])
 #LOAD CLASSES
-#ABOX PAPERS
-    with open('./data/papers-processed.csv', newline='') as papers:
-        reader = csv.DictReader(papers)
-        for paper in reader:
-            data = [paper['corpusid'], papers['title'], papers['publicationdate'],
-                    getAbstractData(papers['corpusid']), papers['DOI'], papers['url'],
-                    papers['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
+#ABOX PUBLICATIONS
+    with open('./data/papers-processed.csv', newline='') as publications:
+        reader = csv.DictReader(publications)
+        for publication in reader:
+            data = [publication['corpusid'], publication['title'], publication['publicationdate'],
+                    getAbstractData(publication['corpusid']), publication['DOI'], publication['url'],
+                    publication['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
             correctedPaperData = correctPaperData(data)
-            loadPapers(correctedPaperData)
+            loadPublications(correctedPaperData)
 #ABOX AUTHORS
     with open('./data/authors-sample.csv', newline='') as authors:
         reader = csv.DictReader(authors)
@@ -192,11 +192,10 @@ if __name__ == "__main__":
                 correctedReviewedData = correctPropertiesData(data)
                 loadRelations(correctedReviewedData[0], tbox.handlesJournal, correctedReviewedData[1])
 
+
 # SUBCLASS_OF PAPER
 # Gerard
-# loadPublications --> (EX.publication, RDFS.type, EX.paper) #(Ex.publication,EX.publicationDate,EX.["publicationDate"]
-
-
+# loadPublications --> (EX.publication, RDFS.type, EX.paper) #(Ex.publication,EX.publicationDate,E.["publicationDate"])
 
 
 print(g.serialize())

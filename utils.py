@@ -6,7 +6,7 @@ import csv
 import tbox
 from tbox import *
 from tbox import g
-def loadPapers(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]
+def loadPublications(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]
     id = EX[data[0]]
     titleAtt = Literal(data[1], datatype=XSD.string)
     publicationDateAtt = Literal(data[2], datatype=XSD.date)
