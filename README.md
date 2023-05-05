@@ -55,7 +55,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?papers ?proceedings ?conference
 WHERE {
-    ?author ex:name_author "Ж. Э. Байрачная".
+    ?author ex:name_author "Firman Suryadi".
     ?author ex:writes ?papers.
     ?proceedings ex:includes ?papers.
     ?proceedings ex:fromConference ?conference.
