@@ -89,6 +89,7 @@ g.add((isRelatedTo, RDFS.domain, conference))
 # g.add((proceeding, RDFS.subClassOf, conference)) #
 g.add((fromConference, RDFS.domain, proceeding)) #Another option
 g.add((fromConference, RDFS.range, conference)) #Another option
+g.add((publication, RDFS.subClassOf, paper))
 g.add((includes, RDFS.range, publication))
 g.add((includes, RDFS.domain, proceeding))
 g.add((reviewer, RDFS.subClassOf, author))

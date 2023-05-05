@@ -1,5 +1,5 @@
 import random
-
+import csv
 import tbox
 from utils import *
 
@@ -9,17 +9,32 @@ if __name__ == "__main__":
 #crear funcio que inici tbox.py
     # subprocess.run(["python3", "tbox.py"])
 #LOAD CLASSES
-#ABOX PUBLICATIONS
-    with open('./data/papers-processed.csv', newline='') as publications:
+#ABOX PAPERS
+    with open('./data/papers-processed.csv', newline='', encoding='utf-8') as publications:
         reader = csv.DictReader(publications)
         for publication in reader:
-            data = [publication['corpusid'], publication['title'], publication['publicationdate'],
+            data = [publication['corpusid'], publication['title'],
                     getAbstractData(publication['corpusid']), publication['DOI'], publication['url'],
                     publication['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
             correctedPaperData = correctPaperData(data)
-            loadPublications(correctedPaperData)
+            loadPapers(correctedPaperData)
+#ABOX REVIEWS
+    with open('./data/reviewed-by.csv', newline='') as reviews:
+        reader = csv.DictReader(reviews)
+        for review in reader:
+            data = [review['paperID'],review['reviewerID'],review['grade'],review['review']]
+            correctedReviewData,diccAprovedPapers,diccNumberReviewers = correctReviewData(data)
+            loadReviews(correctedReviewData)
+#ABOX PUBLICATIONS
+    with open('./data/papers-processed.csv', newline='',encoding='utf-8') as publications:
+        reader = csv.DictReader(publications)
+        for publication in reader:
+            if diccNumberReviewers[publication['corpusid']] >= 2 and diccAprovedPapers[publication['corpusid']] > 0:
+                data = [publication['corpusid'],publication['publicationdate']]
+                correctedPublicationData = correctPublicationData(data)
+                loadPublications(correctedPublicationData)
 #ABOX AUTHORS
-    with open('./data/authors-sample.csv', newline='') as authors:
+    with open('./data/authors-sample.csv', newline='',encoding='utf-8') as authors:
         reader = csv.DictReader(authors)
         for author in reader:
             data = [author['authorid'], author['name']]
@@ -47,7 +62,7 @@ if __name__ == "__main__":
             correctedProceedingData = correctProceedingData(data)
             loadProceedings(correctedProceedingData)
 #ABOX CONFERENCE
-    with open('./data/conferences.csv', newline='') as conferences:
+    with open('./data/conferences.csv', newline='',encoding='utf-8') as conferences:
         reader = csv.DictReader(conferences)
         for conference in reader:
             data = [conference['conferenceID'],conference['conferenceName'],conference['issn'],conference['url'],
@@ -61,13 +76,6 @@ if __name__ == "__main__":
             data = [journal['venueID'],journal['journalName'],journal['issn'],journal['url']]
             correctedJournalData = correctJournalData(data)
             loadJournals(correctedJournalData)
-#ABOX REVIEWS
-    with open('./data/reviewed-by.csv', newline='') as reviews:
-        reader = csv.DictReader(reviews)
-        for review in reader:
-            data = [review['paperID'],review['reviewerID'],review['grade'],review['review']]
-            correctedReviewData,diccAprovedPapers,diccNumberReviewers = correctReviewData(data)
-            loadReviews(correctedReviewData)
 #ABOX  CHAIRS
     with open('./data/chairs.csv', newline='') as chairs:
         reader = csv.DictReader(chairs)
