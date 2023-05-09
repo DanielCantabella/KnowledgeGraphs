@@ -94,6 +94,8 @@ g.add((includes, RDFS.domain, proceeding))
 g.add((reviewer, RDFS.subClassOf, author))
 g.add((hasReview, RDFS.range, review))
 g.add((hasReview, RDFS.domain, paper))
+g.add((publication, RDFS.subClassOf, paper))
+
 
 #Attributes
 ##Review

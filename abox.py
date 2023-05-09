@@ -1,5 +1,5 @@
 import random
-
+import csv
 import tbox
 from utils import *
 
@@ -9,15 +9,33 @@ if __name__ == "__main__":
 #crear funcio que inici tbox.py
     # subprocess.run(["python3", "tbox.py"])
 #LOAD CLASSES
-#ABOX PUBLICATIONS
-    with open('./data/papers-processed.csv', newline='') as publications:
+#ABOX PAPERS
+    with open('./data/papers-processed.csv', newline='', encoding='utf-8') as publications:
         reader = csv.DictReader(publications)
         for publication in reader:
-            data = [publication['corpusid'], publication['title'], publication['publicationdate'],
+            data = [publication['corpusid'], publication['title'],
                     getAbstractData(publication['corpusid']), publication['DOI'], publication['url'],
                     publication['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
             correctedPaperData = correctPaperData(data)
-            loadPublications(correctedPaperData)
+            loadPapers(correctedPaperData)
+#ABOX REVIEWS
+    with open('./data/reviewed-by.csv', newline='') as reviews:
+        reader = csv.DictReader(reviews)
+        for review in reader:
+            data = [review['paperID'],review['reviewerID'],review['grade'],review['review']]
+            correctedReviewData = correctReviewData(data)
+            loadReviews(correctedReviewData)
+#ABOX PUBLICATIONS
+    diccAprovedPapers, diccNumberReviewers = getRevisions()
+    with open('./data/papers-processed.csv', newline='',encoding='utf-8') as publications:
+        reader = csv.DictReader(publications)
+        for publication in reader:
+            if diccNumberReviewers[publication['corpusid']] >= 2 and diccAprovedPapers[publication['corpusid']] > 0:
+                data = [publication['corpusid'], publication['publicationdate']]
+                correctedPublicationData = correctPublicationData(data)
+                loadPublications(correctedPublicationData)
+
+
 #ABOX AUTHORS
     with open('./data/authors-sample.csv', newline='') as authors:
         reader = csv.DictReader(authors)
@@ -191,11 +209,6 @@ if __name__ == "__main__":
                 data = [handle[editorID],handle['journalID']]
                 correctedReviewedData = correctPropertiesData(data)
                 loadRelations(correctedReviewedData[0], tbox.handlesJournal, correctedReviewedData[1])
-
-
-# SUBCLASS_OF PAPER
-# Gerard
-# loadPublications --> (EX.publication, RDFS.type, EX.paper) #(Ex.publication,EX.publicationDate,E.["publicationDate"])
 
 
 print(g.serialize())

@@ -22,7 +22,8 @@ ex:paper a rdfs:Class .
 
 ex:proceeding a rdfs:Class .
 
-ex:publication a rdfs:Class .
+ex:publication a rdfs:Class ;
+    rdfs:subClassOf ex:paper .
 
 ex:review a rdfs:Class .
 

@@ -6,42 +6,56 @@ import csv
 import tbox
 from tbox import *
 from tbox import g
-def loadPublications(data): #[id, title, publicationDate, abstract, DOI, URL, updated, type]
+def loadPapers(data): #[id, title, abstract, DOI, URL, updated, type]
     id = EX[data[0]]
     titleAtt = Literal(data[1], datatype=XSD.string)
-    publicationDateAtt = Literal(data[2], datatype=XSD.date)
-    abstractAtt = Literal(data[3], datatype=XSD.string)
-    doiAtt = Literal(data[4], datatype=XSD.string)
-    urlAtt = Literal(data[5], datatype=XSD.string)
-    updatedAtt = Literal(data[6], datatype=XSD.dateTimeStamp)
-    typeAtt = Literal (data[7], datatype=XSD.string)
+    abstractAtt = Literal(data[2], datatype=XSD.string)
+    doiAtt = Literal(data[3], datatype=XSD.string)
+    urlAtt = Literal(data[4], datatype=XSD.string)
+    updatedAtt = Literal(data[5], datatype=XSD.dateTimeStamp)
+    typeAtt = Literal (data[6], datatype=XSD.string)
 
     if data[0] is not None: #id
-        g.add((id,RDF.type,tbox.publication))
+        g.add((id,RDF.type,tbox.paper))
     if data[1] is not None: #title
         g.add((id,tbox.title,titleAtt))
-    if data[2] is not None: #publicationDate
-        g.add((id,tbox.publicationDate,publicationDateAtt))
-    if data[3] is not None: #abstract
+    if data[2] is not None: #abstract
         g.add((id,tbox.abstract,abstractAtt))
-    if data[4] is not None: #DOI
+    if data[3] is not None: #DOI
         g.add((id,tbox.doi,doiAtt))
-    if data[5] is not None: #URL
+    if data[4] is not None: #URL
         g.add((id,tbox.url,urlAtt))
-    if data[6] is not None: #updated
+    if data[5] is not None: #updated
         g.add((id,tbox.updated,updatedAtt))
-    if data[7] is not None: #type
+    if data[6] is not None: #type
         g.add((id,tbox.type,typeAtt))
 def correctPaperData(data):
     numFields = len(data)
     for i in range(0,numFields):
         if bool(data[i]) == True:
-            if i in [0,1,3,4,5,7]: #id, title, abstract, doi, url, type
+            if i in [0,1,2,3,4,6]: #id, title, abstract, doi, url, type
                data[i] = str(data[i])
-            elif i == 2: # publicationdate
-                data[i] = datetime.strptime(data[i], '%Y-%m-%d').date()
-            elif i == 6: #updated
+            elif i == 5: #updated
                 data[i] = datetime.fromisoformat(data[i].replace('Z', '+00:00'))
+        else:
+            data[i] = None
+    return data
+def loadPublications(data):
+    if data != None:
+        id = EX[data[0]]
+        publicationDateAtt = Literal(data[1], datatype=XSD.date)
+        if data[0] is not None:
+            g.add((id, RDF.type, tbox.publication))
+        if data[1] is not None:  #publicationDate
+            g.add((id, tbox.publicationDate, publicationDateAtt))
+def correctPublicationData(data):
+    numFields = len(data)
+    for i in range(0,numFields):
+        if bool(data[i]) == True:
+            if i == 1:
+                data[i] = datetime.strptime(data[i], '%Y-%m-%d').date()
+            else:
+                data[i] = str(data[i])
         else:
             data[i] = None
     return data
@@ -195,6 +209,58 @@ def loadReviews(data):
         g.add((id, tbox.accepted, acceptedAtt))
     if data[2] is not None:  # back_up_text
         g.add((id, tbox.back_up_text, back_up_textAtt))
+
+def getRevisions():
+    diccAprovedPapers = {}  # Count the difference in accepted rejected
+    diccNumberReviewers = {}  # Count the number of reviewers
+    with open('./data/reviewed-by.csv', newline='') as reviews:
+        reader = csv.DictReader(reviews)
+        for review in reader:
+            data = [review['paperID'],review['reviewerID'],review['grade']]
+            if int(data[2]) > 2:  # if grade > 2 approved
+                if data[0] not in diccAprovedPapers:
+                    diccAprovedPapers[data[0]] = 1
+                    diccNumberReviewers[data[0]] = 1
+                else:
+                    diccAprovedPapers[data[0]] += 1
+                    diccNumberReviewers[data[0]] += 1
+            else:
+                if data[0] not in diccAprovedPapers:
+                    diccAprovedPapers[data[0]] = -1
+                    diccNumberReviewers[data[0]] = 1
+                else:
+                    diccAprovedPapers[data[0]] -= 1
+                    diccNumberReviewers[data[0]] += 1
+
+    return diccAprovedPapers, diccNumberReviewers
+# def correctReviewData(data): #paperId, reviewerID, grade, review
+#     numFields = len(data)
+#     newData=[str(data[0]+"-"+data[1]), "accepted", "back_up_text"] #id is paperId-reviewerID
+#     for i in range(0, numFields):
+#         if bool(data[i]) == True:
+#             if i in [2]: #accepted
+#                 if int(data[i]) > 2: #if grade > 2 approved
+#                     newData[i-1] = True
+#                     if data[0] not in diccAprovedPapers:
+#                         diccAprovedPapers[data[0]] = 1
+#                         diccNumberReviewers[data[0]] = 1
+#                     else:
+#                         diccAprovedPapers[data[0]] +=1
+#                         diccNumberReviewers[data[0]] +=1
+#                 else:
+#                     newData[i-1] = False
+#                     if data[0] not in diccAprovedPapers:
+#                         diccAprovedPapers[data[0]] = -1
+#                         diccNumberReviewers[data[0]] = 1
+#                     else:
+#                         diccAprovedPapers[data[0]] -=1
+#                         diccNumberReviewers[data[0]] +=1
+#             elif i in [3]: #paperId, reviewerID, review
+#                 newData[i-1] = str(data[i])
+#         else:
+#             newData[i] = None
+#     return newData, diccAprovedPapers, diccNumberReviewers
+
 def correctReviewData(data): #paperId, reviewerID, grade, review
     numFields = len(data)
     newData=[str(data[0]+"-"+data[1]), "accepted", "back_up_text"] #id is paperId-reviewerID
@@ -210,7 +276,6 @@ def correctReviewData(data): #paperId, reviewerID, grade, review
         else:
             newData[i] = None
     return newData
-
 def loadChairs(data):
     id = EX[data[0]]
     if data[0] is not None:  # id

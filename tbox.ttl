@@ -97,6 +97,8 @@ ex:year rdfs:domain ex:volume ;
 
 ex:area rdfs:range xsd:string .
 
+ex:publication rdfs:subClassOf ex:paper .
+
 ex:reviewer rdfs:subClassOf ex:author .
 
 ex:journal rdfs:subClassOf ex:venue .
