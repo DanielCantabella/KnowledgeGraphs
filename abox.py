@@ -10,12 +10,12 @@ if __name__ == "__main__":
     # subprocess.run(["python3", "tbox.py"])
 #LOAD CLASSES
 #ABOX PAPERS
-    with open('./data/papers-processed.csv', newline='', encoding='utf-8') as publications:
-        reader = csv.DictReader(publications)
-        for publication in reader:
-            data = [publication['corpusid'], publication['title'],
-                    getAbstractData(publication['corpusid']), publication['DOI'], publication['url'],
-                    publication['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
+    with open('./data/papers-processed.csv', newline='', encoding='utf-8') as papers:
+        reader = csv.DictReader(papers)
+        for paper in reader:
+            data = [paper['corpusid'], paper['title'],
+                    getAbstractData(paper['corpusid']), paper['DOI'], paper['url'],
+                    paper['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
             correctedPaperData = correctPaperData(data)
             loadPapers(correctedPaperData)
 #ABOX REVIEWS
