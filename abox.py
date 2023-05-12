@@ -10,14 +10,18 @@ if __name__ == "__main__":
     # subprocess.run(["python3", "tbox.py"])
 #LOAD CLASSES
 #ABOX PAPERS
+    diccIsPoster = {}
     with open('./data/papers-processed.csv', newline='', encoding='utf-8') as papers:
         reader = csv.DictReader(papers)
         for paper in reader:
             data = [paper['corpusid'], paper['title'],
                     getAbstractData(paper['corpusid']), paper['DOI'], paper['url'],
                     paper['updated'], random.choice(["short paper", "full paper", "poster", "demo paper"])]
+            if data[6]=="poster" and data[0] not in diccIsPoster:
+                diccIsPoster[data[0]] = True
             correctedPaperData = correctPaperData(data)
             loadPapers(correctedPaperData)
+
 #ABOX REVIEWS
     with open('./data/reviewed-by.csv', newline='') as reviews:
         reader = csv.DictReader(reviews)
@@ -154,15 +158,17 @@ if __name__ == "__main__":
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            correctedIncludedData = correctPropertiesData(data)
-            loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
+            if diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0:
+                correctedIncludedData = correctPropertiesData(data)
+                loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
     with open('./data/published-in.csv', newline='') as includes: #volume includes publication
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            correctedIncludedData = correctPropertiesData(data)
-            loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
+            if data[1] not in diccIsPoster and diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0:
+                correctedIncludedData = correctPropertiesData(data)
+                loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
 #SUBCLASSES OF
 # FROM_CONFERENCE
