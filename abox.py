@@ -39,7 +39,6 @@ if __name__ == "__main__":
                 correctedPublicationData = correctPublicationData(data)
                 loadPublications(correctedPublicationData)
 
-
 #ABOX AUTHORS
     with open('./data/authors-sample.csv', newline='') as authors:
         reader = csv.DictReader(authors)
@@ -90,6 +89,7 @@ if __name__ == "__main__":
             data = [review['paperID'],review['reviewerID'],review['grade'],review['review']]
             correctedReviewData = correctReviewData(data)
             loadReviews(correctedReviewData)
+
 #ABOX  CHAIRS
     with open('./data/chairs.csv', newline='') as chairs:
         reader = csv.DictReader(chairs)
@@ -218,6 +218,22 @@ if __name__ == "__main__":
                 correctedReviewedData = correctPropertiesData(data)
                 loadRelations(correctedReviewedData[0], tbox.handlesJournal, correctedReviewedData[1])
 
+# IS_SUBMITTED_TO
+# Journals
+    with open('./data/submittedInJournal.csv', newline='') as submissions: #proceeding subClassOf conference
+        reader = csv.DictReader(submissions)
+        for submission in reader:
+            data = [submission["paperID"], submission["journalID"]]
+            correctedSubmittedData = correctPropertiesData(data)
+            loadRelations(correctedSubmittedData[0], tbox.isSubmittedTo, correctedSubmittedData[1])
+
+# Conferences
+    with open('./data/submittedInConference.csv', newline='') as submissions: #proceeding subClassOf conference
+        reader = csv.DictReader(submissions)
+        for submission in reader:
+            data = [submission["paperID"], submission["conferenceID"]]
+            correctedSubmittedData = correctPropertiesData(data)
+            loadRelations(correctedSubmittedData[0], tbox.isSubmittedTo, correctedSubmittedData[1])
 
 print(g.serialize())
 g.serialize(destination="abox.ttl", format="ttl")

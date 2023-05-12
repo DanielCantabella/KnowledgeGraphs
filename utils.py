@@ -76,7 +76,7 @@ def loadAuthors(data): #[id, name]
     if data[0] is not None: #id
         g.add((id,RDF.type,tbox.author))
     if data[1] is not None: #name
-        g.add((id,tbox.name_author,nameAtt))
+        g.add((id,tbox.name_human,nameAtt))
 def correctAuthorData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -296,8 +296,9 @@ def correctChairEditorData(data):
     return data
 
 def loadRelations(subject, predicate, object):
-    if subject is not None and object is not None:  # id
+    if subject is not None and object is not None:  # id#
         g.add((EX[subject], predicate, EX[object]))
+
 def correctPropertiesData(data):
     numFields = len(data)
     for i in range(0, numFields):

@@ -33,6 +33,8 @@ isRelatedTo = EX.isRelatedTo
 hasReview = EX.hasReview
 fromJournal = EX.fromJournal
 fromConference = EX.fromConference
+human = EX.human
+isSubmittedTo = EX.isSubmittedTo
 
 #Attributes
 #Review
@@ -47,7 +49,7 @@ doi = EX.doi
 abstract = EX.abstract
 publicationDate = EX.publicationDate
 #Author
-name_author = EX.name_author
+name_human = EX.name_human
 #Volume
 year = EX.year
 volumeNr = EX.volumeNr
@@ -74,8 +76,8 @@ g.add((fromJournal, RDFS.domain, volume)) #Another option
 g.add((fromJournal, RDFS.range, journal)) #Another option
 g.add((includes, RDFS.domain, volume))
 g.add((journal, RDFS.subClassOf, venue))
-g.add((has, RDFS.domain, venue))
-g.add((has, RDFS.range, paper))
+# g.add((has, RDFS.domain, venue))
+# g.add((has, RDFS.range, publication))
 g.add((conference, RDFS.subClassOf, venue))
 g.add((writes, RDFS.domain, author))
 g.add((writes, RDFS.range, paper))
@@ -91,10 +93,20 @@ g.add((fromConference, RDFS.domain, proceeding)) #Another option
 g.add((fromConference, RDFS.range, conference)) #Another option
 g.add((includes, RDFS.range, publication))
 g.add((includes, RDFS.domain, proceeding))
-g.add((reviewer, RDFS.subClassOf, author))
+# g.add((reviewer, RDFS.subClassOf, author))
 g.add((hasReview, RDFS.range, review))
 g.add((hasReview, RDFS.domain, paper))
 g.add((publication, RDFS.subClassOf, paper))
+g.add((author, RDFS.subClassOf, human))
+g.add((reviewer, RDFS.subClassOf, human))
+g.add((chair, RDFS.subClassOf, human))
+g.add((editor, RDFS.subClassOf, human))
+
+# g.add((includes, RDFS.subPropertyOf, has))
+g.add((isSubmittedTo, RDFS.domain, paper))
+g.add((isSubmittedTo, RDFS.range, conference))
+g.add((isSubmittedTo, RDFS.range, journal))
+
 
 
 #Attributes
@@ -119,9 +131,9 @@ g.add((title, RDFS.range, XSD.string))
 #Publication
 g.add((publicationDate, RDFS.domain, publication))
 g.add((publicationDate, RDFS.range, XSD.date))
-#Author
-g.add((name, RDFS.domain, author))
-g.add((name, RDFS.range, XSD.string))
+#Human
+g.add((name_human, RDFS.domain, human))
+g.add((name_human, RDFS.range, XSD.string))
 #Volume
 g.add((year, RDFS.domain, volume))
 g.add((year, RDFS.range, XSD.integer))
@@ -132,22 +144,16 @@ g.add((startDate, RDFS.domain, proceeding))
 g.add((startDate, RDFS.range, XSD.date))
 g.add((endDate, RDFS.domain, proceeding))
 g.add((endDate, RDFS.range, XSD.date))
+#Venue
+g.add((name, RDFS.domain, venue))
+g.add((name, RDFS.range, XSD.string))
+g.add((issn, RDFS.domain, venue))
+g.add((issn, RDFS.range, XSD.string))
+g.add((url, RDFS.domain, venue))
+g.add((url, RDFS.range, XSD.string))
 #Conference
 g.add((conference_type, RDFS.domain, conference))
 g.add((conference_type, RDFS.range, XSD.string))
-g.add((name, RDFS.domain, conference))
-g.add((name, RDFS.range, XSD.string))
-g.add((issn, RDFS.domain, conference))
-g.add((issn, RDFS.range, XSD.string))
-g.add((url, RDFS.domain, conference))
-g.add((url, RDFS.range, XSD.string))
-#Journal
-g.add((name, RDFS.domain, journal))
-g.add((name, RDFS.range, XSD.string)) #Repeated if we name it the same as in confernces
-g.add((issn, RDFS.domain, journal))
-g.add((issn, RDFS.range, XSD.string)) #Repeated if we name it the same as in confernces
-g.add((url, RDFS.domain, journal))
-g.add((url, RDFS.range, XSD.string)) #Repeated if we name it the same as in confernces
 #Area
 g.add((area, RDFS.range, XSD.string))
 

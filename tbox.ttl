@@ -36,9 +36,6 @@ ex:handlesConference rdfs:domain ex:chair ;
 ex:handlesJournal rdfs:domain ex:editor ;
     rdfs:range ex:journal .
 
-ex:has rdfs:domain ex:venue ;
-    rdfs:range ex:paper .
-
 ex:hasReview rdfs:domain ex:paper ;
     rdfs:range ex:review .
 
@@ -51,13 +48,17 @@ ex:isRelatedTo rdfs:domain ex:conference,
         ex:paper ;
     rdfs:range ex:area .
 
-ex:issn rdfs:domain ex:conference,
-        ex:journal ;
+ex:isSubmittedTo rdfs:domain ex:paper ;
+    rdfs:range ex:conference,
+        ex:journal .
+
+ex:issn rdfs:domain ex:venue ;
     rdfs:range xsd:string .
 
-ex:name rdfs:domain ex:author,
-        ex:conference,
-        ex:journal ;
+ex:name rdfs:domain ex:venue ;
+    rdfs:range xsd:string .
+
+ex:name_human rdfs:domain ex:human ;
     rdfs:range xsd:string .
 
 ex:publicationDate rdfs:domain ex:publication ;
@@ -81,9 +82,8 @@ ex:type rdfs:domain ex:paper ;
 ex:updated rdfs:domain ex:paper ;
     rdfs:range xsd:dateTimeStamp .
 
-ex:url rdfs:domain ex:conference,
-        ex:journal,
-        ex:paper ;
+ex:url rdfs:domain ex:paper,
+        ex:venue ;
     rdfs:range xsd:string .
 
 ex:volumeNr rdfs:domain ex:volume ;
@@ -97,9 +97,15 @@ ex:year rdfs:domain ex:volume ;
 
 ex:area rdfs:range xsd:string .
 
+ex:author rdfs:subClassOf ex:human .
+
+ex:chair rdfs:subClassOf ex:human .
+
+ex:editor rdfs:subClassOf ex:human .
+
 ex:publication rdfs:subClassOf ex:paper .
 
-ex:reviewer rdfs:subClassOf ex:author .
+ex:reviewer rdfs:subClassOf ex:human .
 
 ex:journal rdfs:subClassOf ex:venue .
 

@@ -82,7 +82,7 @@ ex:0oegg4o0-hjuy-ui7x-qxo3-4yedoumhcoju a ex:volume ;
 
 ex:0rv4lpgd-7jxc-ijkz-l9p6-l56a4jrw62oe a ex:volume ;
     ex:fromJournal ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2 ;
-    ex:includes ex:163245903 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -200,8 +200,7 @@ ex:28863ddh-fbb9-z7nz-1pkf-3n5gjhglo8l2 a ex:volume ;
 
 ex:2ezq8z2z-l4pc-478j-oudd-orsztmtq3zaz a ex:volume ;
     ex:fromJournal ex:41bfda96-f67a-4623-976c-d573aa55dfd4 ;
-    ex:includes ex:191106316,
-        ex:246009114 ;
+    ex:includes ex:246009114 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -249,7 +248,6 @@ ex:37r8xu5e-9vbl-00y2-7stx-64o4vyfrupme a ex:volume ;
 
 ex:37sontm3-deq6-pa32-uh4c-r5kv77nwk0j0 a ex:volume ;
     ex:fromJournal ex:9f12bb35-cade-4b75-b689-860823fbf2cb ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -272,7 +270,6 @@ ex:3bgyp5u1-6b15-t7u3-0e9u-t2l7jg78srwu a ex:volume ;
 
 ex:3d1qymo8-9qyy-44tp-p089-psive15sct1s a ex:volume ;
     ex:fromJournal ex:98b33b54-deeb-4e36-9d52-02c86fbfd510 ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
@@ -329,9 +326,7 @@ ex:3oz5f1q1-f32k-3ag2-dwjo-30txncgx9q84 a ex:proceeding ;
 
 ex:3vjjxul6-poi3-iwev-bq5b-yqlnezwnxixj a ex:volume ;
     ex:fromJournal ex:7a2b9da8-de5a-48d9-b77b-781955a16084 ;
-    ex:includes ex:166697705,
-        ex:171903526,
-        ex:184226317,
+    ex:includes ex:184226317,
         ex:188059646 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
@@ -353,8 +348,7 @@ ex:43z31mbk-ujtc-snd8-fced-nuoo34ftbxw9 a ex:volume ;
 
 ex:44beoqnc-8ici-kj00-n13h-hdmmyib75jsn a ex:volume ;
     ex:fromJournal ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340 ;
-    ex:includes ex:184226317,
-        ex:191106316 ;
+    ex:includes ex:184226317 ;
     ex:volumeNr 2 ;
     ex:year 2021 .
 
@@ -453,7 +447,6 @@ ex:511920be-5v72-lm8x-nls9-4h7szn1x7fih a ex:volume ;
 
 ex:51s55hc5-2k2s-xnd0-fa71-zzxgm3ar3s8l a ex:volume ;
     ex:fromJournal ex:af9217e1-baa5-48b2-af0f-94eeaef5070f ;
-    ex:includes ex:191106316 ;
     ex:volumeNr 2 ;
     ex:year 2023 .
 
@@ -515,8 +508,6 @@ ex:5tovgf5n-f1oh-x2dp-a5o6-casuq1co17zi a ex:volume ;
 
 ex:5u8ds8ok-x63v-kjtn-qrz3-e853gem7889t a ex:volume ;
     ex:fromJournal ex:10360c14-66ed-4973-bdc6-338c7499845e ;
-    ex:includes ex:171903526,
-        ex:191106316 ;
     ex:volumeNr 2 ;
     ex:year 2020 .
 
@@ -643,7 +634,6 @@ ex:740bqno6-pc45-v9kv-7745-4jsvr4caxq8y a ex:volume ;
 
 ex:769iv6g8-xovf-r6pn-uqzc-6fm6mbmrofuf a ex:volume ;
     ex:fromJournal ex:924b5177-20b5-464c-84b2-0f813c7a83b9 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -689,7 +679,6 @@ ex:7i0nwhhu-ffmn-0idd-wkny-wfkovac70ixn a ex:volume ;
 
 ex:7mlq0slg-at9q-1fau-z0wt-35yjlf1fxnda a ex:volume ;
     ex:fromJournal ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -769,7 +758,6 @@ ex:8bidylwe-v3zu-bubs-gqin-b5dj6wlia7rl a ex:volume ;
 
 ex:8fhfzprd-n45u-dj2h-49lr-mouz6q9mo8rp a ex:volume ;
     ex:fromJournal ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 ;
-    ex:includes ex:191106316 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -850,7 +838,6 @@ ex:9h7ioalu-j3d8-zaw9-sw7w-cr4ijex5wao3 a ex:volume ;
 
 ex:9hlm451h-jlaw-6ig7-djmr-f4o5b7qat3yg a ex:volume ;
     ex:fromJournal ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
@@ -912,14 +899,12 @@ ex:9x96egi6-sd35-yd0e-m2ws-xvxhjb98ho1e a ex:proceeding ;
 
 ex:9xchluqm-6vp4-s89o-u5w1-w55dgy9i8s5e a ex:volume ;
     ex:fromJournal ex:c4906074-ce3f-48b7-bc22-2df39bb3e948 ;
-    ex:includes ex:171325798,
-        ex:171903526 ;
+    ex:includes ex:171325798 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
 ex:9zd2ut49-z4u8-o1pc-7fa4-18bwzlb7w0av a ex:volume ;
     ex:fromJournal ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -1315,7 +1300,7 @@ ex:accepted rdfs:domain ex:review ;
 
 ex:afuq7k9k-m9ha-91ue-eli8-pi4i4w670241 a ex:volume ;
     ex:fromJournal ex:c494f143-afa1-4343-9967-bd08727d8305 ;
-    ex:includes ex:171903526 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -1355,8 +1340,7 @@ ex:b1a70ilc-31vv-bgg0-k313-vwopbu82g2hg a ex:volume ;
 
 ex:b6kdw2h7-cd9z-7bmv-6qy6-6rlyak5316md a ex:volume ;
     ex:fromJournal ex:41bfda96-f67a-4623-976c-d573aa55dfd4 ;
-    ex:includes ex:166697705,
-        ex:178755305 ;
+    ex:includes ex:178755305 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -1428,7 +1412,6 @@ ex:bq4glcyu-90kk-vp6u-bxp2-k99ycplwl2jb a ex:proceeding ;
 
 ex:bqirl5lk-p7il-rz94-dy0q-uieo2tfxk0r3 a ex:volume ;
     ex:fromJournal ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -1503,7 +1486,6 @@ ex:cbnbgy9n-l23d-fahv-dc8r-s3fjryk3cu39 a ex:volume ;
 
 ex:cdpj31og-75cx-imob-ee68-6485smuzm7nm a ex:volume ;
     ex:fromJournal ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
@@ -1545,7 +1527,6 @@ ex:cv3hgazh-zauy-cc4w-fpof-35gqjqwad0o4 a ex:proceeding ;
 
 ex:d04yvlz1-gfcn-jitx-60qs-0l879faj7g3p a ex:volume ;
     ex:fromJournal ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2 ;
-    ex:includes ex:191106316 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -1600,6 +1581,7 @@ ex:doi rdfs:domain ex:paper ;
 
 ex:drga3ind-oe7o-dfpt-o1lt-r3fscte9ad7z a ex:volume ;
     ex:fromJournal ex:cd5f554f-e368-459a-b830-ceea0d8191fa ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -1655,19 +1637,16 @@ ex:e2bfr6eq-03vh-i3i8-t89u-5skmo3uef4p2 a ex:proceeding ;
 
 ex:e2bjnzc4-xaz1-ztuj-aard-43tuw57e53r6 a ex:volume ;
     ex:fromJournal ex:10360c14-66ed-4973-bdc6-338c7499845e ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
 ex:e3yvbmfx-awoz-86ds-5o84-lj82y3cai3mb a ex:volume ;
     ex:fromJournal ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87 ;
-    ex:includes ex:163245903 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
 ex:eiuaa7ia-o6x4-gvaq-lhtm-ynyvkjjmc3u4 a ex:volume ;
     ex:fromJournal ex:90f50ae1-d87f-4189-b415-849e96dd96f1 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 2 ;
     ex:year 2020 .
 
@@ -1686,7 +1665,6 @@ ex:entpno30-6pw5-i6al-597i-t8i4op657vlw a ex:proceeding ;
 
 ex:eo7pq787-1ibl-lm92-1ykz-pzj78gv6pnxx a ex:volume ;
     ex:fromJournal ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 1 ;
     ex:year 2023 .
 
@@ -1807,7 +1785,6 @@ ex:gl10qgsj-yctb-ly23-wp3a-c9ss0hrmjfqx a ex:volume ;
 
 ex:gqb69lo0-ut1w-7q7o-pxvv-q2njgihitdw7 a ex:volume ;
     ex:fromJournal ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -1863,9 +1840,6 @@ ex:handlesConference rdfs:domain ex:chair ;
 
 ex:handlesJournal rdfs:domain ex:editor ;
     rdfs:range ex:journal .
-
-ex:has rdfs:domain ex:venue ;
-    rdfs:range ex:paper .
 
 ex:hasReview rdfs:domain ex:paper ;
     rdfs:range ex:review .
@@ -1924,7 +1898,7 @@ ex:illofo1h-bhcf-fjax-k0oj-ecw17k47s4s1 a ex:proceeding ;
 
 ex:ilyf5k2f-1sd2-c95m-sqq9-m4tek3n2wjuy a ex:volume ;
     ex:fromJournal ex:5385d627-f38f-4f07-a1fb-840f1cf08c88 ;
-    ex:includes ex:163245903 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -1942,8 +1916,11 @@ ex:isRelatedTo rdfs:domain ex:conference,
         ex:paper ;
     rdfs:range ex:area .
 
-ex:issn rdfs:domain ex:conference,
-        ex:journal ;
+ex:isSubmittedTo rdfs:domain ex:paper ;
+    rdfs:range ex:conference,
+        ex:journal .
+
+ex:issn rdfs:domain ex:venue ;
     rdfs:range xsd:string .
 
 ex:itjhypba-ncsm-l0ey-6wee-9iknh36n2f5h a ex:proceeding ;
@@ -2021,7 +1998,6 @@ ex:jxyoy38l-tgua-n145-8kss-4baisih4itt4 a ex:proceeding ;
 
 ex:jyra5n9q-c3fw-ghg9-bssf-slbfeixtmq1s a ex:volume ;
     ex:fromJournal ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -2032,7 +2008,6 @@ ex:k4kx2wcl-iir8-vpwm-r4gd-hxnwa8shlr5g a ex:proceeding ;
 
 ex:k4ohl8tr-jn5u-hrsg-6wng-ubsjwl4bkz17 a ex:volume ;
     ex:fromJournal ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
-    ex:includes ex:191106316 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
@@ -2137,7 +2112,6 @@ ex:l744ynwb-grjl-h261-f0ca-8ifda5yhccyz a ex:proceeding ;
 
 ex:l925jhwo-9fwh-ydy8-80vf-b4x541gakrba a ex:volume ;
     ex:fromJournal ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8 ;
-    ex:includes ex:191106316 ;
     ex:volumeNr 2 ;
     ex:year 2021 .
 
@@ -2167,7 +2141,6 @@ ex:la1cdy5f-0yro-xi1k-9c0w-7mojaq1xt5rj a ex:proceeding ;
 
 ex:leqemmk7-fc4x-fyr2-k46r-4432r73zfi6n a ex:volume ;
     ex:fromJournal ex:26c4ed67-b7d5-4a46-8317-87decb51a69c ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -2188,7 +2161,6 @@ ex:lgigrhex-dqxi-q0fq-79h8-hvst2pafhg2y a ex:proceeding ;
 
 ex:lgotxrkt-8k74-9cts-sybe-8dwfqe8nc863 a ex:volume ;
     ex:fromJournal ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165 ;
-    ex:includes ex:191106316 ;
     ex:volumeNr 1 ;
     ex:year 2023 .
 
@@ -2242,7 +2214,7 @@ ex:m0aycbyk-mztk-6vzn-eowz-3n96j4d489yc a ex:volume ;
 
 ex:m5vg7wdz-crip-70wn-7edl-scppiet1ev3q a ex:volume ;
     ex:fromJournal ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8 ;
-    ex:includes ex:171903526 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
@@ -2281,8 +2253,7 @@ ex:molecular_biology a ex:area .
 
 ex:mqfhxlmf-e121-2c0d-gt6z-yvxwevlhb2z6 a ex:volume ;
     ex:fromJournal ex:3a9f67ab-f61c-45aa-a187-c08d4035728b ;
-    ex:includes ex:172111462,
-        ex:184226317 ;
+    ex:includes ex:184226317 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -2332,9 +2303,10 @@ ex:n4o8xqi1-gug2-9syt-1cs5-niqmvu4wvihf a ex:volume ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
-ex:name rdfs:domain ex:author,
-        ex:conference,
-        ex:journal ;
+ex:name rdfs:domain ex:venue ;
+    rdfs:range xsd:string .
+
+ex:name_human rdfs:domain ex:human ;
     rdfs:range xsd:string .
 
 ex:nd7bKN37mP a ex:chair ;
@@ -2445,7 +2417,6 @@ ex:ousarkx2-mv81-hnz7-b4v3-8rrq101jyy8y a ex:proceeding ;
 
 ex:ovig1uw0-8eek-qwh2-lykv-3b17bggjhwzz a ex:volume ;
     ex:fromJournal ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 2 ;
     ex:year 2020 .
 
@@ -2501,7 +2472,6 @@ ex:publicationDate rdfs:domain ex:publication ;
 
 ex:pucuc1d4-r49c-a6t7-vnz9-8oa7kdr10mrw a ex:volume ;
     ex:fromJournal ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 2 ;
     ex:year 2021 .
 
@@ -2561,13 +2531,11 @@ ex:qkmk7utq-4uwc-oouv-9qsm-mn9ok22wrwm6 a ex:proceeding ;
 
 ex:qr07i712-e8gc-t51d-krtt-0mu7teng4cs2 a ex:volume ;
     ex:fromJournal ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c ;
-    ex:includes ex:163245903 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
 ex:qrgbqmyk-th04-ukqq-gs9n-8pijn1lga4zg a ex:volume ;
     ex:fromJournal ex:7b328dcc-4ced-46c5-afe5-d4d091163176 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
@@ -2591,6 +2559,7 @@ ex:qukrotgr-x2oe-czm6-69jh-ytjzs4y0dxff a ex:proceeding ;
 
 ex:qw21hipb-5gu4-k65b-k0xc-jy11g9yv3hc4 a ex:volume ;
     ex:fromJournal ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -2712,7 +2681,8 @@ ex:rshhl5wj-xenw-e1h1-d2l6-pdn7klca9khp a ex:volume ;
 
 ex:rttc9658-73b3-6t59-6sm4-qli26mfyw9b5 a ex:volume ;
     ex:fromJournal ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6 ;
-    ex:includes ex:178755305 ;
+    ex:includes ex:168906647,
+        ex:178755305 ;
     ex:volumeNr 1 ;
     ex:year 2023 .
 
@@ -2748,13 +2718,11 @@ ex:s0hoh72b-zu1r-pj6a-icjf-zakau2f06lnv a ex:proceeding ;
 
 ex:s14q4ctv-74n7-uaz6-1857-0x6clf5qkvv9 a ex:volume ;
     ex:fromJournal ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
 ex:s5ya84y1-9m6t-gvj5-9j54-en0xsjdnk8e5 a ex:volume ;
     ex:fromJournal ex:9210d210-bca6-40ed-a5fe-580255c0b0e6 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 1 ;
     ex:year 2023 .
 
@@ -2770,14 +2738,12 @@ ex:sb65qmre-v7gr-q13o-89yi-3riudjmn5q7b a ex:volume ;
 
 ex:scljzy6k-ebh1-bzfj-zybn-a77efej7fw3w a ex:volume ;
     ex:fromJournal ex:47a190d9-bfa4-4158-852e-b9428312a19c ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
 ex:setf25vq-nag1-9xk3-qu4b-gd7hqf24tanb a ex:volume ;
     ex:fromJournal ex:1d52ca9d-7ba3-428b-870d-0370c28589f3 ;
-    ex:includes ex:191106316,
-        ex:246009114 ;
+    ex:includes ex:246009114 ;
     ex:volumeNr 1 ;
     ex:year 2023 .
 
@@ -2826,14 +2792,13 @@ ex:slsakc3t-zotb-tkk4-w5wg-fw1zc6qta962 a ex:proceeding ;
 ex:spj1tf7g-rd0o-4sct-xssj-tf2sfxeqmme8 a ex:volume ;
     ex:fromJournal ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c ;
     ex:includes ex:160964077,
-        ex:172111462,
+        ex:168906647,
         ex:178755305 ;
     ex:volumeNr 1 ;
     ex:year 2023 .
 
 ex:sqow5jjv-x72p-yt9q-7r4n-o7at8cse8ckc a ex:volume ;
     ex:fromJournal ex:7a2b9da8-de5a-48d9-b77b-781955a16084 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -2892,7 +2857,6 @@ ex:tb448uuw-ans4-1cu3-802z-yl2owaq2gnz7 a ex:volume ;
 
 ex:tdm3f845-o7qq-0s35-hzp7-gaapl5vga92u a ex:volume ;
     ex:fromJournal ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -3008,9 +2972,8 @@ ex:upuntc1l-u8f6-c4sb-suwq-6h57n8tkmioq a ex:volume ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
-ex:url rdfs:domain ex:conference,
-        ex:journal,
-        ex:paper ;
+ex:url rdfs:domain ex:paper,
+        ex:venue ;
     rdfs:range xsd:string .
 
 ex:urm46f0y-yjd3-3ign-4wsv-hxyzte1f3322 a ex:volume ;
@@ -3130,6 +3093,7 @@ ex:w3e87ofi-3dr7-8jpn-vwvd-9u0ectp6odq9 a ex:proceeding ;
 
 ex:w4jhjfgi-pbyc-toh7-gkee-x61qriuuhuat a ex:volume ;
     ex:fromJournal ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 2 ;
     ex:year 2021 .
 
@@ -3161,13 +3125,11 @@ ex:w8cchwmr-e6s0-gjbc-avok-3eagocc38l0q a ex:proceeding ;
 
 ex:w8zrh0vl-42xu-cxvl-2y71-f9jldpmjkljn a ex:volume ;
     ex:fromJournal ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773 ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 2 ;
     ex:year 2021 .
 
 ex:wa3zt39g-orzi-xrz0-pvf0-pcopg9n1ueg8 a ex:volume ;
     ex:fromJournal ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4 ;
-    ex:includes ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -3184,7 +3146,6 @@ ex:wbki7i94-a50s-3phm-2w7s-t6lgjio3r0bv a ex:proceeding ;
 
 ex:wdmoa74b-18cz-xjqy-wslp-u2iplkbpnjbf a ex:volume ;
     ex:fromJournal ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
@@ -3324,8 +3285,6 @@ ex:xl8t0e3s-gsve-ltcs-0pu7-hj7olehyn0kh a ex:volume ;
 
 ex:xmba8sqj-bd7f-veyo-plsc-8lpthju3bfze a ex:volume ;
     ex:fromJournal ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b ;
-    ex:includes ex:166697705,
-        ex:172111462 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -3368,20 +3327,18 @@ ex:y5f8qcsl-2jdi-vhiq-j4jh-x8375ufcaxl5 a ex:volume ;
 
 ex:y813lsj7-1vg1-lqlk-ojlg-cyxmgs9sz9rh a ex:volume ;
     ex:fromJournal ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c ;
-    ex:includes ex:163245903,
-        ex:187609691 ;
+    ex:includes ex:187609691 ;
     ex:volumeNr 1 ;
     ex:year 2022 .
 
 ex:yd0y6ql9-yxes-hq6u-dydy-tg3up2r2wp36 a ex:volume ;
     ex:fromJournal ex:924b5177-20b5-464c-84b2-0f813c7a83b9 ;
-    ex:includes ex:171903526 ;
     ex:volumeNr 1 ;
     ex:year 2021 .
 
 ex:ydw5hua0-l5k5-my7y-auqz-k6r2lbjtw8vs a ex:volume ;
     ex:fromJournal ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5 ;
-    ex:includes ex:191106316 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 1 ;
     ex:year 2020 .
 
@@ -3410,6 +3367,7 @@ ex:ylh1o6v5-m2iv-lb6f-fcmd-2xmga61xya00 a ex:proceeding ;
 
 ex:ymfgp606-459h-g8o7-hysb-y1x9ol7yf284 a ex:volume ;
     ex:fromJournal ex:90f50ae1-d87f-4189-b415-849e96dd96f1 ;
+    ex:includes ex:168906647 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -3457,7 +3415,6 @@ ex:z3b1unrm-ltnn-9hk8-0kjz-8874q2czgirf a ex:volume ;
 
 ex:z80zs5yj-uio9-mqci-6m89-q4x3dd7bxr1g a ex:volume ;
     ex:fromJournal ex:4a3eb43b-e335-492f-bb9c-1413cca299d4 ;
-    ex:includes ex:166697705 ;
     ex:volumeNr 2 ;
     ex:year 2022 .
 
@@ -3536,7 +3493,7 @@ ex:zyz5wfux-1ao0-ghc1-40qc-9ovce6xxmxep a ex:proceeding ;
 
 ex:101017575 a ex:author,
         ex:reviewer ;
-    ex:name_author "Firman Suryadi"^^xsd:string ;
+    ex:name_human "Firman Suryadi"^^xsd:string ;
     ex:reviews ex:167439579,
         ex:187652919 ;
     ex:submits ex:167439579-101017575,
@@ -3546,7 +3503,7 @@ ex:101017575 a ex:author,
 
 ex:101367559 a ex:author,
         ex:reviewer ;
-    ex:name_author "Ж. Э. Байрачная"^^xsd:string ;
+    ex:name_human "Ж. Э. Байрачная"^^xsd:string ;
     ex:reviews ex:110184512,
         ex:169100438 ;
     ex:submits ex:110184512-101367559,
@@ -3558,7 +3515,7 @@ ex:101367559 a ex:author,
 
 ex:102147990 a ex:author,
         ex:reviewer ;
-    ex:name_author "刘相杰"^^xsd:string ;
+    ex:name_human "刘相杰"^^xsd:string ;
     ex:reviews ex:110184512,
         ex:159212743,
         ex:162029619,
@@ -3575,7 +3532,7 @@ ex:102147990 a ex:author,
         ex:64797097 .
 
 ex:102416739 a ex:author ;
-    ex:name_author "A. В. Юров"^^xsd:string ;
+    ex:name_human "A. В. Юров"^^xsd:string ;
     ex:writes ex:110184512,
         ex:180368883,
         ex:182958528,
@@ -3584,7 +3541,7 @@ ex:102416739 a ex:author ;
         ex:203504437 .
 
 ex:103219250 a ex:author ;
-    ex:name_author "Y. Koyama"^^xsd:string ;
+    ex:name_human "Y. Koyama"^^xsd:string ;
     ex:writes ex:172111462,
         ex:174171849,
         ex:181248569,
@@ -3593,7 +3550,7 @@ ex:103219250 a ex:author ;
 
 ex:103975134 a ex:author,
         ex:reviewer ;
-    ex:name_author "Nuke Sabilawati"^^xsd:string ;
+    ex:name_human "Nuke Sabilawati"^^xsd:string ;
     ex:reviews ex:213814050 ;
     ex:submits ex:213814050-103975134 ;
     ex:writes ex:168785648,
@@ -3601,14 +3558,14 @@ ex:103975134 a ex:author,
         ex:236062113 .
 
 ex:105003095 a ex:author ;
-    ex:name_author "Pierre André Owana Ndongo"^^xsd:string ;
+    ex:name_human "Pierre André Owana Ndongo"^^xsd:string ;
     ex:writes ex:173612339,
         ex:178684730,
         ex:181543681,
         ex:203504437 .
 
 ex:115244026 a ex:author ;
-    ex:name_author "T. KhanChristina"^^xsd:string ;
+    ex:name_human "T. KhanChristina"^^xsd:string ;
     ex:writes ex:172832805,
         ex:179949795,
         ex:192650398,
@@ -3616,7 +3573,7 @@ ex:115244026 a ex:author ;
         ex:233364818 .
 
 ex:117072575 a ex:author ;
-    ex:name_author "Leke Sunday"^^xsd:string ;
+    ex:name_human "Leke Sunday"^^xsd:string ;
     ex:writes ex:179649521,
         ex:181543681,
         ex:182967188,
@@ -3624,7 +3581,7 @@ ex:117072575 a ex:author ;
 
 ex:119887786 a ex:author,
         ex:reviewer ;
-    ex:name_author "Arslinda Dwi Pratiwi"^^xsd:string ;
+    ex:name_human "Arslinda Dwi Pratiwi"^^xsd:string ;
     ex:reviews ex:182160933,
         ex:233364818 ;
     ex:submits ex:182160933-119887786,
@@ -3635,7 +3592,7 @@ ex:119887786 a ex:author,
 
 ex:121585625 a ex:author,
         ex:reviewer ;
-    ex:name_author "G. Derrier"^^xsd:string ;
+    ex:name_human "G. Derrier"^^xsd:string ;
     ex:reviews ex:178858477 ;
     ex:submits ex:178858477-121585625 ;
     ex:writes ex:161014320,
@@ -3644,7 +3601,7 @@ ex:121585625 a ex:author,
 
 ex:121783265 a ex:author,
         ex:reviewer ;
-    ex:name_author "I. Kiyan"^^xsd:string ;
+    ex:name_human "I. Kiyan"^^xsd:string ;
     ex:reviews ex:159894344,
         ex:177163529,
         ex:184226317,
@@ -3658,12 +3615,12 @@ ex:121783265 a ex:author,
     ex:writes ex:221658971 .
 
 ex:122431363 a ex:author ;
-    ex:name_author "Oskar Hubatsch"^^xsd:string ;
+    ex:name_human "Oskar Hubatsch"^^xsd:string ;
     ex:writes ex:211992081 .
 
 ex:122841322 a ex:author,
         ex:reviewer ;
-    ex:name_author "Ελπίδα Κατσιώλη"^^xsd:string ;
+    ex:name_human "Ελπίδα Κατσιώλη"^^xsd:string ;
     ex:reviews ex:159894344,
         ex:163245903,
         ex:176697133,
@@ -3681,7 +3638,7 @@ ex:122841322 a ex:author,
 
 ex:13064652 a ex:author,
         ex:reviewer ;
-    ex:name_author "A. Vocílková"^^xsd:string ;
+    ex:name_human "A. Vocílková"^^xsd:string ;
     ex:reviews ex:189276670 ;
     ex:submits ex:189276670-13064652 ;
     ex:writes ex:180547178,
@@ -3689,7 +3646,7 @@ ex:13064652 a ex:author,
         ex:211992081 .
 
 ex:133937740 a ex:author ;
-    ex:name_author "F. Albert"^^xsd:string ;
+    ex:name_human "F. Albert"^^xsd:string ;
     ex:writes ex:180139250,
         ex:185872534,
         ex:192584315,
@@ -3699,7 +3656,7 @@ ex:133937740 a ex:author ;
 
 ex:134791480 a ex:author,
         ex:reviewer ;
-    ex:name_author "Tubau Iván"^^xsd:string ;
+    ex:name_human "Tubau Iván"^^xsd:string ;
     ex:reviews ex:161317546,
         ex:162433415,
         ex:172832805 ;
@@ -3712,7 +3669,7 @@ ex:134791480 a ex:author,
 
 ex:135267337 a ex:author,
         ex:reviewer ;
-    ex:name_author "中山 正民"^^xsd:string ;
+    ex:name_human "中山 正民"^^xsd:string ;
     ex:reviews ex:161014320,
         ex:189615356,
         ex:213814050,
@@ -3725,7 +3682,7 @@ ex:135267337 a ex:author,
         ex:157594369 .
 
 ex:13880511 a ex:author ;
-    ex:name_author "Démiana William Faltaos"^^xsd:string ;
+    ex:name_human "Démiana William Faltaos"^^xsd:string ;
     ex:writes ex:165054883,
         ex:168906647,
         ex:171188162,
@@ -3734,7 +3691,7 @@ ex:13880511 a ex:author ;
 
 ex:1396536635 a ex:author,
         ex:reviewer ;
-    ex:name_author "Mateus Soares Kellermann"^^xsd:string ;
+    ex:name_human "Mateus Soares Kellermann"^^xsd:string ;
     ex:reviews ex:172832805,
         ex:188059646,
         ex:189276670,
@@ -3749,7 +3706,7 @@ ex:1396536635 a ex:author,
         ex:192486022 .
 
 ex:1409266005 a ex:author ;
-    ex:name_author "Marion Kesmaecker"^^xsd:string ;
+    ex:name_human "Marion Kesmaecker"^^xsd:string ;
     ex:writes ex:161014320,
         ex:169100438,
         ex:183446688,
@@ -3757,7 +3714,7 @@ ex:1409266005 a ex:author ;
 
 ex:1414035704 a ex:author,
         ex:reviewer ;
-    ex:name_author "U·金金巴奇"^^xsd:string ;
+    ex:name_human "U·金金巴奇"^^xsd:string ;
     ex:reviews ex:180332324,
         ex:229751191 ;
     ex:submits ex:180332324-1414035704,
@@ -3768,7 +3725,7 @@ ex:1414035704 a ex:author,
 
 ex:1431923855 a ex:author,
         ex:reviewer ;
-    ex:name_author "Paget Jf"^^xsd:string ;
+    ex:name_human "Paget Jf"^^xsd:string ;
     ex:reviews ex:220171483 ;
     ex:submits ex:220171483-1431923855 ;
     ex:writes ex:166697705,
@@ -3777,7 +3734,7 @@ ex:1431923855 a ex:author,
 
 ex:143975798 a ex:author,
         ex:reviewer ;
-    ex:name_author "R. T. Hennessy"^^xsd:string ;
+    ex:name_human "R. T. Hennessy"^^xsd:string ;
     ex:reviews ex:159894344,
         ex:221658971,
         ex:222186672 ;
@@ -3788,7 +3745,7 @@ ex:143975798 a ex:author,
 
 ex:145193808 a ex:author,
         ex:reviewer ;
-    ex:name_author "H. Humphrey"^^xsd:string ;
+    ex:name_human "H. Humphrey"^^xsd:string ;
     ex:reviews ex:188059646,
         ex:203504437 ;
     ex:submits ex:188059646-145193808,
@@ -3798,14 +3755,14 @@ ex:145193808 a ex:author,
 
 ex:14590594 a ex:author,
         ex:reviewer ;
-    ex:name_author "V. N. Primudrova"^^xsd:string ;
+    ex:name_human "V. N. Primudrova"^^xsd:string ;
     ex:reviews ex:173678903 ;
     ex:submits ex:173678903-14590594 ;
     ex:writes ex:192650398 .
 
 ex:146977915 a ex:author,
         ex:reviewer ;
-    ex:name_author "Iinovi. Juandiati"^^xsd:string ;
+    ex:name_human "Iinovi. Juandiati"^^xsd:string ;
     ex:reviews ex:168906647,
         ex:171903526,
         ex:180016089,
@@ -3820,7 +3777,7 @@ ex:146977915 a ex:author,
 
 ex:1478581801 a ex:author,
         ex:reviewer ;
-    ex:name_author "Ramon Bruguerra"^^xsd:string ;
+    ex:name_human "Ramon Bruguerra"^^xsd:string ;
     ex:reviews ex:167439579,
         ex:178858477,
         ex:194092568,
@@ -3838,7 +3795,7 @@ ex:1478581801 a ex:author,
 
 ex:147965377 a ex:author,
         ex:reviewer ;
-    ex:name_author "Rionaldi Rudyputra"^^xsd:string ;
+    ex:name_human "Rionaldi Rudyputra"^^xsd:string ;
     ex:reviews ex:126089984,
         ex:183655203 ;
     ex:submits ex:126089984-147965377,
@@ -3852,7 +3809,7 @@ ex:147965377 a ex:author,
 
 ex:1485468698 a ex:author,
         ex:reviewer ;
-    ex:name_author "罗杰·D·麦坎伯"^^xsd:string ;
+    ex:name_human "罗杰·D·麦坎伯"^^xsd:string ;
     ex:reviews ex:178755305 ;
     ex:submits ex:178755305-1485468698 ;
     ex:writes ex:109900804,
@@ -3863,7 +3820,7 @@ ex:1485468698 a ex:author,
 
 ex:148592514 a ex:author,
         ex:reviewer ;
-    ex:name_author "Островерхов Александр Григорьевич"^^xsd:string ;
+    ex:name_human "Островерхов Александр Григорьевич"^^xsd:string ;
     ex:reviews ex:178684730 ;
     ex:submits ex:178684730-148592514 ;
     ex:writes ex:179949795,
@@ -3871,7 +3828,7 @@ ex:148592514 a ex:author,
 
 ex:148613475 a ex:author,
         ex:reviewer ;
-    ex:name_author "Сарафанова Анна Александровна"^^xsd:string ;
+    ex:name_human "Сарафанова Анна Александровна"^^xsd:string ;
     ex:reviews ex:172832805,
         ex:214235867 ;
     ex:submits ex:172832805-148613475,
@@ -3882,7 +3839,7 @@ ex:148613475 a ex:author,
 
 ex:150134500 a ex:author,
         ex:reviewer ;
-    ex:name_author "Isyatirradhiah Isyatirradhiah"^^xsd:string ;
+    ex:name_human "Isyatirradhiah Isyatirradhiah"^^xsd:string ;
     ex:reviews ex:181693884,
         ex:182967188 ;
     ex:submits ex:181693884-150134500,
@@ -3892,7 +3849,7 @@ ex:150134500 a ex:author,
         ex:183446688 .
 
 ex:1514156310 a ex:author ;
-    ex:name_author "F. Duff"^^xsd:string ;
+    ex:name_human "F. Duff"^^xsd:string ;
     ex:writes ex:145853584,
         ex:173612339,
         ex:173678903,
@@ -3901,7 +3858,7 @@ ex:1514156310 a ex:author ;
 
 ex:152666964 a ex:author,
         ex:reviewer ;
-    ex:name_author "S. E. Fernández"^^xsd:string ;
+    ex:name_human "S. E. Fernández"^^xsd:string ;
     ex:reviews ex:173678903 ;
     ex:submits ex:173678903-152666964 ;
     ex:writes ex:182958528,
@@ -3909,7 +3866,7 @@ ex:152666964 a ex:author,
 
 ex:16178356 a ex:author,
         ex:reviewer ;
-    ex:name_author "Pogodin YuS"^^xsd:string ;
+    ex:name_human "Pogodin YuS"^^xsd:string ;
     ex:reviews ex:172111462,
         ex:180368883 ;
     ex:submits ex:172111462-16178356,
@@ -3924,7 +3881,7 @@ ex:16178356 a ex:author,
 
 ex:1693719029 a ex:author,
         ex:reviewer ;
-    ex:name_author "Oscar Cantos Casquete"^^xsd:string ;
+    ex:name_human "Oscar Cantos Casquete"^^xsd:string ;
     ex:reviews ex:186138964,
         ex:187221758,
         ex:194092568 ;
@@ -3936,7 +3893,7 @@ ex:1693719029 a ex:author,
 
 ex:1998634153 a ex:author,
         ex:reviewer ;
-    ex:name_author "戴云超"^^xsd:string ;
+    ex:name_human "戴云超"^^xsd:string ;
     ex:reviews ex:163583508,
         ex:187652919,
         ex:199910086 ;
@@ -3948,7 +3905,7 @@ ex:1998634153 a ex:author,
 
 ex:2043169608 a ex:author,
         ex:reviewer ;
-    ex:name_author "廖启泰"^^xsd:string ;
+    ex:name_human "廖启泰"^^xsd:string ;
     ex:reviews ex:168906647,
         ex:173612339,
         ex:176790486 ;
@@ -3960,7 +3917,7 @@ ex:2043169608 a ex:author,
 
 ex:2046668139 a ex:author,
         ex:reviewer ;
-    ex:name_author "蒋天琳"^^xsd:string ;
+    ex:name_human "蒋天琳"^^xsd:string ;
     ex:reviews ex:199910086,
         ex:223988116 ;
     ex:submits ex:199910086-2046668139,
@@ -3970,7 +3927,7 @@ ex:2046668139 a ex:author,
 
 ex:2052046787 a ex:author,
         ex:reviewer ;
-    ex:name_author "A. Mendes"^^xsd:string ;
+    ex:name_human "A. Mendes"^^xsd:string ;
     ex:reviews ex:165054883 ;
     ex:submits ex:165054883-2052046787 ;
     ex:writes ex:168906647,
@@ -3979,7 +3936,7 @@ ex:2052046787 a ex:author,
 
 ex:2055533369 a ex:author,
         ex:reviewer ;
-    ex:name_author "和子 山岡"^^xsd:string ;
+    ex:name_human "和子 山岡"^^xsd:string ;
     ex:reviews ex:157091040,
         ex:163583508 ;
     ex:submits ex:157091040-2055533369,
@@ -3990,7 +3947,7 @@ ex:2055533369 a ex:author,
 
 ex:2064735628 a ex:author,
         ex:reviewer ;
-    ex:name_author "Carlos Cruz de Castro"^^xsd:string ;
+    ex:name_human "Carlos Cruz de Castro"^^xsd:string ;
     ex:reviews ex:168785648,
         ex:189276670,
         ex:236770002 ;
@@ -4001,14 +3958,14 @@ ex:2064735628 a ex:author,
 
 ex:2067320977 a ex:author,
         ex:reviewer ;
-    ex:name_author "Oliver Keyes"^^xsd:string ;
+    ex:name_human "Oliver Keyes"^^xsd:string ;
     ex:reviews ex:131679379 ;
     ex:submits ex:131679379-2067320977 ;
     ex:writes ex:214235867 .
 
 ex:2067594712 a ex:author,
         ex:reviewer ;
-    ex:name_author "Warren Michael Levy"^^xsd:string ;
+    ex:name_human "Warren Michael Levy"^^xsd:string ;
     ex:reviews ex:198485941 ;
     ex:submits ex:198485941-2067594712 ;
     ex:writes ex:131679379,
@@ -4017,7 +3974,7 @@ ex:2067594712 a ex:author,
 
 ex:2073082007 a ex:author,
         ex:reviewer ;
-    ex:name_author "Kamaruddin Salim"^^xsd:string ;
+    ex:name_human "Kamaruddin Salim"^^xsd:string ;
     ex:reviews ex:171188162 ;
     ex:submits ex:171188162-2073082007 ;
     ex:writes ex:115925191,
@@ -4025,7 +3982,7 @@ ex:2073082007 a ex:author,
 
 ex:2075582758 a ex:author,
         ex:reviewer ;
-    ex:name_author "D. Boshoff"^^xsd:string ;
+    ex:name_human "D. Boshoff"^^xsd:string ;
     ex:reviews ex:171866470,
         ex:174171849,
         ex:176697133,
@@ -4037,7 +3994,7 @@ ex:2075582758 a ex:author,
 
 ex:2077232750 a ex:author,
         ex:reviewer ;
-    ex:name_author "Cristina Higuera"^^xsd:string ;
+    ex:name_human "Cristina Higuera"^^xsd:string ;
     ex:reviews ex:166697705,
         ex:193828225 ;
     ex:submits ex:166697705-2077232750,
@@ -4047,7 +4004,7 @@ ex:2077232750 a ex:author,
 
 ex:2077347087 a ex:author,
         ex:reviewer ;
-    ex:name_author "John Roote"^^xsd:string ;
+    ex:name_human "John Roote"^^xsd:string ;
     ex:reviews ex:160964077,
         ex:211360706 ;
     ex:submits ex:160964077-2077347087,
@@ -4059,7 +4016,7 @@ ex:2077347087 a ex:author,
 
 ex:2078702342 a ex:author,
         ex:reviewer ;
-    ex:name_author "Á. E. Garrido-Maturano"^^xsd:string ;
+    ex:name_human "Á. E. Garrido-Maturano"^^xsd:string ;
     ex:reviews ex:109900804,
         ex:180547178,
         ex:211360706,
@@ -4073,7 +4030,7 @@ ex:2078702342 a ex:author,
 
 ex:2079741014 a ex:author,
         ex:reviewer ;
-    ex:name_author "Al Waely"^^xsd:string ;
+    ex:name_human "Al Waely"^^xsd:string ;
     ex:reviews ex:165429097 ;
     ex:submits ex:165429097-2079741014 ;
     ex:writes ex:110184512,
@@ -4084,7 +4041,7 @@ ex:2079741014 a ex:author,
 
 ex:2081153906 a ex:author,
         ex:reviewer ;
-    ex:name_author "Chaitra. G. Maragal"^^xsd:string ;
+    ex:name_human "Chaitra. G. Maragal"^^xsd:string ;
     ex:reviews ex:182160933,
         ex:198485941 ;
     ex:submits ex:182160933-2081153906,
@@ -4093,7 +4050,7 @@ ex:2081153906 a ex:author,
 
 ex:2084179734 a ex:author,
         ex:reviewer ;
-    ex:name_author "Gunde Gassner-Keita"^^xsd:string ;
+    ex:name_human "Gunde Gassner-Keita"^^xsd:string ;
     ex:reviews ex:181248569,
         ex:181693884 ;
     ex:submits ex:181248569-2084179734,
@@ -4103,7 +4060,7 @@ ex:2084179734 a ex:author,
 
 ex:2091352504 a ex:author,
         ex:reviewer ;
-    ex:name_author "П. В. Фурсиков"^^xsd:string ;
+    ex:name_human "П. В. Фурсиков"^^xsd:string ;
     ex:reviews ex:162433415,
         ex:165054883,
         ex:180139250 ;
@@ -4114,7 +4071,7 @@ ex:2091352504 a ex:author,
 
 ex:2096345855 a ex:author,
         ex:reviewer ;
-    ex:name_author "長岡 英司"^^xsd:string ;
+    ex:name_human "長岡 英司"^^xsd:string ;
     ex:reviews ex:179649521 ;
     ex:submits ex:179649521-2096345855 ;
     ex:writes ex:171903526,
@@ -4123,14 +4080,14 @@ ex:2096345855 a ex:author,
 
 ex:2097215416 a ex:author,
         ex:reviewer ;
-    ex:name_author "T. Zieger"^^xsd:string ;
+    ex:name_human "T. Zieger"^^xsd:string ;
     ex:reviews ex:161014320 ;
     ex:submits ex:161014320-2097215416 ;
     ex:writes ex:168785648 .
 
 ex:2100067713 a ex:author,
         ex:reviewer ;
-    ex:name_author "足立 勉"^^xsd:string ;
+    ex:name_human "足立 勉"^^xsd:string ;
     ex:reviews ex:172179682,
         ex:174171849,
         ex:187609691,
@@ -4144,7 +4101,7 @@ ex:2100067713 a ex:author,
 
 ex:2100667744 a ex:author,
         ex:reviewer ;
-    ex:name_author "Srinivas vv"^^xsd:string ;
+    ex:name_human "Srinivas vv"^^xsd:string ;
     ex:reviews ex:171903526,
         ex:178858477 ;
     ex:submits ex:171903526-2100667744,
@@ -4156,7 +4113,7 @@ ex:2100667744 a ex:author,
 
 ex:2103184981 a ex:author,
         ex:reviewer ;
-    ex:name_author "NA Gori Ivanici"^^xsd:string ;
+    ex:name_human "NA Gori Ivanici"^^xsd:string ;
     ex:reviews ex:182967188,
         ex:224597913 ;
     ex:submits ex:182967188-2103184981,
@@ -4167,7 +4124,7 @@ ex:2103184981 a ex:author,
         ex:223680107 .
 
 ex:2104999739 a ex:author ;
-    ex:name_author "Kara-Anne Yaren"^^xsd:string ;
+    ex:name_human "Kara-Anne Yaren"^^xsd:string ;
     ex:writes ex:145853584,
         ex:165054883,
         ex:171866470,
@@ -4177,7 +4134,7 @@ ex:2104999739 a ex:author ;
 
 ex:2105886067 a ex:author,
         ex:reviewer ;
-    ex:name_author "J. Peterson"^^xsd:string ;
+    ex:name_human "J. Peterson"^^xsd:string ;
     ex:reviews ex:187652919,
         ex:223450973 ;
     ex:submits ex:187652919-2105886067,
@@ -4188,7 +4145,7 @@ ex:2105886067 a ex:author,
 
 ex:2105954179 a ex:author,
         ex:reviewer ;
-    ex:name_author "Z. McNeill"^^xsd:string ;
+    ex:name_human "Z. McNeill"^^xsd:string ;
     ex:reviews ex:192650398,
         ex:233364818 ;
     ex:submits ex:192650398-2105954179,
@@ -4199,7 +4156,7 @@ ex:2105954179 a ex:author,
 
 ex:2111149699 a ex:author,
         ex:reviewer ;
-    ex:name_author "Yi-Rong Li"^^xsd:string ;
+    ex:name_human "Yi-Rong Li"^^xsd:string ;
     ex:reviews ex:166697705,
         ex:193828225 ;
     ex:submits ex:166697705-2111149699,
@@ -4208,7 +4165,7 @@ ex:2111149699 a ex:author,
 
 ex:2130826928 a ex:author,
         ex:reviewer ;
-    ex:name_author "V. I. Diakov"^^xsd:string ;
+    ex:name_human "V. I. Diakov"^^xsd:string ;
     ex:reviews ex:158594015,
         ex:186138964,
         ex:189521017 ;
@@ -4221,17 +4178,17 @@ ex:2130826928 a ex:author,
         ex:171325798 .
 
 ex:2133000440 a ex:author ;
-    ex:name_author "Karina Almeida Moura"^^xsd:string ;
+    ex:name_human "Karina Almeida Moura"^^xsd:string ;
     ex:writes ex:180368883,
         ex:199847329 .
 
 ex:2134056998 a ex:author ;
-    ex:name_author "A. Y. Samoilov"^^xsd:string ;
+    ex:name_human "A. Y. Samoilov"^^xsd:string ;
     ex:writes ex:194092568 .
 
 ex:2138485499 a ex:author,
         ex:reviewer ;
-    ex:name_author "祯 李"^^xsd:string ;
+    ex:name_human "祯 李"^^xsd:string ;
     ex:reviews ex:171866470,
         ex:222186672 ;
     ex:submits ex:171866470-2138485499,
@@ -4243,7 +4200,7 @@ ex:2138485499 a ex:author,
 
 ex:2138899517 a ex:author,
         ex:reviewer ;
-    ex:name_author "D. Zhesnkhan"^^xsd:string ;
+    ex:name_human "D. Zhesnkhan"^^xsd:string ;
     ex:reviews ex:180332324 ;
     ex:submits ex:180332324-2138899517 ;
     ex:writes ex:158594015,
@@ -4251,7 +4208,7 @@ ex:2138899517 a ex:author,
 
 ex:2146302858 a ex:author,
         ex:reviewer ;
-    ex:name_author "Ling Zhang"^^xsd:string ;
+    ex:name_human "Ling Zhang"^^xsd:string ;
     ex:reviews ex:131679379,
         ex:223680107 ;
     ex:submits ex:131679379-2146302858,
@@ -4260,7 +4217,7 @@ ex:2146302858 a ex:author,
 
 ex:2158554218 a ex:author,
         ex:reviewer ;
-    ex:name_author "Ana Maria Copetti Maccagnan"^^xsd:string ;
+    ex:name_human "Ana Maria Copetti Maccagnan"^^xsd:string ;
     ex:reviews ex:131679379,
         ex:176571933,
         ex:182958528,
@@ -4274,7 +4231,7 @@ ex:2158554218 a ex:author,
 
 ex:2162899653 a ex:author,
         ex:reviewer ;
-    ex:name_author "ريم الكندي"^^xsd:string ;
+    ex:name_human "ريم الكندي"^^xsd:string ;
     ex:reviews ex:176790486 ;
     ex:submits ex:176790486-2162899653 ;
     ex:writes ex:177163529,
@@ -4283,7 +4240,7 @@ ex:2162899653 a ex:author,
 
 ex:2164949231 a ex:author,
         ex:reviewer ;
-    ex:name_author "Joanna Ochoa"^^xsd:string ;
+    ex:name_human "Joanna Ochoa"^^xsd:string ;
     ex:reviews ex:172111462,
         ex:179949795 ;
     ex:submits ex:172111462-2164949231,
@@ -4295,7 +4252,7 @@ ex:2164949231 a ex:author,
 
 ex:2167972193 a ex:author,
         ex:reviewer ;
-    ex:name_author "B. Sherbekov"^^xsd:string ;
+    ex:name_human "B. Sherbekov"^^xsd:string ;
     ex:reviews ex:172111462,
         ex:176571933,
         ex:230626278 ;
@@ -4308,7 +4265,7 @@ ex:2167972193 a ex:author,
 
 ex:2168630911 a ex:author,
         ex:reviewer ;
-    ex:name_author "Larisa Renteria"^^xsd:string ;
+    ex:name_human "Larisa Renteria"^^xsd:string ;
     ex:reviews ex:172179682,
         ex:176790486 ;
     ex:submits ex:172179682-2168630911,
@@ -4318,7 +4275,7 @@ ex:2168630911 a ex:author,
 
 ex:2186485267 a ex:author,
         ex:reviewer ;
-    ex:name_author "H.J. Weggeman"^^xsd:string ;
+    ex:name_human "H.J. Weggeman"^^xsd:string ;
     ex:reviews ex:163245903,
         ex:185872534 ;
     ex:submits ex:163245903-2186485267,
@@ -4328,7 +4285,7 @@ ex:2186485267 a ex:author,
 
 ex:2188219626 a ex:author,
         ex:reviewer ;
-    ex:name_author "Chanon Laowanichwith"^^xsd:string ;
+    ex:name_human "Chanon Laowanichwith"^^xsd:string ;
     ex:reviews ex:171325798,
         ex:211360706 ;
     ex:submits ex:171325798-2188219626,
@@ -4337,7 +4294,7 @@ ex:2188219626 a ex:author,
 
 ex:2188951687 a ex:author,
         ex:reviewer ;
-    ex:name_author "Rilwan Usman"^^xsd:string ;
+    ex:name_human "Rilwan Usman"^^xsd:string ;
     ex:reviews ex:157594369,
         ex:163651584 ;
     ex:submits ex:157594369-2188951687,
@@ -4345,7 +4302,7 @@ ex:2188951687 a ex:author,
 
 ex:2198810921 a ex:author,
         ex:reviewer ;
-    ex:name_author "Tsz Kin Ng"^^xsd:string ;
+    ex:name_human "Tsz Kin Ng"^^xsd:string ;
     ex:reviews ex:145853584,
         ex:184226317,
         ex:223450973,
@@ -4365,7 +4322,7 @@ ex:2198810921 a ex:author,
 
 ex:25842431 a ex:author,
         ex:reviewer ;
-    ex:name_author "Jeffrey Worn"^^xsd:string ;
+    ex:name_human "Jeffrey Worn"^^xsd:string ;
     ex:reviews ex:171325798,
         ex:179649521 ;
     ex:submits ex:171325798-25842431,
@@ -4379,7 +4336,7 @@ ex:25842431 a ex:author,
 
 ex:31886832 a ex:author,
         ex:reviewer ;
-    ex:name_author "S. Kim"^^xsd:string ;
+    ex:name_human "S. Kim"^^xsd:string ;
     ex:reviews ex:183655203,
         ex:187609691 ;
     ex:submits ex:183655203-31886832,
@@ -4389,7 +4346,7 @@ ex:31886832 a ex:author,
 
 ex:3329482 a ex:author,
         ex:reviewer ;
-    ex:name_author "Fransiska Harsono"^^xsd:string ;
+    ex:name_human "Fransiska Harsono"^^xsd:string ;
     ex:reviews ex:182967188,
         ex:183446688,
         ex:188059646,
@@ -4408,7 +4365,7 @@ ex:3329482 a ex:author,
 
 ex:48393866 a ex:author,
         ex:reviewer ;
-    ex:name_author "A. Gródecka"^^xsd:string ;
+    ex:name_human "A. Gródecka"^^xsd:string ;
     ex:reviews ex:160964077 ;
     ex:submits ex:160964077-48393866 ;
     ex:writes ex:172832805,
@@ -4416,7 +4373,7 @@ ex:48393866 a ex:author,
 
 ex:50281777 a ex:author,
         ex:reviewer ;
-    ex:name_author "Dimitrios Koutsourelis"^^xsd:string ;
+    ex:name_human "Dimitrios Koutsourelis"^^xsd:string ;
     ex:reviews ex:178755305,
         ex:192584315 ;
     ex:submits ex:178755305-50281777,
@@ -4425,7 +4382,7 @@ ex:50281777 a ex:author,
 
 ex:67091075 a ex:author,
         ex:reviewer ;
-    ex:name_author "Mashkilleysson Al"^^xsd:string ;
+    ex:name_human "Mashkilleysson Al"^^xsd:string ;
     ex:reviews ex:115925191,
         ex:192803013 ;
     ex:submits ex:115925191-67091075,
@@ -4435,7 +4392,7 @@ ex:67091075 a ex:author,
         ex:199847329 .
 
 ex:70460260 a ex:author ;
-    ex:name_author "Y. Itow"^^xsd:string ;
+    ex:name_human "Y. Itow"^^xsd:string ;
     ex:writes ex:180016089,
         ex:182160933,
         ex:183655203,
@@ -4445,14 +4402,14 @@ ex:70460260 a ex:author ;
 
 ex:71060010 a ex:author,
         ex:reviewer ;
-    ex:name_author "Zhu ShuRui"^^xsd:string ;
+    ex:name_human "Zhu ShuRui"^^xsd:string ;
     ex:reviews ex:161317546 ;
     ex:submits ex:161317546-71060010 ;
     ex:writes ex:236062113 .
 
 ex:71361836 a ex:author,
         ex:reviewer ;
-    ex:name_author "Cristián Ramón-Cortés Vilarrodona"^^xsd:string ;
+    ex:name_human "Cristián Ramón-Cortés Vilarrodona"^^xsd:string ;
     ex:reviews ex:180016089 ;
     ex:submits ex:180016089-71361836 ;
     ex:writes ex:172111462,
@@ -4461,7 +4418,7 @@ ex:71361836 a ex:author,
 
 ex:71932904 a ex:author,
         ex:reviewer ;
-    ex:name_author "ดร.รุจโรจน์ แก้วอุไร"^^xsd:string ;
+    ex:name_human "ดร.รุจโรจน์ แก้วอุไร"^^xsd:string ;
     ex:reviews ex:167439579,
         ex:169100438 ;
     ex:submits ex:167439579-71932904,
@@ -4472,7 +4429,7 @@ ex:71932904 a ex:author,
         ex:187221758 .
 
 ex:81430906 a ex:author ;
-    ex:name_author "梅村 想"^^xsd:string ;
+    ex:name_human "梅村 想"^^xsd:string ;
     ex:writes ex:161014320,
         ex:171325798,
         ex:179649521,
@@ -4482,7 +4439,7 @@ ex:81430906 a ex:author ;
 
 ex:81746997 a ex:author,
         ex:reviewer ;
-    ex:name_author "Охапкин Александр Сергеевич"^^xsd:string ;
+    ex:name_human "Охапкин Александр Сергеевич"^^xsd:string ;
     ex:reviews ex:192650398,
         ex:223450973 ;
     ex:submits ex:192650398-81746997,
@@ -4494,13 +4451,13 @@ ex:81746997 a ex:author,
 
 ex:82146055 a ex:author,
         ex:reviewer ;
-    ex:name_author "Heftman Wr"^^xsd:string ;
+    ex:name_human "Heftman Wr"^^xsd:string ;
     ex:reviews ex:192650398 ;
     ex:submits ex:192650398-82146055 .
 
 ex:82307164 a ex:author,
         ex:reviewer ;
-    ex:name_author "M. Kochendorfer"^^xsd:string ;
+    ex:name_human "M. Kochendorfer"^^xsd:string ;
     ex:reviews ex:109900804,
         ex:162029619 ;
     ex:submits ex:109900804-82307164,
@@ -4510,7 +4467,7 @@ ex:82307164 a ex:author,
 
 ex:83500001 a ex:author,
         ex:reviewer ;
-    ex:name_author "安原 久美子"^^xsd:string ;
+    ex:name_human "安原 久美子"^^xsd:string ;
     ex:reviews ex:161014320,
         ex:171325798,
         ex:180016089,
@@ -4525,7 +4482,7 @@ ex:83500001 a ex:author,
 
 ex:83723095 a ex:author,
         ex:reviewer ;
-    ex:name_author "吉岡 玲子"^^xsd:string ;
+    ex:name_human "吉岡 玲子"^^xsd:string ;
     ex:reviews ex:176697133,
         ex:187609691,
         ex:191106316 ;
@@ -4537,7 +4494,7 @@ ex:83723095 a ex:author,
 
 ex:87926302 a ex:author,
         ex:reviewer ;
-    ex:name_author "H. Miyakawa"^^xsd:string ;
+    ex:name_human "H. Miyakawa"^^xsd:string ;
     ex:reviews ex:160964077,
         ex:163245903,
         ex:180368883,
@@ -4558,7 +4515,7 @@ ex:87926302 a ex:author,
 
 ex:88167625 a ex:author,
         ex:reviewer ;
-    ex:name_author "P. Papaioannou"^^xsd:string ;
+    ex:name_human "P. Papaioannou"^^xsd:string ;
     ex:reviews ex:157091040,
         ex:173678903 ;
     ex:submits ex:157091040-88167625,
@@ -4569,7 +4526,7 @@ ex:88167625 a ex:author,
 
 ex:88433377 a ex:author,
         ex:reviewer ;
-    ex:name_author "律子 小板橋"^^xsd:string ;
+    ex:name_human "律子 小板橋"^^xsd:string ;
     ex:reviews ex:168906647,
         ex:233661923 ;
     ex:submits ex:168906647-88433377,
@@ -4580,7 +4537,7 @@ ex:88433377 a ex:author,
 
 ex:92462721 a ex:author,
         ex:reviewer ;
-    ex:name_author "Y. Aleksandrova"^^xsd:string ;
+    ex:name_human "Y. Aleksandrova"^^xsd:string ;
     ex:reviews ex:192584315 ;
     ex:submits ex:192584315-92462721 ;
     ex:writes ex:171903526,
@@ -4591,7 +4548,7 @@ ex:92462721 a ex:author,
 
 ex:93986161 a ex:author,
         ex:reviewer ;
-    ex:name_author "B. S. Khitruk"^^xsd:string ;
+    ex:name_human "B. S. Khitruk"^^xsd:string ;
     ex:reviews ex:183446688 ;
     ex:submits ex:183446688-93986161 ;
     ex:writes ex:161317546,
@@ -4600,7 +4557,7 @@ ex:93986161 a ex:author,
 
 ex:98502447 a ex:author,
         ex:reviewer ;
-    ex:name_author "P. B. Saltanis"^^xsd:string ;
+    ex:name_human "P. B. Saltanis"^^xsd:string ;
     ex:reviews ex:180547178 ;
     ex:submits ex:180547178-98502447 ;
     ex:writes ex:172832805 .
@@ -4695,6 +4652,15 @@ ex:159212743 a ex:paper ;
     ex:doi "10.3917/G2000.354.0121"^^xsd:string ;
     ex:hasReview ex:159212743-102147990 ;
     ex:isRelatedTo ex:leadership ;
+    ex:isSubmittedTo ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "Impact de linteraction entre le comit daudit et la fonction de laudit interne sur lefficacit de laudit interne"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T23:21:21.320000+00:00"^^xsd:dateTimeStamp ;
@@ -4971,8 +4937,19 @@ ex:176790486-2168630911 a ex:review ;
 ex:177163529 a ex:paper ;
     ex:hasReview ex:177163529-121783265 ;
     ex:isRelatedTo ex:neurology ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 ;
     ex:title "シンポジウム2 救急・重傷集中ケアにおける家族看護--家族ケアにエビデンスを求めて〔含 Discussion,司会のまとめ〕 (救急NOW 第4回日本救急看護学会学術集会集録(主要講演))"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T18:31:00.651000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b4953c9e4cbc50973828569db65c16fba34821dc"^^xsd:string .
 
@@ -5155,8 +5132,16 @@ ex:187221758 a ex:paper ;
         ex:internet_of_things,
         ex:political_science,
         ex:robotics ;
+    ex:isSubmittedTo ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "Preparations hydro-alcooliques d'agents antibacteriens a base d'oxazolidinone"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T21:24:19.673000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4636c90277a8642fe2614daa2345dc8bf6034265"^^xsd:string .
 
@@ -5205,8 +5190,12 @@ ex:188779287 a ex:paper ;
     ex:isRelatedTo ex:human-computer_interaction,
         ex:library_science,
         ex:sustainability ;
+    ex:isSubmittedTo ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "Ferrara Futurista. Fondazione e riviste del fascio futurista ferrarese"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T10:07:54.795000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c5d45a3e303088ed65b4e3f3c9a315eb9c914874"^^xsd:string .
 
@@ -5233,8 +5222,9 @@ ex:189521017 a ex:paper ;
         ex:environmental_science,
         ex:human_resource_management,
         ex:renewable_energy ;
+    ex:isSubmittedTo ex:85090893-f085-44b5-9c38-1034c90750f4 ;
     ex:title "Pastelli e grafite nella produzione di Mario Schifano"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T09:49:52.435000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/2c4245d623ab1a1d4a975285b44eaaaa3e5306d8"^^xsd:string .
 
@@ -5247,6 +5237,18 @@ ex:189615356 a ex:paper ;
     ex:isRelatedTo ex:information_retrieval,
         ex:internet_of_things,
         ex:physiology ;
+    ex:isSubmittedTo ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8 ;
     ex:title "ANÁLISE E PROPOSTA DE MELHORIA DO LAYOUT DE UMA INDÚSTRIA DE BEBIDAS"^^xsd:string ;
     ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T21:08:52.225000+00:00"^^xsd:dateTimeStamp ;
@@ -5379,8 +5381,16 @@ ex:220171483 a ex:paper ;
         ex:finance,
         ex:operations_management,
         ex:psychiatry ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948 ;
     ex:title "Purpose and procedure"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-24T23:17:34.300000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4ea42fe22d1406a49547550c8051989b9d4abc07"^^xsd:string .
 
@@ -5529,8 +5539,18 @@ ex:text_mining a ex:area .
 ex:115925191 a ex:paper ;
     ex:hasReview ex:115925191-67091075 ;
     ex:isRelatedTo ex:leadership ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
     ex:title "Device for determining position of object"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T12:38:02.448000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/19221646b4759c2d4f5e4c35bde0289e4616b362"^^xsd:string .
 
@@ -5538,8 +5558,9 @@ ex:157594369 a ex:paper ;
     ex:hasReview ex:157594369-2188951687 ;
     ex:isRelatedTo ex:data_visualization,
         ex:operations_management ;
+    ex:isSubmittedTo ex:fe7599c8-3cc9-45de-893c-70a3372fc3e9 ;
     ex:title "Subimperalismo brasileiro na era do padrão de desenvolvimento liberal- periférico (1990 a 2013)"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T18:36:34.813000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/6dbf2087ca3fe99dc1fb9466894252543a3f6571"^^xsd:string .
 
@@ -5549,8 +5570,18 @@ ex:163583508 a ex:paper ;
     ex:isRelatedTo ex:data_storage,
         ex:law,
         ex:virology ;
+    ex:isSubmittedTo ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 ;
     ex:title "Krystian Lupa: Z Polski nie wyjadę"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T21:09:39.171000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/16e65f31100541f55bc56e2bbfce18b51e7924e3"^^xsd:string .
 
@@ -5559,8 +5590,9 @@ ex:168066549 a ex:paper ;
     ex:isRelatedTo ex:biophysics,
         ex:film_studies,
         ex:microbiology ;
+    ex:isSubmittedTo ex:bde28bb6-4c6c-4d8e-b6d1-01937b87484f ;
     ex:title "S.741 - National Catastrophic Disaster Insurance Act"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T18:36:58.336000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/65a0443c20b00b838004d46d2d47fe71e42f9396"^^xsd:string .
 
@@ -5571,6 +5603,20 @@ ex:171188162 a ex:paper ;
         ex:neurology,
         ex:sustainability,
         ex:virtual_reality ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8 ;
     ex:title "Metafisica delle forme simboliche. Note su Cassirer inedito"^^xsd:string ;
     ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T16:57:52.072000+00:00"^^xsd:dateTimeStamp ;
@@ -5580,8 +5626,9 @@ ex:176571933 a ex:paper ;
     ex:hasReview ex:176571933-2158554218,
         ex:176571933-2167972193 ;
     ex:isRelatedTo ex:renewable_energy ;
+    ex:isSubmittedTo ex:fa7d940e-a956-44bb-ae0a-cd6835741229 ;
     ex:title "创新 改革 联合 发展——“第二十二届华东电视技术年会暨第三届华协体发展峰会”隆重召开"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T15:23:52.777000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/4d1dbeae807c3f3324b2c37239dec9929640f4f4"^^xsd:string .
 
@@ -5590,10 +5637,37 @@ ex:181248569 a ex:paper ;
     ex:hasReview ex:181248569-2084179734 ;
     ex:isRelatedTo ex:cloud_computing,
         ex:drug_discovery ;
+    ex:isSubmittedTo ex:43684def-b4ea-439b-a4e9-d5a1ea786e3a ;
     ex:title "Sur une hache néolithique, cassée et recollée à une époque indéterminée"^^xsd:string ;
     ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T13:15:54.548000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8622e759c5b396e9b5ff78fca0c4e2039e6dfc45"^^xsd:string .
+
+ex:191106316 a ex:paper,
+        ex:publication ;
+    ex:doi "10.14198/FEM.2012.20.11"^^xsd:string ;
+    ex:hasReview ex:191106316-121783265,
+        ex:191106316-83723095 ;
+    ex:isRelatedTo ex:finance,
+        ex:logistics,
+        ex:management,
+        ex:microbiology ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:af9217e1-baa5-48b2-af0f-94eeaef5070f,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
+    ex:publicationDate "2012-12-15"^^xsd:date ;
+    ex:title "Reclamando sus misterios: La conferencia de la Diosa Ibérica"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
+    ex:updated "2022-02-08T09:09:41.772000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/8390af8762f5492e54e90ba3356e20b0b962c16a"^^xsd:string .
 
 ex:192584315 a ex:paper ;
     ex:hasReview ex:192584315-50281777,
@@ -5603,16 +5677,30 @@ ex:192584315 a ex:paper ;
         ex:cloud_computing,
         ex:information_retrieval,
         ex:medical_imaging ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:cd5f554f-e368-459a-b830-ceea0d8191fa,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
     ex:title "Papá, ¿Cómo se dice \"video\" en latín?"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T08:44:52.460000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a74230613603848dd03070de2d922d1f65b1871f"^^xsd:string .
 
 ex:192803013 a ex:paper ;
     ex:hasReview ex:192803013-67091075 ;
     ex:isRelatedTo ex:leadership ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1 ;
     ex:title "Darcy Ribeiro in Italia: analisi descrittive dei romanzi Maíra e utopia selvagem"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T08:40:34.978000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/070487300498d5499fa6883dbe19d8c6343b8e18"^^xsd:string .
 
@@ -5620,8 +5708,9 @@ ex:213814050 a ex:paper ;
     ex:hasReview ex:213814050-103975134,
         ex:213814050-135267337 ;
     ex:isRelatedTo ex:developmental_biology ;
+    ex:isSubmittedTo ex:23019876-9321-4840-8fb7-10fe82b7a015 ;
     ex:title "Thuis in huis en buurt? : Over thuisgevoel en participatie van mensen met psychische problemen"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T18:06:03.109000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a01521904fe21e4017a8cb115528f653f627d6f8"^^xsd:string .
 
@@ -5630,8 +5719,17 @@ ex:223988116 a ex:paper ;
     ex:isRelatedTo ex:linguistics,
         ex:neurology,
         ex:text_mining ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "◆ マウンテンバイク◆【中古】トレック TREK 2011年モデル 8000 DISC SLX/XT/XTR SLX/XT/XTR 2011年モデル アルミ マウンテンバイク 3×10速 26インチ MTB ディスクブレーキ：ベリーグッドストアスポーツ自転車の高価買取と即日出張のサイクルパラダイス大阪【自転車専門店】自転車 通勤 通学 完成車 シマノ SHIMANO"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T13:09:39.732000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5325b20a0d56abac4b8ba47c12bbda5baabaf840"^^xsd:string .
 
@@ -5685,6 +5783,16 @@ ex:109900804 a ex:paper ;
         ex:109900804-82307164 ;
     ex:isRelatedTo ex:cultural_studies,
         ex:data_querying ;
+    ex:isSubmittedTo ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:af9217e1-baa5-48b2-af0f-94eeaef5070f,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "Analysis on Exterior Wall Conformation of Low-Rise Light Steel Structure Residence Based on Thermal Theory"^^xsd:string ;
     ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T04:42:31.694000+00:00"^^xsd:dateTimeStamp ;
@@ -5697,8 +5805,9 @@ ex:159894344 a ex:paper ;
     ex:isRelatedTo ex:history,
         ex:indexing,
         ex:psychology ;
+    ex:isSubmittedTo ex:cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50 ;
     ex:title "Medio llena o medio vacía: el estado del Objetivo de Desarrollo del Milenio sobre Educación Primaria"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T23:02:21.708000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/ee04bbf555025309cabf23e01b8266521cdd7b71"^^xsd:string .
 
@@ -5709,8 +5818,15 @@ ex:161317546 a ex:paper ;
         ex:data_visualization,
         ex:organizational_behavior,
         ex:virology ;
+    ex:isSubmittedTo ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8 ;
     ex:title "Hilos de esperanza"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-27T16:11:11.727000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b3c20751314fe98cf9d453db6a09d137c5a67704"^^xsd:string .
 
@@ -5718,6 +5834,17 @@ ex:168785648 a ex:paper ;
     ex:hasReview ex:168785648-2064735628 ;
     ex:isRelatedTo ex:geology,
         ex:paleontology ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 ;
     ex:title "Budowa trasy tramwaju szybkiego do Wilanowa"^^xsd:string ;
     ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T18:09:57.773000+00:00"^^xsd:dateTimeStamp ;
@@ -5729,6 +5856,7 @@ ex:173678903 a ex:paper ;
         ex:173678903-88167625 ;
     ex:isRelatedTo ex:economics,
         ex:robotics ;
+    ex:isSubmittedTo ex:dd8f14f5-34b7-4f7f-9156-0ee9dc9c8bfb ;
     ex:title "20081 複雑地形まわりの強風予測に関する系統的研究 : その1 曲面で構成される二次元地形の風洞実験"^^xsd:string ;
     ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T20:58:31.556000+00:00"^^xsd:dateTimeStamp ;
@@ -5739,8 +5867,9 @@ ex:178858477 a ex:paper ;
         ex:178858477-1478581801,
         ex:178858477-2100667744 ;
     ex:isRelatedTo ex:drug_discovery ;
+    ex:isSubmittedTo ex:dd7777ae-f733-445c-bf89-2486b3117cae ;
     ex:title "Istanze servili alle libertates : alle origini della disciplina constantiniana De his qui in ecclesiis manumittuntur"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T14:14:09.212000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/34e8ba9552c678ddc0095d67e94b4f31d89494dc"^^xsd:string .
 
@@ -5750,8 +5879,9 @@ ex:181693884 a ex:paper ;
         ex:181693884-2084179734 ;
     ex:isRelatedTo ex:archaeology,
         ex:biomedical_engineering ;
+    ex:isSubmittedTo ex:ea2f25bf-85c6-412c-81fd-df91179b2607 ;
     ex:title "トップエンジニア : 作業効率を高めるチームのつくり方(Chapter 03)安心して働ける職場づくり : チームが機能する2つの約束"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-24T18:12:29.216000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/1716db192aa0e94bf420342521650719b8d62dc4"^^xsd:string .
 
@@ -5762,6 +5892,7 @@ ex:185872534 a ex:paper,
     ex:isRelatedTo ex:data_modeling,
         ex:genetics,
         ex:immunology ;
+    ex:isSubmittedTo ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 ;
     ex:publicationDate "2016-12-26"^^xsd:date ;
     ex:title "طراحی الگوی مدیریت منابع انسانی فرماندهان دفاع مقدس (مطالعه موردی: سیره شهید محمدابراهیم همت)"^^xsd:string ;
     ex:type "short paper"^^xsd:string ;
@@ -5776,8 +5907,9 @@ ex:186138964 a ex:paper ;
         ex:cybersecurity,
         ex:finance,
         ex:law ;
+    ex:isSubmittedTo ex:ae1921e8-2067-45f0-beae-ac5b306a6cfe ;
     ex:title "Erster Teil Generelle Embryologie"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T11:12:18.849000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/3912fd05746055b7c66647f9290537730215b255"^^xsd:string .
 
@@ -5788,8 +5920,9 @@ ex:203504437 a ex:paper ;
         ex:human_resource_management,
         ex:physics,
         ex:sustainability ;
+    ex:isSubmittedTo ex:b528d16b-359b-4d76-ace2-c64a1d496ffe ;
     ex:title "Avaliação relativa e por fluxo de caixa descontado da empresa Localiza S.A."^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T13:20:39.615000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8db42471c3eb5767598aa4df8d9cbf0110eb32cb"^^xsd:string .
 
@@ -5798,8 +5931,17 @@ ex:211992081 a ex:paper ;
     ex:isRelatedTo ex:business_intelligence,
         ex:internet_of_things,
         ex:renewable_energy ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:4a3eb43b-e335-492f-bb9c-1413cca299d4,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b ;
     ex:title "これからの時代に音楽を「売る」こと"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T01:46:05.036000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/0f9ee691f6205fff05fa41c041540384da663c05"^^xsd:string .
 
@@ -5810,8 +5952,16 @@ ex:214235867 a ex:paper ;
         ex:entrepreneurship,
         ex:logistics,
         ex:mathematics ;
+    ex:isSubmittedTo ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "BATI TRAKYA TÜRK AZINLIĞININ İKİ DİLLİ EĞİTİM MODELİNE YÖNELİK BİR DEĞERLENDİRME"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-24T23:06:01.048000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a55cac12cfff4e1193bf3ffc54a2e3f82bd25bcb"^^xsd:string .
 
@@ -5823,6 +5973,20 @@ ex:222186672 a ex:paper ;
         ex:information_retrieval,
         ex:materials_science,
         ex:robotics ;
+    ex:isSubmittedTo ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
     ex:title "IN VIVO OPTICAL BIOPSY BASED ON LEAST-INVASIVE HARMONIC GENERATION MICROSCOPY"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T02:17:42.702000+00:00"^^xsd:dateTimeStamp ;
@@ -5832,8 +5996,18 @@ ex:224597913 a ex:paper ;
     ex:hasReview ex:224597913-2103184981,
         ex:224597913-2158554218 ;
     ex:isRelatedTo ex:transportation ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "研究開発にかかわる法的諸問題と対策(57)技術開発要員の解雇"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-24T22:18:26.467000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/f9ad0a56200c4f290f89593b13be184f365776a4"^^xsd:string .
 
@@ -5842,6 +6016,7 @@ ex:229751191 a ex:paper,
     ex:hasReview ex:229751191-1414035704,
         ex:229751191-2198810921 ;
     ex:isRelatedTo ex:robotics ;
+    ex:isSubmittedTo ex:04d55eb2-9d8a-4366-baad-c0838563c870 ;
     ex:publicationDate "2008-05-20"^^xsd:date ;
     ex:title "Se regrouper pour être plus forts"^^xsd:string ;
     ex:type "full paper"^^xsd:string ;
@@ -5854,8 +6029,9 @@ ex:236062113 a ex:paper ;
         ex:language_learning,
         ex:literature,
         ex:medical_devices ;
+    ex:isSubmittedTo ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 ;
     ex:title "F-CECUNA-10 Declaración Jurada General"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T11:02:45.297000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/bd3b9f64d4f8077f1aaaee98c51943814cebbfea"^^xsd:string .
 
@@ -5863,20 +6039,27 @@ ex:236770002 a ex:paper ;
     ex:hasReview ex:236770002-2064735628 ;
     ex:isRelatedTo ex:anthropology,
         ex:library_science ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
     ex:title "MULTIFILAMENT YARNS FOR REINFORCING ELASTIC ARTICLES"^^xsd:string ;
     ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T06:11:37.545000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8e9a6fd888ee840b288106f52c12854ea49cea27"^^xsd:string .
 
 ex:3fdcd86c-8033-4ae8-bb00-dd0e206fbadc a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:isRelatedTo ex:business_intelligence ;
     ex:issn "0104-270X"^^xsd:string ;
     ex:name "Vidya educação"^^xsd:string ;
     ex:url "http://sites.unifra.br/Default.aspx?alias=sites.unifra.br/vidya"^^xsd:string .
 
 ex:440aa3ea-7d64-4773-9a72-c784812f9be7 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:isRelatedTo ex:social_media_analytics ;
     ex:issn "1100-2573"^^xsd:string ;
     ex:name "Lambda Nordica: Tidskrift om homosexualitet"^^xsd:string ;
@@ -5887,26 +6070,33 @@ ex:64797097 a ex:paper ;
     ex:isRelatedTo ex:augmented_reality,
         ex:civil_engineering,
         ex:nanotechnology ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 ;
     ex:title "PENGARUH PEMBELAJARAN KOOPERATIF DAN MINAT TERHADAP PRESTASI BELAJAR"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T20:40:57.216000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/173bf767b70c519e2dee53f898e6a63049e56f5f"^^xsd:string .
 
 ex:69ebdcfc-1db1-4543-bacb-5dcb57236738 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:isRelatedTo ex:business_intelligence ;
     ex:issn "2421-1613"^^xsd:string ;
     ex:name "Annali di studi umanistici"^^xsd:string .
 
 ex:8f699f99-483c-49b2-9121-5d411659fc1f a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:isRelatedTo ex:cybersecurity ;
     ex:issn "2587-1234"^^xsd:string ;
     ex:name "Bölgesel araştırmalar dergisi"^^xsd:string ;
     ex:url "https://dergipark.org.tr/tr/pub/bader"^^xsd:string .
 
 ex:a6c29f49-e057-410f-861d-48df48f4e6a7 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:isRelatedTo ex:health_informatics ;
     ex:issn "1212-6098"^^xsd:string ;
     ex:name "Kutnohorsko. Vlastivědný sborník"^^xsd:string ;
@@ -5917,7 +6107,7 @@ ex:anthropology a ex:area .
 ex:biomedical_engineering a ex:area .
 
 ex:c6c4dde3-3125-4620-988e-9bea2de39345 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:isRelatedTo ex:business_intelligence ;
     ex:issn "1507-1383"^^xsd:string ;
     ex:name "Bulletin Polish Economic Society"^^xsd:string ;
@@ -5946,7 +6136,7 @@ ex:sustainability a ex:area .
 ex:virology a ex:area .
 
 ex:12a8ef42-b7bf-456f-9f91-53324ebd16be a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:isRelatedTo ex:computer_vision ;
     ex:issn "0748-9234"^^xsd:string ;
     ex:name "University of California Berkeley Wellness Letter"^^xsd:string ;
@@ -5961,8 +6151,9 @@ ex:131679379 a ex:paper ;
         ex:library_science,
         ex:materials_science,
         ex:sociology ;
+    ex:isSubmittedTo ex:fa7d940e-a956-44bb-ae0a-cd6835741229 ;
     ex:title "The Sensitivity of Coastal Systems to Perturbation"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T16:30:09.365000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/00e6b95b13f525a71a9dae0e1719ff92340a68f1"^^xsd:string .
 
@@ -5970,8 +6161,9 @@ ex:145853584 a ex:paper ;
     ex:hasReview ex:145853584-2198810921 ;
     ex:isRelatedTo ex:augmented_reality,
         ex:marketing ;
+    ex:isSubmittedTo ex:ea2f25bf-85c6-412c-81fd-df91179b2607 ;
     ex:title "Method for processing information and electronic device"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T13:34:11.967000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9f8a2006929223319947feaf4ac48ae3f6254179"^^xsd:string .
 
@@ -5981,10 +6173,44 @@ ex:158594015 a ex:paper ;
         ex:history,
         ex:mechanical_engineering,
         ex:physics ;
+    ex:isSubmittedTo ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "The Role of Theoretical Restrictions in Price Forecasting with Inverse Demand Models"^^xsd:string ;
     ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T23:41:48.037000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a694a9e04dd39cd068e6e3b897e65f21e1df9075"^^xsd:string .
+
+ex:166697705 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:166697705-2077232750,
+        ex:166697705-2111149699 ;
+    ex:isRelatedTo ex:health_informatics,
+        ex:instructional_design,
+        ex:medical_imaging ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:4a3eb43b-e335-492f-bb9c-1413cca299d4,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
+    ex:publicationDate "2007-06-01"^^xsd:date ;
+    ex:title "Doing Business 2008 Morocco : comparing regulation in 178 economies"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
+    ex:updated "2022-02-08T19:21:14.503000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/c32633f7254f5846f4469c3271781b9ee023577b"^^xsd:string .
 
 ex:167439579 a ex:paper,
         ex:publication ;
@@ -5994,6 +6220,7 @@ ex:167439579 a ex:paper,
     ex:isRelatedTo ex:big_data,
         ex:human_resource_management,
         ex:library_science ;
+    ex:isSubmittedTo ex:83e0793c-9677-422e-ab1d-806afdeaaad5 ;
     ex:publicationDate "2014-12-01"^^xsd:date ;
     ex:title "Application of the Balanced Scorecard Framework in Performance Measurement of E-Government Services: Case of Kenya Revenue Authority"^^xsd:string ;
     ex:type "demo paper"^^xsd:string ;
@@ -6005,8 +6232,21 @@ ex:171866470 a ex:paper ;
         ex:171866470-2138485499 ;
     ex:isRelatedTo ex:data_querying,
         ex:mathematics ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8 ;
     ex:title "Mηδαμοὺς / μὴ πλέονας ἐσδέξασθαι ἐς τὸ ἱρόν. Numerus clausus e auto-identificazione “etnica” dei Greci d’Asia (Eoli, Ioni, Dori)"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T16:36:49.677000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/6eb76f2bc9ee548340ced60de46b02439d61e5ed"^^xsd:string .
 
@@ -6016,8 +6256,9 @@ ex:173612339 a ex:paper ;
         ex:information_science,
         ex:neurology,
         ex:supply_chain_management ;
+    ex:isSubmittedTo ex:83e0793c-9677-422e-ab1d-806afdeaaad5 ;
     ex:title "Médicos de Familia: un único colectivo"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T15:57:38.706000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/1948c5fea5c7d2b3c84905cdb8042790645a176e"^^xsd:string .
 
@@ -6031,6 +6272,7 @@ ex:176697133 a ex:paper,
         ex:management,
         ex:natural_language_processing,
         ex:neurology ;
+    ex:isSubmittedTo ex:cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50 ;
     ex:title "“洪”篇巨制 源于生活——“洪源文集”读后"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T15:22:26.095000+00:00"^^xsd:dateTimeStamp ;
@@ -6040,16 +6282,23 @@ ex:178684730 a ex:paper ;
     ex:hasReview ex:178684730-148592514 ;
     ex:isRelatedTo ex:augmented_reality,
         ex:data_processing ;
+    ex:isSubmittedTo ex:9f0e882d-976a-40ca-ac22-ebf18a7402c1 ;
     ex:title "尺牘揷入春書 외 1부"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T14:17:45.655000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/30d0d676d7b08f93d3016cb1d2fe68c79383a2bc"^^xsd:string .
 
 ex:179949795 a ex:paper ;
     ex:hasReview ex:179949795-2164949231 ;
     ex:isRelatedTo ex:entrepreneurship ;
+    ex:isSubmittedTo ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b ;
     ex:title "Przedkopernikańska kosmologia a teologia : średniowieczny obraz świata / Józef Mączka."^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T13:43:53.835000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/7ec5cb905d1920ee1a4bd91e73212060e6e6db95"^^xsd:string .
 
@@ -6058,8 +6307,18 @@ ex:181543681 a ex:paper ;
     ex:isRelatedTo ex:blockchain,
         ex:microbiology,
         ex:paleontology ;
+    ex:isSubmittedTo ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:cd5f554f-e368-459a-b830-ceea0d8191fa,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 ;
     ex:title "Cambiar la realidad"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T13:14:13.690000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/efc71b1a5b65dd94807f7209fa40d71030e53619"^^xsd:string .
 
@@ -6067,8 +6326,17 @@ ex:182160933 a ex:paper ;
     ex:hasReview ex:182160933-119887786,
         ex:182160933-2081153906 ;
     ex:isRelatedTo ex:electrical_engineering ;
+    ex:isSubmittedTo ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
     ex:title "VIII-3. 後肢懸垂法を用いた骨格筋の萎縮と発達阻害 : αB-クリスタリンタンパク質の発現動態からの解析(1部,シンポジウム,シンポジウムVIII:運動器系の発達,第4回体力医学会シンポジウム)"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-24T21:03:25.563000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9debe3cd7ea6ccc3e371ddb5c5e0543094fb7e0f"^^xsd:string .
 
@@ -6078,6 +6346,15 @@ ex:182958528 a ex:paper ;
     ex:isRelatedTo ex:business_intelligence,
         ex:climate_change,
         ex:microbiology ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:af9217e1-baa5-48b2-af0f-94eeaef5070f,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
     ex:title "8.3 Klinische Untersuchung"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T12:35:52.687000+00:00"^^xsd:dateTimeStamp ;
@@ -6090,8 +6367,19 @@ ex:183655203 a ex:paper ;
         ex:internet_of_things,
         ex:logistics,
         ex:microbiology ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 ;
     ex:title "广阔天地 大有作为——对农行枝江市三农事业部运行情况的调查与思考"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T12:15:48.291000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b855c072a311eb0fa27c4908876dfb054124c5f3"^^xsd:string .
 
@@ -6104,8 +6392,17 @@ ex:189276670 a ex:paper ;
         ex:human-computer_interaction,
         ex:language_learning,
         ex:medical_imaging ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a,
+        ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 ;
     ex:title "La consolidación del principio de jurisdicción universal: los casos Argentina y Chile en España"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T20:38:30.709000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/8abeadbcc98b36b0a45511bce1e5a2dff7e837b7"^^xsd:string .
 
@@ -6115,8 +6412,9 @@ ex:199910086 a ex:paper,
         ex:199910086-2046668139 ;
     ex:isRelatedTo ex:data_modeling,
         ex:geology ;
+    ex:isSubmittedTo ex:ea96e9af-b142-41b8-a817-2fc1bcb6f6fe ;
     ex:title "Повседневность русских городских обывателей : исторические анекдоты из провинциальной жизни XVIII века"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T05:25:11.071000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9f6c7bf938afc405ddb52492adadab453fc0acd5"^^xsd:string .
 
@@ -6124,8 +6422,9 @@ ex:221658971 a ex:paper ;
     ex:hasReview ex:221658971-143975798 ;
     ex:isRelatedTo ex:renewable_energy,
         ex:virology ;
+    ex:isSubmittedTo ex:85090893-f085-44b5-9c38-1034c90750f4 ;
     ex:title "A Rural Institutional Platform Mobilizes Communities to Become Effective Partners in Agricultural Innovation in Andhra Pradesh"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T13:03:23.547000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fd074f5f5a589379413cd754cd941fb191ba9fb5"^^xsd:string .
 
@@ -6135,6 +6434,15 @@ ex:223680107 a ex:paper ;
         ex:chemical_engineering,
         ex:climate_change,
         ex:pharmacology ;
+    ex:isSubmittedTo ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:cd5f554f-e368-459a-b830-ceea0d8191fa ;
     ex:title "“万里挑一·富士杯”《垂钓》杂志钓鱼联赛（京津塘站）圆满落幕"^^xsd:string ;
     ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-27T17:01:07.424000+00:00"^^xsd:dateTimeStamp ;
@@ -6146,22 +6454,17 @@ ex:230626278 a ex:paper ;
     ex:isRelatedTo ex:cancer_research,
         ex:curriculum_development,
         ex:mechanical_engineering ;
+    ex:isSubmittedTo ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 ;
     ex:title "Not a saviour of the world: dismissal of messianism in Graham Swift’s Waterland"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T02:21:56.648000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/61d47a4df20d7d07e4e17470b1ad867c982b9a0d"^^xsd:string .
 
 ex:60b5340f-dd94-499b-9d5d-d4fde68f0709 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "regular conference"^^xsd:string ;
     ex:isRelatedTo ex:cybersecurity ;
     ex:issn "0029-053X"^^xsd:string ;
     ex:name "Nimrod International Journal"^^xsd:string .
-
-ex:b7b8bcb9-270c-4501-a5da-4a276d8f2651 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:medical_imaging ;
-    ex:issn "2005-873X"^^xsd:string ;
-    ex:name "Studies in Urban Humanities"^^xsd:string .
 
 ex:biophysics a ex:area .
 
@@ -6188,8 +6491,17 @@ ex:126089984 a ex:paper ;
         ex:gender_studies,
         ex:molecular_modeling,
         ex:organizational_behavior ;
+    ex:isSubmittedTo ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9 ;
     ex:title "On solvability of second-order evolution inclusions with Volterra type operators"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T12:34:57.641000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/b81d93a318867e6468d33469e57aa75508149ae8"^^xsd:string .
 
@@ -6201,10 +6513,28 @@ ex:157091040 a ex:paper ;
         ex:chemistry,
         ex:law,
         ex:physiology ;
+    ex:isSubmittedTo ex:15722358-6a29-4c88-aed4-06e92356e9f6 ;
     ex:title "2 Visions: Foreign Affairs in Domestic Debate 1660-1689"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-09T00:27:04.994000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/d8ab1b45f0011dc37d483c7d0fd8ecb402953c4b"^^xsd:string .
+
+ex:163245903 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:163245903-122841322,
+        ex:163245903-2186485267,
+        ex:163245903-87926302 ;
+    ex:isRelatedTo ex:cloud_computing,
+        ex:cultural_studies ;
+    ex:isSubmittedTo ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c ;
+    ex:title "Libros. WITZ, Claude: «Droit privé allemand. 1. Actes juridiques, droits subjectifs», ed. Litec (parís, 1992), 625 páginas."^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
+    ex:updated "2022-02-08T21:20:33.502000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/3b02ac4809b9554ba3fe65055883515ec1ef333a"^^xsd:string .
 
 ex:163651584 a ex:paper ;
     ex:hasReview ex:163651584-2188951687 ;
@@ -6213,8 +6543,9 @@ ex:163651584 a ex:paper ;
         ex:musicology,
         ex:transportation,
         ex:virtual_reality ;
+    ex:isSubmittedTo ex:85090893-f085-44b5-9c38-1034c90750f4 ;
     ex:title "De Boris a Boris"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T21:06:47.582000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/a8a8d91424b75e8842c4cedd175c73be1bcd06e5"^^xsd:string .
 
@@ -6225,8 +6556,9 @@ ex:165429097 a ex:paper ;
         ex:human_resource_management,
         ex:microbiology,
         ex:text_mining ;
+    ex:isSubmittedTo ex:ea96e9af-b142-41b8-a817-2fc1bcb6f6fe ;
     ex:title "Feminist Solidarity and Experiment in Kathy Acker’s Early Writings"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T07:08:24.865000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/aa2ca2869c7fa8c84377212f8e9838621fb65a11"^^xsd:string .
 
@@ -6237,19 +6569,58 @@ ex:169100438 a ex:paper ;
         ex:evolutionary_biology,
         ex:leadership,
         ex:virology ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8,
+        ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a ;
     ex:title "Descendimiento de Hernán Barra Salomone"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T14:47:45.530000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5dc05e4613701c23a70af9b2d399bfa4aa0dde9a"^^xsd:string .
+
+ex:171903526 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:171903526-146977915,
+        ex:171903526-2100667744 ;
+    ex:isRelatedTo ex:film_studies,
+        ex:human_resource_management ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:26c4ed67-b7d5-4a46-8317-87decb51a69c,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
+    ex:publicationDate "2007-09-12"^^xsd:date ;
+    ex:title "CURVAS DE NEUTRALIZAÇÃO DE SOLOS NUMA SUCESSÃO DE FLORESTA COM PASTAGEM NO MUNICÍPIO DE JI-PARANÁ"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
+    ex:updated "2022-02-08T16:35:35.516000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/0aa04a130cf7dac3e43d240fd5fee6aface97048"^^xsd:string .
 
 ex:172179682 a ex:paper,
         ex:publication ;
     ex:hasReview ex:172179682-2100067713,
         ex:172179682-2168630911 ;
     ex:isRelatedTo ex:virtual_reality ;
+    ex:isSubmittedTo ex:04d55eb2-9d8a-4366-baad-c0838563c870 ;
     ex:publicationDate "2010-07-20"^^xsd:date ;
     ex:title "1456 コンクリートの乾燥収縮特性に及ぼす粗骨材物性の影響 : その1. 粗骨材の乾燥収縮特性(収縮・クリープ(3),材料施工)"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-23T03:18:09.451000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9acc90693adc380ce5390b48ff45c6e58fc8681f"^^xsd:string .
 
@@ -6263,8 +6634,9 @@ ex:182967188 a ex:paper,
         ex:literature,
         ex:philosophy,
         ex:supply_chain_management ;
+    ex:isSubmittedTo ex:945aea8e-5af0-4cc3-bf02-caa0e7d1dd95 ;
     ex:title "隆昌县 严把“三关”推进基层党建项目化管理"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T12:35:34.666000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fd5d0f4166112b3c79eb0ce9ae387b6b2a2fe5ff"^^xsd:string .
 
@@ -6276,8 +6648,9 @@ ex:187652919 a ex:paper,
     ex:isRelatedTo ex:augmented_reality,
         ex:curriculum_development,
         ex:medical_devices ;
+    ex:isSubmittedTo ex:e939b18e-980b-44ec-8d7c-e8ea281e4bf6 ;
     ex:title "Осложнения инородных тел пищевода у детей"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T10:36:27.564000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/1c3233b5df422382e6c0fcc8852e6721cfb07745"^^xsd:string .
 
@@ -6287,8 +6660,20 @@ ex:194092568 a ex:paper ;
         ex:194092568-1693719029 ;
     ex:isRelatedTo ex:business_intelligence,
         ex:computational_biology ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 ;
     ex:title "Rinascimento in controluce : poeti, pittori, cortigiane e teatranti sul palcoscenico rinascimentale"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T08:16:49.127000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/5b9a05b90b27dc7fff5a562228e990845bd1ec1b"^^xsd:string .
 
@@ -6296,8 +6681,9 @@ ex:199847329 a ex:paper ;
     ex:hasReview ex:199847329-102147990 ;
     ex:isRelatedTo ex:computer_vision,
         ex:psychiatry ;
+    ex:isSubmittedTo ex:76402852-7beb-487d-8d53-954e85516bc0 ;
     ex:title "韓國婚姻考 : 法制와 婚俗"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T05:30:12.763000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/fc67dd85ccd464c236b74146d9f754cc9d5117ee"^^xsd:string .
 
@@ -6310,9 +6696,10 @@ ex:211360706 a ex:paper,
         ex:literature,
         ex:operations_management,
         ex:virtual_reality ;
+    ex:isSubmittedTo ex:ea96e9af-b142-41b8-a817-2fc1bcb6f6fe ;
     ex:publicationDate "2015-09-11"^^xsd:date ;
     ex:title "UKIP MEP Jane Collins to address Harrogate public meeting"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-27T02:44:56.418000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/6f956f1d2a710bdb80015f8b99f8861affb9587b"^^xsd:string .
 
@@ -6323,8 +6710,9 @@ ex:223450973 a ex:paper ;
     ex:isRelatedTo ex:archaeology,
         ex:biophysics,
         ex:civil_engineering ;
+    ex:isSubmittedTo ex:cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50 ;
     ex:title "「主婦」の誕生 : 婦人雑誌と女性たちの近代"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T07:01:45.463000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/c5de5d1f6904a84a441a8e9deced2513022fbe9e"^^xsd:string .
 
@@ -6332,8 +6720,9 @@ ex:233661923 a ex:paper ;
     ex:doi "10.31095/INVESTIGATIO.2020.16.1"^^xsd:string ;
     ex:hasReview ex:233661923-88433377 ;
     ex:isRelatedTo ex:machine_learning ;
+    ex:isSubmittedTo ex:83e0793c-9677-422e-ab1d-806afdeaaad5 ;
     ex:title "Revisión Acerca de Comamonas Kerstersii como Agente Infeccioso."^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-01-24T22:57:42.952000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/6f7e407b38ceac2456a777491dbc50ab1dc65cb3"^^xsd:string .
 
@@ -6345,16 +6734,16 @@ ex:6d2c2dff-f049-4549-9d7a-6fd0be204e80 a ex:conference ;
     ex:url "https://journals.openedition.org/histoire-cnrs/"^^xsd:string .
 
 ex:6e0ee596-3eb3-4951-b659-b2d8cdf66a2b a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:isRelatedTo ex:cybersecurity ;
     ex:issn "1296-7645"^^xsd:string ;
     ex:name "Accademia : revue de la Société Marsile Ficin"^^xsd:string .
 
-ex:76402852-7beb-487d-8d53-954e85516bc0 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
-    ex:isRelatedTo ex:computer_vision ;
-    ex:issn "1970-4860"^^xsd:string ;
-    ex:name "Economia dei servizi"^^xsd:string .
+ex:b7b8bcb9-270c-4501-a5da-4a276d8f2651 a ex:conference ;
+    ex:conference_type "symposium"^^xsd:string ;
+    ex:isRelatedTo ex:medical_imaging ;
+    ex:issn "2005-873X"^^xsd:string ;
+    ex:name "Studies in Urban Humanities"^^xsd:string .
 
 ex:c5aefac7-151e-446e-8249-167c5b765a38 a ex:conference ;
     ex:conference_type "symposium"^^xsd:string ;
@@ -6364,20 +6753,13 @@ ex:c5aefac7-151e-446e-8249-167c5b765a38 a ex:conference ;
 ex:data_modeling a ex:area .
 
 ex:dd7f68a9-b6a3-4dc2-9457-23e2ee5eb640 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:isRelatedTo ex:augmented_reality ;
     ex:issn "2078-1768"^^xsd:string ;
     ex:name "Bulletin of Kemerovo State University of culture adn arts"^^xsd:string .
 
-ex:dd8f14f5-34b7-4f7f-9156-0ee9dc9c8bfb a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:data_science ;
-    ex:issn "2468-6077"^^xsd:string ;
-    ex:name "Methods in Chemical Process Safety"^^xsd:string ;
-    ex:url "https://www.elsevier.com/books/book-series/methods-in-chemical-process-safety"^^xsd:string .
-
 ex:dec94590-0bc8-4c8a-8911-c2e773bf28ac a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:isRelatedTo ex:cybersecurity ;
     ex:issn "2786-6025"^^xsd:string ;
     ex:name "Наука і техніка сьогодні"^^xsd:string .
@@ -6392,13 +6774,6 @@ ex:neurology a ex:area .
 
 ex:social_media_analytics a ex:area .
 
-ex:02d04afc-22d9-4b20-b847-286c4639edbe a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
-    ex:isRelatedTo ex:health_informatics ;
-    ex:issn "2358-243X"^^xsd:string ;
-    ex:name "Redfoco"^^xsd:string ;
-    ex:url "http://periodicos.uern.br/index.php/redfoco"^^xsd:string .
-
 ex:110184512 a ex:paper ;
     ex:hasReview ex:110184512-101367559,
         ex:110184512-102147990 ;
@@ -6406,17 +6781,15 @@ ex:110184512 a ex:paper ;
         ex:library_science,
         ex:machine_learning,
         ex:transportation ;
+    ex:isSubmittedTo ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b ;
     ex:title "Wiadomości Fabryczne : organ Komitetu Fabrycznego PZPR, ZF ZMP, Rady Zakładowej i Dyrekcji WSK Rzeszów. 1952, R. 1, nr 7 (6 października)"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-01-27T11:15:34.029000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/3869f4ecc17d536bb40bb919c7d8dba763377bf3"^^xsd:string .
-
-ex:15722358-6a29-4c88-aed4-06e92356e9f6 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:data_science ;
-    ex:issn "2564-6605"^^xsd:string ;
-    ex:name "Ömer Halisdemir Üniversitesi Mühendislik Bilimleri Dergisi"^^xsd:string ;
-    ex:url "https://dergipark.org.tr/en/pub/ngumuh"^^xsd:string .
 
 ex:162029619 a ex:paper ;
     ex:doi "10.4000/E-SPANIA.20366"^^xsd:string ;
@@ -6425,8 +6798,9 @@ ex:162029619 a ex:paper ;
     ex:isRelatedTo ex:biomedical_engineering,
         ex:chemistry,
         ex:logistics ;
+    ex:isSubmittedTo ex:9a073da2-0ef8-480a-a5cf-822c1e88c308 ;
     ex:title "Linhagem e estruturas de parentesco: Algumas reflexões"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T21:56:31.675000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9b6ab70ce2769c8a6ba7187819de82fbc07e0ac4"^^xsd:string .
 
@@ -6436,8 +6810,13 @@ ex:165054883 a ex:paper ;
         ex:165054883-2091352504 ;
     ex:isRelatedTo ex:data_mining,
         ex:psychology ;
+    ex:isSubmittedTo ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d ;
     ex:title "Chapitre VII. 1499-1503, la brève apothéose des Borgia"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T20:08:46.387000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/42479dc0110a9b2aee4edff46060a9350cff2ea3"^^xsd:string .
 
@@ -6446,6 +6825,7 @@ ex:174171849 a ex:paper ;
         ex:174171849-2100067713 ;
     ex:isRelatedTo ex:operations_management,
         ex:supply_chain_management ;
+    ex:isSubmittedTo ex:76402852-7beb-487d-8d53-954e85516bc0 ;
     ex:title "Effetti del giudicato rispetto ai terzi: due casi in materia di pegno"^^xsd:string ;
     ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T15:48:48.151000+00:00"^^xsd:dateTimeStamp ;
@@ -6456,8 +6836,9 @@ ex:176790486 a ex:paper ;
         ex:176790486-2162899653,
         ex:176790486-2168630911 ;
     ex:isRelatedTo ex:natural_language_processing ;
+    ex:isSubmittedTo ex:f00f504c-ecd7-4b17-877f-aa67ce382f58 ;
     ex:title "PICKER社製第4世代スパイラルCT PQ-5000の使用経験"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-01-27T10:28:29.001000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/45a61cf01ba7a26a4add317c3af99a02608d47b3"^^xsd:string .
 
@@ -6470,6 +6851,7 @@ ex:179649521 a ex:paper,
         ex:data_modeling,
         ex:data_querying,
         ex:natural_language_processing ;
+    ex:isSubmittedTo ex:f00f504c-ecd7-4b17-877f-aa67ce382f58 ;
     ex:title "坚持新闻平衡报道原则 做世界性的影响力媒体——半岛电视台的拓展之路"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T13:53:14.533000+00:00"^^xsd:dateTimeStamp ;
@@ -6479,8 +6861,9 @@ ex:180139250 a ex:paper ;
     ex:hasReview ex:180139250-122841322,
         ex:180139250-2091352504 ;
     ex:isRelatedTo ex:statistics ;
+    ex:isSubmittedTo ex:a4b7b987-6221-4657-90c5-8f51d7b1126f ;
     ex:title "开展标准化执法 实施人性化服务 努力营造和谐执法环境"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T13:38:44.868000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/ab2da009413d8562d989d4ee01181c927a0d603a"^^xsd:string .
 
@@ -6491,8 +6874,9 @@ ex:180332324 a ex:paper,
     ex:isRelatedTo ex:accounting,
         ex:internet_of_things,
         ex:paleontology ;
+    ex:isSubmittedTo ex:43684def-b4ea-439b-a4e9-d5a1ea786e3a ;
     ex:title "参与 生成 评价——“有效”课堂教学的三部曲"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T13:32:44.024000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/0ce294b6279865fa91ab96de1976aa93c5d8c3c1"^^xsd:string .
 
@@ -6503,8 +6887,9 @@ ex:180547178 a ex:paper ;
         ex:machine_learning,
         ex:philosophy,
         ex:statistics ;
+    ex:isSubmittedTo ex:d6d936b6-b6ec-4402-a0b4-921dbfe6c96a ;
     ex:title "永远的英雄 祖国的骄傲——纪念中国人民解放军建军80周年"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T13:26:41.441000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/f39a5aba78202a72b630c6c972f407830b82cb99"^^xsd:string .
 
@@ -6515,8 +6900,9 @@ ex:183446688 a ex:paper,
         ex:183446688-93986161 ;
     ex:isRelatedTo ex:evolutionary_biology,
         ex:psychology ;
+    ex:isSubmittedTo ex:a4b7b987-6221-4657-90c5-8f51d7b1126f ;
     ex:title "挑战极限 超越自我——近访陈笑风"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T12:22:08.065000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/82e0610f6f6f36c31ac8c008c44c6e98145be896"^^xsd:string .
 
@@ -6525,8 +6911,16 @@ ex:192486022 a ex:paper ;
         ex:192486022-83500001 ;
     ex:isRelatedTo ex:neurology,
         ex:philosophy ;
+    ex:isSubmittedTo ex:10360c14-66ed-4973-bdc6-338c7499845e,
+        ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9 ;
     ex:title "Quinns Beach mosaic makeover"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T08:47:03.597000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/20a317f3a59d9980c7e68dd7088289c16bf2ca9e"^^xsd:string .
 
@@ -6538,6 +6932,18 @@ ex:193828225 a ex:paper ;
         ex:immunology,
         ex:language_learning,
         ex:literature ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611,
+        ex:4a3eb43b-e335-492f-bb9c-1413cca299d4,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:a78f2c18-4d1d-4790-93a0-52aff92de25f,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
     ex:title "Els inicis de l’electricitat a Catalunya, el present i el futur: Història hidroelèctrica de Seròs amb la “Canadenca”"^^xsd:string ;
     ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T08:19:17.074000+00:00"^^xsd:dateTimeStamp ;
@@ -6551,44 +6957,45 @@ ex:198485941 a ex:paper,
         ex:198485941-3329482 ;
     ex:isRelatedTo ex:economics,
         ex:psychiatry ;
+    ex:isSubmittedTo ex:b7b8bcb9-270c-4501-a5da-4a276d8f2651 ;
     ex:publicationDate "2018-06-01"^^xsd:date ;
     ex:title "Application of Intelligent Garment Formwork Technology on Modern Garment Enterprises"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T06:08:58.607000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/cd754218f3346af131ec47fa2347dd6627827a7a"^^xsd:string .
-
-ex:ae1921e8-2067-45f0-beae-ac5b306a6cfe a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:medical_imaging ;
-    ex:issn "2158-4915"^^xsd:string ;
-    ex:name "Pulsed Power Conference (PPC), IEEE"^^xsd:string ;
-    ex:url "http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000597"^^xsd:string .
 
 ex:artificial_intelligence a ex:area .
 
 ex:bf7063d0-5f4f-4385-8fbb-58d3944e6f32 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
+    ex:conference_type "expert group"^^xsd:string ;
     ex:isRelatedTo ex:medical_imaging ;
     ex:issn "1633-8049"^^xsd:string ;
     ex:name "Rencontres médiévales européennes"^^xsd:string .
 
-ex:e939b18e-980b-44ec-8d7c-e8ea281e4bf6 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:health_informatics ;
-    ex:issn "1514-5603"^^xsd:string ;
-    ex:name "Revista argentina de psicopedagogía"^^xsd:string ;
-    ex:url "https://dialnet.unirioja.es/servlet/revista?codigo=4990"^^xsd:string .
+ex:dd8f14f5-34b7-4f7f-9156-0ee9dc9c8bfb a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:data_science ;
+    ex:issn "2468-6077"^^xsd:string ;
+    ex:name "Methods in Chemical Process Safety"^^xsd:string ;
+    ex:url "https://www.elsevier.com/books/book-series/methods-in-chemical-process-safety"^^xsd:string .
 
 ex:leadership a ex:area .
 
 ex:medical_imaging a ex:area .
 
-ex:0461cdb5-14bc-497e-a266-ca77fd1304b0 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
+ex:02d04afc-22d9-4b20-b847-286c4639edbe a ex:conference ;
+    ex:conference_type "symposium"^^xsd:string ;
     ex:isRelatedTo ex:health_informatics ;
-    ex:issn "2607-1592"^^xsd:string ;
-    ex:name "Cultures de l'information"^^xsd:string ;
-    ex:url "https://cultinfo.hypotheses.org/"^^xsd:string .
+    ex:issn "2358-243X"^^xsd:string ;
+    ex:name "Redfoco"^^xsd:string ;
+    ex:url "http://periodicos.uern.br/index.php/redfoco"^^xsd:string .
+
+ex:15722358-6a29-4c88-aed4-06e92356e9f6 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:data_science ;
+    ex:issn "2564-6605"^^xsd:string ;
+    ex:name "Ömer Halisdemir Üniversitesi Mühendislik Bilimleri Dergisi"^^xsd:string ;
+    ex:url "https://dergipark.org.tr/en/pub/ngumuh"^^xsd:string .
 
 ex:161014320 a ex:paper ;
     ex:hasReview ex:161014320-135267337,
@@ -6599,25 +7006,41 @@ ex:161014320 a ex:paper ;
         ex:genetics,
         ex:machine_learning,
         ex:statistics ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8,
+        ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 ;
     ex:title "Le XVIIIe siècle : des lumières à la Sainte-Alliance 1740-1820"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-02-08T22:26:26.437000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/9b299ba21cbe80aac8943287a7b61f7786f9d0aa"^^xsd:string .
 
-ex:168906647 a ex:paper,
+ex:172111462 a ex:paper,
         ex:publication ;
-    ex:hasReview ex:168906647-146977915,
-        ex:168906647-2043169608,
-        ex:168906647-88433377 ;
-    ex:isRelatedTo ex:developmental_biology,
-        ex:gender_studies,
-        ex:library_science,
-        ex:social_media_analytics ;
-    ex:publicationDate "2011-08-01"^^xsd:date ;
-    ex:title "Globalization Policies And E-Commerce Impact On Iranian Information Technology SME Sector"^^xsd:string ;
+    ex:hasReview ex:172111462-16178356,
+        ex:172111462-2164949231,
+        ex:172111462-2167972193 ;
+    ex:isRelatedTo ex:indexing ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:9f12bb35-cade-4b75-b689-860823fbf2cb,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b ;
+    ex:title "XI Congreso Internacional de la Sociedad Española de Cuidados Paliativos, Sevilla 12-14 de mayo 2016: Cuidados paliativos; un derecho de todos. Libro de comunicaciones"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
-    ex:updated "2022-02-08T18:07:33.740000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/35cdbfdd6f7a10ec03705ad49f0cd735b25e2c41"^^xsd:string .
+    ex:updated "2022-02-08T16:29:09.951000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/da9c7c977f836b13c1f4e53fa8a67dd110a8d34b"^^xsd:string .
 
 ex:180368883 a ex:paper,
         ex:publication ;
@@ -6625,8 +7048,9 @@ ex:180368883 a ex:paper,
         ex:180368883-87926302 ;
     ex:isRelatedTo ex:computer_vision,
         ex:ecology ;
+    ex:isSubmittedTo ex:02d04afc-22d9-4b20-b847-286c4639edbe ;
     ex:title "ENG 02298 TRABALHO DE DIPLOMAÇÃO"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
     ex:updated "2022-02-08T13:32:06.215000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/2190a673d30a8ba64a10f46af43f13ec8abefeac"^^xsd:string .
 
@@ -6638,22 +7062,24 @@ ex:192650398 a ex:paper ;
         ex:immunology,
         ex:materials_science,
         ex:theology ;
+    ex:isSubmittedTo ex:bde28bb6-4c6c-4d8e-b6d1-01937b87484f ;
     ex:title "Les dermatoses spécifiques de la grossesse"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
     ex:updated "2022-02-08T08:43:21.139000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/078977bfac5cd3879f61cb0c0d14124d2d36ee2b"^^xsd:string .
 
-ex:3b2c751d-4ed2-4da6-be71-4c19769543bf a ex:journal ;
-    ex:isRelatedTo ex:data_science ;
-    ex:issn "1085-1976"^^xsd:string ;
-    ex:name "Florida Media Quarterly"^^xsd:string ;
-    ex:url "http://www.floridamedia.org/"^^xsd:string .
+ex:76402852-7beb-487d-8d53-954e85516bc0 a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:computer_vision ;
+    ex:issn "1970-4860"^^xsd:string ;
+    ex:name "Economia dei servizi"^^xsd:string .
 
-ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c a ex:journal ;
-    ex:isRelatedTo ex:deep_learning ;
-    ex:issn "2241-7648"^^xsd:string ;
-    ex:name "Universal Journal of Computational Analysis"^^xsd:string ;
-    ex:url "http://www.papersciences.com/"^^xsd:string .
+ex:ae1921e8-2067-45f0-beae-ac5b306a6cfe a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:medical_imaging ;
+    ex:issn "2158-4915"^^xsd:string ;
+    ex:name "Pulsed Power Conference (PPC), IEEE"^^xsd:string ;
+    ex:url "http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000597"^^xsd:string .
 
 ex:big_data a ex:area .
 
@@ -6661,30 +7087,32 @@ ex:blockchain a ex:area .
 
 ex:business_intelligence a ex:area .
 
-ex:cd5f554f-e368-459a-b830-ceea0d8191fa a ex:journal ;
-    ex:isRelatedTo ex:artificial_intelligence ;
-    ex:issn "2325-503X"^^xsd:string ;
-    ex:name "˜The œjournal of social media in society"^^xsd:string ;
-    ex:url "http://thejsms.org/"^^xsd:string .
-
 ex:deep_learning a ex:area .
 
 ex:e2c6a445-18dd-4d4d-bbac-6150d798d2b6 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
+    ex:conference_type "workshop"^^xsd:string ;
     ex:isRelatedTo ex:augmented_reality ;
     ex:issn "0949-1880"^^xsd:string ;
     ex:name "HALMA. Hallische Medienarbeiten"^^xsd:string ;
     ex:url "http://www.medienkomm.uni-halle.de/publikationen/halma/"^^xsd:string .
 
-ex:ea2f25bf-85c6-412c-81fd-df91179b2607 a ex:conference ;
+ex:e939b18e-980b-44ec-8d7c-e8ea281e4bf6 a ex:conference ;
     ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:data_science ;
-    ex:issn "0011-2186"^^xsd:string ;
-    ex:name "Crux"^^xsd:string .
+    ex:isRelatedTo ex:health_informatics ;
+    ex:issn "1514-5603"^^xsd:string ;
+    ex:name "Revista argentina de psicopedagogía"^^xsd:string ;
+    ex:url "https://dialnet.unirioja.es/servlet/revista?codigo=4990"^^xsd:string .
 
 ex:human-computer_interaction a ex:area .
 
 ex:natural_language_processing a ex:area .
+
+ex:0461cdb5-14bc-497e-a266-ca77fd1304b0 a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:health_informatics ;
+    ex:issn "2607-1592"^^xsd:string ;
+    ex:name "Cultures de l'information"^^xsd:string ;
+    ex:url "https://cultinfo.hypotheses.org/"^^xsd:string .
 
 ex:172832805 a ex:paper,
         ex:publication ;
@@ -6693,6 +7121,7 @@ ex:172832805 a ex:paper,
         ex:172832805-148613475 ;
     ex:isRelatedTo ex:gender_studies,
         ex:sustainability ;
+    ex:isSubmittedTo ex:9a073da2-0ef8-480a-a5cf-822c1e88c308 ;
     ex:publicationDate "1978-04-01"^^xsd:date ;
     ex:title "A-15. 十二指腸嚢胞状重複症の 1 例(第 12 回日本小児外科学会関東甲信越地方会)"^^xsd:string ;
     ex:type "demo paper"^^xsd:string ;
@@ -6709,6 +7138,7 @@ ex:180016089 a ex:paper,
         ex:data_querying,
         ex:leadership,
         ex:psychology ;
+    ex:isSubmittedTo ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 ;
     ex:title "传承中华美德 激扬爱国情怀——国学课上巧妙渗透爱国主义教育"^^xsd:string ;
     ex:type "poster"^^xsd:string ;
     ex:updated "2022-02-08T13:42:22.894000+00:00"^^xsd:dateTimeStamp ;
@@ -6727,10 +7157,370 @@ ex:233364818 a ex:paper,
         ex:233364818-2105954179 ;
     ex:isRelatedTo ex:genetics,
         ex:human-computer_interaction ;
+    ex:isSubmittedTo ex:0461cdb5-14bc-497e-a266-ca77fd1304b0 ;
     ex:title "Finally, therefore, this book is a little disappointing, in so far as it addresses on its title-page the problem of the influence of Hellenism on the trinitarian theology of Basil, but touches the central issue in a slightly unsatisfactory manner"^^xsd:string ;
-    ex:type "poster"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
     ex:updated "2022-01-27T15:57:12.999000+00:00"^^xsd:dateTimeStamp ;
     ex:url "https://www.semanticscholar.org/paper/db4b184fe8bf2eef7ec5808bb37b0fbac73bf724"^^xsd:string .
+
+ex:ed8c3c93-9e65-41de-8bd0-4d9d4b2eeb41 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:data_science ;
+    ex:issn "2368-6669"^^xsd:string ;
+    ex:name "Quality Advancement in Nursing Education - Avancées en formation infirmière"^^xsd:string ;
+    ex:url "https://qane-afi.casn.ca/journal/"^^xsd:string .
+
+ex:945aea8e-5af0-4cc3-bf02-caa0e7d1dd95 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:cloud_computing ;
+    ex:issn "1390-7719"^^xsd:string ;
+    ex:name "Revista de la Pontificia Universidad Católica del Ecuador"^^xsd:string .
+
+ex:computer_vision a ex:area .
+
+ex:cybersecurity a ex:area .
+
+ex:d6d936b6-b6ec-4402-a0b4-921dbfe6c96a a ex:conference ;
+    ex:conference_type "symposium"^^xsd:string ;
+    ex:isRelatedTo ex:augmented_reality ;
+    ex:issn "2081-4712"^^xsd:string ;
+    ex:name "Zarządzanie kulturą"^^xsd:string ;
+    ex:url "http://goo.gl/zfUTh3"^^xsd:string .
+
+ex:data_science a ex:area .
+
+ex:dd7777ae-f733-445c-bf89-2486b3117cae a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:cloud_computing ;
+    ex:issn "0250-491X"^^xsd:string ;
+    ex:name "Studies in philosophy of medicine"^^xsd:string .
+
+ex:ea2f25bf-85c6-412c-81fd-df91179b2607 a ex:conference ;
+    ex:conference_type "symposium"^^xsd:string ;
+    ex:isRelatedTo ex:data_science ;
+    ex:issn "0011-2186"^^xsd:string ;
+    ex:name "Crux"^^xsd:string .
+
+ex:ecf8b9ec-fb19-4803-8b52-05e8791232e4 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:human-computer_interaction ;
+    ex:issn "0039-3339"^^xsd:string ;
+    ex:name "Studia Romanica et Anglica Zagrabiensia"^^xsd:string ;
+    ex:url "https://hrcak.srce.hr/sraz"^^xsd:string .
+
+ex:f2e2efab-bec8-4776-8d13-fb9e1349f303 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:computer_vision ;
+    ex:issn "1680-0419"^^xsd:string ;
+    ex:name "Études de politique fiscale de l'OCDE"^^xsd:string .
+
+ex:fe7599c8-3cc9-45de-893c-70a3372fc3e9 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:virtual_reality ;
+    ex:issn "1229-4543"^^xsd:string ;
+    ex:name "Peace Studies"^^xsd:string .
+
+ex:internet_of_things a ex:area .
+
+ex:virtual_reality a ex:area .
+
+ex:9042c24c-4c19-4e6a-8334-449eef16f57a a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:human-computer_interaction ;
+    ex:issn "2297-6035"^^xsd:string ;
+    ex:name "UZH Journal"^^xsd:string ;
+    ex:url "http://www.kommunikation.uzh.ch/publications/journal.html"^^xsd:string .
+
+ex:9f0e882d-976a-40ca-ac22-ebf18a7402c1 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:virtual_reality ;
+    ex:issn "1050-8538"^^xsd:string ;
+    ex:name "Modern warfare"^^xsd:string .
+
+ex:augmented_reality a ex:area .
+
+ex:cloud_computing a ex:area .
+
+ex:ff27e671-d9b7-4a58-8044-7a3cb284547f a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:augmented_reality ;
+    ex:issn "2010-2089"^^xsd:string ;
+    ex:name "World Scientific Series in Global Health Economics and Public Policy"^^xsd:string .
+
+ex:machine_learning a ex:area .
+
+ex:187609691 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:187609691-2100067713,
+        ex:187609691-31886832,
+        ex:187609691-83723095 ;
+    ex:isRelatedTo ex:biochemistry,
+        ex:chemical_engineering,
+        ex:gender_studies,
+        ex:logistics ;
+    ex:isSubmittedTo ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948 ;
+    ex:publicationDate "2018-03-19"^^xsd:date ;
+    ex:title "การพัฒนาโมเดลการยอมรับทางการเงิน บริบท การซื้อขายหุ้นผ่านแอพพลิเคชัน Streaming บนมือถือ"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
+    ex:updated "2022-01-24T22:39:18.629000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/1c53b1695657edeeb0914efe60eceb734384f48e"^^xsd:string .
+
+ex:a6ac75af-84de-4f00-965e-bbf758d6a71f a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:cloud_computing ;
+    ex:issn "2798-4613"^^xsd:string ;
+    ex:name "Jurnal Ilmu Sosial Dan Politik"^^xsd:string .
+
+ex:171325798 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:171325798-2188219626,
+        ex:171325798-25842431,
+        ex:171325798-83500001 ;
+    ex:isRelatedTo ex:anthropology,
+        ex:biophysics,
+        ex:climate_change,
+        ex:data_processing,
+        ex:information_retrieval ;
+    ex:isSubmittedTo ex:28927fa0-8dca-4082-a7d0-abd989c8ef12,
+        ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
+    ex:title "Eulogy of Northern Song Dynasty:On Liuyong's Eulogy Style Ci"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
+    ex:updated "2022-02-08T16:53:26.568000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/747f1f1f0480914cf8e7f76d0c584032a58095f2"^^xsd:string .
+
+ex:4a3eb43b-e335-492f-bb9c-1413cca299d4 a ex:journal ;
+    ex:isRelatedTo ex:deep_learning ;
+    ex:issn "2287-2892"^^xsd:string ;
+    ex:name "Journal of Lipid and Atherosclerosis"^^xsd:string ;
+    ex:url "https://www.e-jla.org/"^^xsd:string .
+
+ex:af9217e1-baa5-48b2-af0f-94eeaef5070f a ex:journal ;
+    ex:isRelatedTo ex:internet_of_things ;
+    ex:issn "2721-7582"^^xsd:string ;
+    ex:name "Current Journal International Journal Applied Technology Research"^^xsd:string ;
+    ex:url "http://ijatr.polban.ac.id/"^^xsd:string .
+
+ex:bde28bb6-4c6c-4d8e-b6d1-01937b87484f a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:virtual_reality ;
+    ex:issn "0770-3724"^^xsd:string ;
+    ex:name "Bulletin of Comparative Labour Relations"^^xsd:string ;
+    ex:url "http://www.aspenpublishers.com/Product.asp?catalog_name=Aspen&category_name=&product_id=9888880011"^^xsd:string .
+
+ex:cd5f554f-e368-459a-b830-ceea0d8191fa a ex:journal ;
+    ex:isRelatedTo ex:artificial_intelligence ;
+    ex:issn "2325-503X"^^xsd:string ;
+    ex:name "˜The œjournal of social media in society"^^xsd:string ;
+    ex:url "http://thejsms.org/"^^xsd:string .
+
+ex:fa7d940e-a956-44bb-ae0a-cd6835741229 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:social_media_analytics ;
+    ex:issn "0014-3502"^^xsd:string ;
+    ex:name "Evangelische Theologie"^^xsd:string ;
+    ex:url "https://www.degruyter.com/view/j/evth"^^xsd:string .
+
+ex:04d55eb2-9d8a-4366-baad-c0838563c870 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:social_media_analytics ;
+    ex:issn "0790-7850"^^xsd:string ;
+    ex:name "The Irish Review"^^xsd:string ;
+    ex:url "https://theirishreview.com/"^^xsd:string .
+
+ex:188059646 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:188059646-1396536635,
+        ex:188059646-145193808,
+        ex:188059646-3329482 ;
+    ex:isRelatedTo ex:virtual_reality ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948 ;
+    ex:title "Neumodulierung und Glykokonjugation von Faktor IX"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
+    ex:updated "2022-02-08T10:25:03.678000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/c396cbbe6c9b5c6f9b6da1229a84ac5d9e82185b"^^xsd:string .
+
+ex:23019876-9321-4840-8fb7-10fe82b7a015 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:cloud_computing ;
+    ex:issn "0579-9392"^^xsd:string ;
+    ex:name "Vestnik Moskovskogo universiteta. Serii︠a︡ III, Fizika, astronomii︠a︡"^^xsd:string .
+
+ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8 a ex:journal ;
+    ex:isRelatedTo ex:big_data ;
+    ex:issn "1018-2888"^^xsd:string ;
+    ex:name "Diagnóstico"^^xsd:string .
+
+ex:43684def-b4ea-439b-a4e9-d5a1ea786e3a a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:business_intelligence ;
+    ex:name "CoLogNet Publications"^^xsd:string ;
+    ex:url "http://www.colognet.org/"^^xsd:string .
+
+ex:b528d16b-359b-4d76-ace2-c64a1d496ffe a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:medical_imaging ;
+    ex:issn "2947-910X"^^xsd:string ;
+    ex:name "Palgrave Studies in Water Governance: Policy and Practice"^^xsd:string .
+
+ex:f00f504c-ecd7-4b17-877f-aa67ce382f58 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:virtual_reality ;
+    ex:issn "0430-3393"^^xsd:string ;
+    ex:name "Festkörperprobleme 31"^^xsd:string .
+
+ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:computer_vision ;
+    ex:name "international workshop on Decentralized Resource Sharing in Mobile Computing and Networking"^^xsd:string .
+
+ex:246009114 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:246009114-135267337,
+        ex:246009114-1396536635,
+        ex:246009114-87926302 ;
+    ex:isRelatedTo ex:blockchain,
+        ex:electrical_engineering ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cd5f554f-e368-459a-b830-ceea0d8191fa ;
+    ex:title "REAL TIME OBJECT DETECTION AND 3D MODELING FOR COMPUTER VISION"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
+    ex:updated "2022-01-19T15:23:48.149000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/e50af5840b30442dd4c989975851077bb532d976"^^xsd:string .
+
+ex:9a073da2-0ef8-480a-a5cf-822c1e88c308 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:computer_vision ;
+    ex:issn "0896-4181"^^xsd:string ;
+    ex:name "Global Finance"^^xsd:string .
+
+ex:a4b7b987-6221-4657-90c5-8f51d7b1126f a ex:conference ;
+    ex:conference_type "workshop"^^xsd:string ;
+    ex:isRelatedTo ex:human-computer_interaction ;
+    ex:issn "2415-7708"^^xsd:string ;
+    ex:name "Sinergiâ"^^xsd:string .
+
+ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a a ex:journal ;
+    ex:isRelatedTo ex:big_data ;
+    ex:issn "0378-6471"^^xsd:string ;
+    ex:name "Journal of the Korean Ophthalmological Society"^^xsd:string ;
+    ex:url "http://www.ophthalmology.org/judge/"^^xsd:string .
+
+ex:3b2c751d-4ed2-4da6-be71-4c19769543bf a ex:journal ;
+    ex:isRelatedTo ex:data_science ;
+    ex:issn "1085-1976"^^xsd:string ;
+    ex:name "Florida Media Quarterly"^^xsd:string ;
+    ex:url "http://www.floridamedia.org/"^^xsd:string .
+
+ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c a ex:journal ;
+    ex:isRelatedTo ex:artificial_intelligence ;
+    ex:name "Soil and Environmental Sciences"^^xsd:string .
+
+ex:83e0793c-9677-422e-ab1d-806afdeaaad5 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:social_media_analytics ;
+    ex:issn "2027-6745"^^xsd:string ;
+    ex:name "CITECSA"^^xsd:string ;
+    ex:url "http://www.unipaz.edu.co/ojs/index.php/revcitecsa"^^xsd:string .
+
+ex:85090893-f085-44b5-9c38-1034c90750f4 a ex:conference ;
+    ex:conference_type "regular conference"^^xsd:string ;
+    ex:isRelatedTo ex:augmented_reality ;
+    ex:issn "2047-4326"^^xsd:string ;
+    ex:name "Country Report Cayman Islands"^^xsd:string ;
+    ex:url "http://www.eiu.com/index.asp?layout=displayIssue&publication_id=860000886"^^xsd:string .
+
+ex:cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50 a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:social_media_analytics ;
+    ex:issn "1666-6917"^^xsd:string ;
+    ex:name "Revista Tecnología y Ciencia"^^xsd:string ;
+    ex:url "http://rtyc.utn.edu.ar/"^^xsd:string .
+
+ex:ea96e9af-b142-41b8-a817-2fc1bcb6f6fe a ex:conference ;
+    ex:conference_type "expert group"^^xsd:string ;
+    ex:isRelatedTo ex:human-computer_interaction ;
+    ex:issn "2088-2025"^^xsd:string ;
+    ex:name "Jurnal Linguistik Terapan"^^xsd:string .
+
+ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 a ex:journal ;
+    ex:isRelatedTo ex:blockchain ;
+    ex:issn "2572-3278"^^xsd:string ;
+    ex:name "Journal of Nutritional Medicine and Diet Care"^^xsd:string ;
+    ex:url "https://clinmedjournals.org/archive.php?jid=jnmdc"^^xsd:string .
+
+ex:162433415 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:162433415-134791480,
+        ex:162433415-2091352504 ;
+    ex:isRelatedTo ex:computer_vision ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87,
+        ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 ;
+    ex:title "El fondo antiguo del Ayuntamiento de Bolaños"^^xsd:string ;
+    ex:type "full paper"^^xsd:string ;
+    ex:updated "2022-02-08T21:44:11.791000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/0796b6319d18938cb4132d51ca7c3c89f80e3946"^^xsd:string .
+
+ex:237c9ae0-2f26-4eca-a083-28778d813825 a ex:journal ;
+    ex:isRelatedTo ex:deep_learning ;
+    ex:issn "2521-6244"^^xsd:string ;
+    ex:name "Electrical Engineering and Power Engineering"^^xsd:string .
+
+ex:160964077 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:160964077-2077347087,
+        ex:160964077-48393866,
+        ex:160964077-87926302 ;
+    ex:isRelatedTo ex:cloud_computing,
+        ex:ecology,
+        ex:finance ;
+    ex:isSubmittedTo ex:1d52ca9d-7ba3-428b-870d-0370c28589f3,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:3b2c751d-4ed2-4da6-be71-4c19769543bf,
+        ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:98b33b54-deeb-4e36-9d52-02c86fbfd510,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:c4906074-ce3f-48b7-bc22-2df39bb3e948,
+        ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
+    ex:title "Die Kommentare von Raschi, Ibn Esra, Radaq, zu Joel"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
+    ex:updated "2022-01-27T19:10:10.509000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/46e705f1bd730e3d204d39b6c3a9d86b53381920"^^xsd:string .
+
+ex:26c4ed67-b7d5-4a46-8317-87decb51a69c a ex:journal ;
+    ex:isRelatedTo ex:cybersecurity ;
+    ex:issn "0854-4468"^^xsd:string ;
+    ex:name "Saintek ITM"^^xsd:string ;
+    ex:url "http://ejurnal.saintekjournalitm.com/index.php/JSaintekITM"^^xsd:string .
 
 ex:28927fa0-8dca-4082-a7d0-abd989c8ef12 a ex:journal ;
     ex:isRelatedTo ex:data_science ;
@@ -6738,77 +7528,83 @@ ex:28927fa0-8dca-4082-a7d0-abd989c8ef12 a ex:journal ;
     ex:name "Advancement of science"^^xsd:string ;
     ex:url "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2198-3844"^^xsd:string .
 
-ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8 a ex:journal ;
-    ex:isRelatedTo ex:big_data ;
-    ex:issn "1018-2888"^^xsd:string ;
-    ex:name "Diagnóstico"^^xsd:string .
-
 ex:3e0f5847-034a-4c20-8bed-9fbec8e0cb87 a ex:journal ;
     ex:isRelatedTo ex:artificial_intelligence ;
     ex:issn "0046-4147"^^xsd:string ;
     ex:name "Florida libraries"^^xsd:string .
 
-ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c a ex:journal ;
-    ex:isRelatedTo ex:artificial_intelligence ;
-    ex:name "Soil and Environmental Sciences"^^xsd:string .
+ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611 a ex:journal ;
+    ex:isRelatedTo ex:machine_learning ;
+    ex:issn "2578-6490"^^xsd:string ;
+    ex:name "Alzheimers Disease & Dementia"^^xsd:string ;
+    ex:url "http://scholarlypages.org/journal.php?jid=alzheimers-disease-and-dementia"^^xsd:string .
 
-ex:945aea8e-5af0-4cc3-bf02-caa0e7d1dd95 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:cloud_computing ;
-    ex:issn "1390-7719"^^xsd:string ;
-    ex:name "Revista de la Pontificia Universidad Católica del Ecuador"^^xsd:string .
+ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b a ex:journal ;
+    ex:isRelatedTo ex:machine_learning ;
+    ex:issn "2588-400X"^^xsd:string ;
+    ex:name "Advanced Journal of Emergency Medicine"^^xsd:string ;
+    ex:url "http://ajem.tums.ac.ir/"^^xsd:string .
 
-ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 a ex:journal ;
-    ex:isRelatedTo ex:cybersecurity ;
-    ex:name "Journal of Shanghai Second Polytechnic University"^^xsd:string .
-
-ex:d6d936b6-b6ec-4402-a0b4-921dbfe6c96a a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:augmented_reality ;
-    ex:issn "2081-4712"^^xsd:string ;
-    ex:name "Zarządzanie kulturą"^^xsd:string ;
-    ex:url "http://goo.gl/zfUTh3"^^xsd:string .
-
-ex:dd7777ae-f733-445c-bf89-2486b3117cae a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:cloud_computing ;
-    ex:issn "0250-491X"^^xsd:string ;
-    ex:name "Studies in philosophy of medicine"^^xsd:string .
-
-ex:ed8c3c93-9e65-41de-8bd0-4d9d4b2eeb41 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:data_science ;
-    ex:issn "2368-6669"^^xsd:string ;
-    ex:name "Quality Advancement in Nursing Education - Avancées en formation infirmière"^^xsd:string ;
-    ex:url "https://qane-afi.casn.ca/journal/"^^xsd:string .
-
-ex:fe7599c8-3cc9-45de-893c-70a3372fc3e9 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:virtual_reality ;
-    ex:issn "1229-4543"^^xsd:string ;
-    ex:name "Peace Studies"^^xsd:string .
-
-ex:10360c14-66ed-4973-bdc6-338c7499845e a ex:journal ;
-    ex:isRelatedTo ex:artificial_intelligence ;
-    ex:name "Tiny Transactions on Computer Science"^^xsd:string ;
-    ex:url "http://tinytocs.org/"^^xsd:string .
-
-ex:1d52ca9d-7ba3-428b-870d-0370c28589f3 a ex:journal ;
+ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6 a ex:journal ;
     ex:isRelatedTo ex:internet_of_things ;
-    ex:issn "2056-5909"^^xsd:string ;
-    ex:name "Clinical Hypertension"^^xsd:string ;
-    ex:url "http://www.clinicalhypertension.com/"^^xsd:string .
+    ex:issn "1533-3124"^^xsd:string ;
+    ex:name "Journal of Multistate Taxation and Incentives"^^xsd:string .
 
-ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773 a ex:journal ;
-    ex:isRelatedTo ex:natural_language_processing ;
-    ex:issn "0268-3679"^^xsd:string ;
-    ex:name "Teaching Mathematics and its Applications"^^xsd:string ;
-    ex:url "https://academic.oup.com/teamat/advance-article/doi/10.1093/teamat/hrx007/3852147"^^xsd:string .
+ex:90f50ae1-d87f-4189-b415-849e96dd96f1 a ex:journal ;
+    ex:isRelatedTo ex:machine_learning ;
+    ex:issn "1434-5897"^^xsd:string ;
+    ex:name "Die TEXnische Komödie 2"^^xsd:string .
 
-ex:237c9ae0-2f26-4eca-a083-28778d813825 a ex:journal ;
-    ex:isRelatedTo ex:deep_learning ;
-    ex:issn "2521-6244"^^xsd:string ;
-    ex:name "Electrical Engineering and Power Engineering"^^xsd:string .
+ex:168906647 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:168906647-146977915,
+        ex:168906647-2043169608,
+        ex:168906647-88433377 ;
+    ex:isRelatedTo ex:developmental_biology,
+        ex:gender_studies,
+        ex:library_science,
+        ex:social_media_analytics ;
+    ex:isSubmittedTo ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:3dbb0e3e-42e8-455a-81f4-6bec5ead31b8,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:cd5f554f-e368-459a-b830-ceea0d8191fa,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
+    ex:publicationDate "2011-08-01"^^xsd:date ;
+    ex:title "Globalization Policies And E-Commerce Impact On Iranian Information Technology SME Sector"^^xsd:string ;
+    ex:type "short paper"^^xsd:string ;
+    ex:updated "2022-02-08T18:07:33.740000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/35cdbfdd6f7a10ec03705ad49f0cd735b25e2c41"^^xsd:string .
+
+ex:184226317 a ex:paper,
+        ex:publication ;
+    ex:doi "10.13109/9783666563980.80"^^xsd:string ;
+    ex:hasReview ex:184226317-121783265,
+        ex:184226317-2198810921 ;
+    ex:isRelatedTo ex:leadership ;
+    ex:isSubmittedTo ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1,
+        ex:3a9f67ab-f61c-45aa-a187-c08d4035728b,
+        ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611,
+        ex:5385d627-f38f-4f07-a1fb-840f1cf08c88,
+        ex:75a40e9a-d458-4cb2-8d3a-ad0f3c60134c,
+        ex:7a2b9da8-de5a-48d9-b77b-781955a16084,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:90f50ae1-d87f-4189-b415-849e96dd96f1,
+        ex:9210d210-bca6-40ed-a5fe-580255c0b0e6,
+        ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d ;
+    ex:title "III. Jüdische moralische Wahrnehmungen von Kindesaussetzung"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
+    ex:updated "2022-02-08T11:59:24.110000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/01eb3122e70c477c2cd7f418b9743ba8d6046ac0"^^xsd:string .
 
 ex:30aa77a0-fb15-4dd9-8efa-9dbfa3cf57e1 a ex:journal ;
     ex:isRelatedTo ex:cybersecurity ;
@@ -6826,198 +7622,17 @@ ex:47a190d9-bfa4-4158-852e-b9428312a19c a ex:journal ;
     ex:isRelatedTo ex:big_data ;
     ex:name "Geography and Territorial Research"^^xsd:string .
 
-ex:4a3eb43b-e335-492f-bb9c-1413cca299d4 a ex:journal ;
-    ex:isRelatedTo ex:deep_learning ;
-    ex:issn "2287-2892"^^xsd:string ;
-    ex:name "Journal of Lipid and Atherosclerosis"^^xsd:string ;
-    ex:url "https://www.e-jla.org/"^^xsd:string .
-
-ex:5385d627-f38f-4f07-a1fb-840f1cf08c88 a ex:journal ;
-    ex:isRelatedTo ex:artificial_intelligence ;
-    ex:issn "2764-6947"^^xsd:string ;
-    ex:name "Journal of Contemporary Diseases and Advanced Medicine"^^xsd:string .
-
-ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c a ex:journal ;
-    ex:isRelatedTo ex:blockchain ;
-    ex:name "Sintaksis"^^xsd:string .
-
-ex:7a2b9da8-de5a-48d9-b77b-781955a16084 a ex:journal ;
-    ex:isRelatedTo ex:deep_learning ;
-    ex:issn "1822-427X"^^xsd:string ;
-    ex:name "Baltic Journal of Road and Bridge Engineering"^^xsd:string ;
-    ex:url "http://ei.libis.lt/pradinis.php?url=http://www.bjrbe.vgtu.lt/index.php"^^xsd:string .
-
-ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6 a ex:journal ;
-    ex:isRelatedTo ex:internet_of_things ;
-    ex:issn "1533-3124"^^xsd:string ;
-    ex:name "Journal of Multistate Taxation and Incentives"^^xsd:string .
-
 ex:9210d210-bca6-40ed-a5fe-580255c0b0e6 a ex:journal ;
     ex:isRelatedTo ex:natural_language_processing ;
     ex:issn "1884-8354"^^xsd:string ;
     ex:name "Transactions of the Japan Society of Mechanical Engineers Series C"^^xsd:string ;
     ex:url "https://www.jstage.jst.go.jp/browse/kikaic/list/-char/ja"^^xsd:string .
 
-ex:9f0e882d-976a-40ca-ac22-ebf18a7402c1 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:virtual_reality ;
-    ex:issn "1050-8538"^^xsd:string ;
-    ex:name "Modern warfare"^^xsd:string .
-
-ex:9f12bb35-cade-4b75-b689-860823fbf2cb a ex:journal ;
-    ex:isRelatedTo ex:internet_of_things ;
-    ex:issn "2321-7251"^^xsd:string ;
-    ex:name "International Journal of Research in Health Sciences"^^xsd:string ;
-    ex:url "http://www.ijrhs.com/"^^xsd:string .
-
-ex:af9217e1-baa5-48b2-af0f-94eeaef5070f a ex:journal ;
-    ex:isRelatedTo ex:internet_of_things ;
-    ex:issn "2721-7582"^^xsd:string ;
-    ex:name "Current Journal International Journal Applied Technology Research"^^xsd:string ;
-    ex:url "http://ijatr.polban.ac.id/"^^xsd:string .
-
-ex:c4906074-ce3f-48b7-bc22-2df39bb3e948 a ex:journal ;
-    ex:isRelatedTo ex:internet_of_things ;
-    ex:issn "1674-5647"^^xsd:string ;
-    ex:name "Communications in Mathematical Research"^^xsd:string ;
-    ex:url "http://erf.sbb.spk-berlin.de/han/caj/eng.oversea.cnki.net/kns55/oldnavi/n_item.aspx?NaviID=48&amp;BaseID=DBSX&amp;Flg=local&amp;NaviLink="^^xsd:string .
-
-ex:c494f143-afa1-4343-9967-bd08727d8305 a ex:journal ;
+ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c a ex:journal ;
     ex:isRelatedTo ex:deep_learning ;
-    ex:issn "2045-7057"^^xsd:string ;
-    ex:name "International Journal of Multidisciplinary Sciences and Engineering"^^xsd:string ;
-    ex:url "http://www.ijmse.org/"^^xsd:string .
-
-ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9 a ex:journal ;
-    ex:isRelatedTo ex:artificial_intelligence ;
-    ex:issn "2399-5351"^^xsd:string ;
-    ex:name "Integrated Healthcare Journal"^^xsd:string ;
-    ex:url "https://ihj.bmj.com/"^^xsd:string .
-
-ex:computer_vision a ex:area .
-
-ex:cybersecurity a ex:area .
-
-ex:data_science a ex:area .
-
-ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a a ex:journal ;
-    ex:isRelatedTo ex:big_data ;
-    ex:issn "0378-6471"^^xsd:string ;
-    ex:name "Journal of the Korean Ophthalmological Society"^^xsd:string ;
-    ex:url "http://www.ophthalmology.org/judge/"^^xsd:string .
-
-ex:ecf8b9ec-fb19-4803-8b52-05e8791232e4 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:human-computer_interaction ;
-    ex:issn "0039-3339"^^xsd:string ;
-    ex:name "Studia Romanica et Anglica Zagrabiensia"^^xsd:string ;
-    ex:url "https://hrcak.srce.hr/sraz"^^xsd:string .
-
-ex:f2e2efab-bec8-4776-8d13-fb9e1349f303 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:computer_vision ;
-    ex:issn "1680-0419"^^xsd:string ;
-    ex:name "Études de politique fiscale de l'OCDE"^^xsd:string .
-
-ex:f83c0eba-cf5a-4172-ae40-b5b5e49ae1c1 a ex:journal ;
-    ex:isRelatedTo ex:blockchain ;
-    ex:issn "2572-3278"^^xsd:string ;
-    ex:name "Journal of Nutritional Medicine and Diet Care"^^xsd:string ;
-    ex:url "https://clinmedjournals.org/archive.php?jid=jnmdc"^^xsd:string .
-
-ex:internet_of_things a ex:area .
-
-ex:virtual_reality a ex:area .
-
-ex:099f722f-e5a2-42bb-9ab6-1dcd500bd977 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:computer_vision ;
-    ex:name "international workshop on Decentralized Resource Sharing in Mobile Computing and Networking"^^xsd:string .
-
-ex:163245903 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:163245903-122841322,
-        ex:163245903-2186485267,
-        ex:163245903-87926302 ;
-    ex:isRelatedTo ex:cloud_computing,
-        ex:cultural_studies ;
-    ex:title "Libros. WITZ, Claude: «Droit privé allemand. 1. Actes juridiques, droits subjectifs», ed. Litec (parís, 1992), 625 páginas."^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-02-08T21:20:33.502000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/3b02ac4809b9554ba3fe65055883515ec1ef333a"^^xsd:string .
-
-ex:26c4ed67-b7d5-4a46-8317-87decb51a69c a ex:journal ;
-    ex:isRelatedTo ex:cybersecurity ;
-    ex:issn "0854-4468"^^xsd:string ;
-    ex:name "Saintek ITM"^^xsd:string ;
-    ex:url "http://ejurnal.saintekjournalitm.com/index.php/JSaintekITM"^^xsd:string .
-
-ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5 a ex:journal ;
-    ex:isRelatedTo ex:big_data ;
-    ex:issn "1523-1712"^^xsd:string ;
-    ex:name "IDEA: A Journal of Social Issues"^^xsd:string ;
-    ex:url "https://www.ideajournal.com/"^^xsd:string .
-
-ex:41bfda96-f67a-4623-976c-d573aa55dfd4 a ex:journal ;
-    ex:isRelatedTo ex:blockchain ;
-    ex:issn "2394-8876"^^xsd:string ;
-    ex:name "SSRG international journal of applied ceramic technology"^^xsd:string .
-
-ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165 a ex:journal ;
-    ex:isRelatedTo ex:blockchain ;
-    ex:issn "2435-7278"^^xsd:string ;
-    ex:name "Journal of Engineering and Technology Revolution"^^xsd:string .
-
-ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b a ex:journal ;
-    ex:isRelatedTo ex:machine_learning ;
-    ex:issn "2588-400X"^^xsd:string ;
-    ex:name "Advanced Journal of Emergency Medicine"^^xsd:string ;
-    ex:url "http://ajem.tums.ac.ir/"^^xsd:string .
-
-ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2 a ex:journal ;
-    ex:isRelatedTo ex:big_data ;
-    ex:issn "2393-9001"^^xsd:string ;
-    ex:name "˜Theœ Apollonian : a journal of interdisciplinary studies"^^xsd:string ;
-    ex:url "http://www.theapollonian.in/"^^xsd:string .
-
-ex:7b328dcc-4ced-46c5-afe5-d4d091163176 a ex:journal ;
-    ex:isRelatedTo ex:cybersecurity ;
-    ex:issn "0899-9287"^^xsd:string ;
-    ex:name "The Healthcare Forum journal"^^xsd:string .
-
-ex:9042c24c-4c19-4e6a-8334-449eef16f57a a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
-    ex:isRelatedTo ex:human-computer_interaction ;
-    ex:issn "2297-6035"^^xsd:string ;
-    ex:name "UZH Journal"^^xsd:string ;
-    ex:url "http://www.kommunikation.uzh.ch/publications/journal.html"^^xsd:string .
-
-ex:90f50ae1-d87f-4189-b415-849e96dd96f1 a ex:journal ;
-    ex:isRelatedTo ex:machine_learning ;
-    ex:issn "1434-5897"^^xsd:string ;
-    ex:name "Die TEXnische Komödie 2"^^xsd:string .
-
-ex:924b5177-20b5-464c-84b2-0f813c7a83b9 a ex:journal ;
-    ex:isRelatedTo ex:machine_learning ;
-    ex:issn "0022-3565"^^xsd:string ;
-    ex:name "Journal of Pharmacology and Experimental Therapeutics"^^xsd:string ;
-    ex:url "http://jpet.aspetjournals.org/"^^xsd:string .
-
-ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340 a ex:journal ;
-    ex:isRelatedTo ex:cybersecurity ;
-    ex:issn "2721-2033"^^xsd:string ;
-    ex:name "Jurnal Ilmiah Keperawatan Gigi"^^xsd:string .
-
-ex:98b33b54-deeb-4e36-9d52-02c86fbfd510 a ex:journal ;
-    ex:isRelatedTo ex:natural_language_processing ;
-    ex:issn "1155-4320"^^xsd:string ;
-    ex:name "Journal de Physique III"^^xsd:string .
-
-ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b a ex:journal ;
-    ex:isRelatedTo ex:natural_language_processing ;
-    ex:issn "2046-147X"^^xsd:string ;
-    ex:name "Public relations inquiry"^^xsd:string ;
-    ex:url "https://journals.sagepub.com/home/pri"^^xsd:string .
+    ex:issn "2241-7648"^^xsd:string ;
+    ex:name "Universal Journal of Computational Analysis"^^xsd:string ;
+    ex:url "http://www.papersciences.com/"^^xsd:string .
 
 ex:a78f2c18-4d1d-4790-93a0-52aff92de25f a ex:journal ;
     ex:isRelatedTo ex:data_science ;
@@ -7025,27 +7640,107 @@ ex:a78f2c18-4d1d-4790-93a0-52aff92de25f a ex:journal ;
     ex:name "Anais do Museu Paulista: História e Cultura Material"^^xsd:string ;
     ex:url "http://www.scielo.br/anaismp"^^xsd:string .
 
-ex:augmented_reality a ex:area .
-
 ex:ba0535ba-d87c-4eb2-8597-9649a54eda9d a ex:journal ;
     ex:isRelatedTo ex:natural_language_processing ;
     ex:issn "1575-0361"^^xsd:string ;
     ex:name "Historia y Política Ideas Procesos y Movimientos Sociales"^^xsd:string ;
     ex:url "http://recyt.fecyt.es/index.php/Hyp/index"^^xsd:string .
 
-ex:bde28bb6-4c6c-4d8e-b6d1-01937b87484f a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:virtual_reality ;
-    ex:issn "0770-3724"^^xsd:string ;
-    ex:name "Bulletin of Comparative Labour Relations"^^xsd:string ;
-    ex:url "http://www.aspenpublishers.com/Product.asp?catalog_name=Aspen&category_name=&product_id=9888880011"^^xsd:string .
+ex:cf014da0-4fc0-4d80-8ba6-5077f19f4ff9 a ex:journal ;
+    ex:isRelatedTo ex:artificial_intelligence ;
+    ex:issn "2399-5351"^^xsd:string ;
+    ex:name "Integrated Healthcare Journal"^^xsd:string ;
+    ex:url "https://ihj.bmj.com/"^^xsd:string .
 
-ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b a ex:journal ;
-    ex:isRelatedTo ex:data_science ;
-    ex:issn "2186-7526"^^xsd:string ;
-    ex:name "Boreal Forest Research"^^xsd:string .
+ex:10360c14-66ed-4973-bdc6-338c7499845e a ex:journal ;
+    ex:isRelatedTo ex:artificial_intelligence ;
+    ex:name "Tiny Transactions on Computer Science"^^xsd:string ;
+    ex:url "http://tinytocs.org/"^^xsd:string .
 
-ex:cloud_computing a ex:area .
+ex:178755305 a ex:paper,
+        ex:publication ;
+    ex:hasReview ex:178755305-1485468698,
+        ex:178755305-50281777 ;
+    ex:isRelatedTo ex:cancer_research,
+        ex:leadership,
+        ex:machine_learning,
+        ex:organizational_behavior ;
+    ex:isSubmittedTo ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4,
+        ex:237c9ae0-2f26-4eca-a083-28778d813825,
+        ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5,
+        ex:41bfda96-f67a-4623-976c-d573aa55dfd4,
+        ex:47a190d9-bfa4-4158-852e-b9428312a19c,
+        ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165,
+        ex:6b4ac8b4-2a1a-40f5-807d-f3cffd6e0b1b,
+        ex:7b328dcc-4ced-46c5-afe5-d4d091163176,
+        ex:8f2e5f4f-47a2-4795-a8c3-949271aa9aa6,
+        ex:924b5177-20b5-464c-84b2-0f813c7a83b9,
+        ex:9a3d9aca-5a67-4344-92e0-77ce2d11379c,
+        ex:c494f143-afa1-4343-9967-bd08727d8305,
+        ex:ddce71bd-e266-4f12-bd75-d0a9b327c12a,
+        ex:ddee628a-b322-4999-9904-2cef31ca23d7,
+        ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 ;
+    ex:title "이 계절의 시 : 장님 걸인-외 1편"^^xsd:string ;
+    ex:type "demo paper"^^xsd:string ;
+    ex:updated "2022-02-08T14:16:27.883000+00:00"^^xsd:dateTimeStamp ;
+    ex:url "https://www.semanticscholar.org/paper/11a0f31c605385fe1e13fff218ea6ae033590613"^^xsd:string .
+
+ex:9251bb39-b6bf-4ab9-9ff7-b61db0a3c340 a ex:journal ;
+    ex:isRelatedTo ex:cybersecurity ;
+    ex:issn "2721-2033"^^xsd:string ;
+    ex:name "Jurnal Ilmiah Keperawatan Gigi"^^xsd:string .
+
+ex:9f12bb35-cade-4b75-b689-860823fbf2cb a ex:journal ;
+    ex:isRelatedTo ex:internet_of_things ;
+    ex:issn "2321-7251"^^xsd:string ;
+    ex:name "International Journal of Research in Health Sciences"^^xsd:string ;
+    ex:url "http://www.ijrhs.com/"^^xsd:string .
+
+ex:c55d7796-a7a8-4ecc-8b05-b170c92c86c6 a ex:journal ;
+    ex:isRelatedTo ex:cybersecurity ;
+    ex:name "Journal of Shanghai Second Polytechnic University"^^xsd:string .
+
+ex:4d7bc938-a483-4c5d-bedb-a7722c5c8165 a ex:journal ;
+    ex:isRelatedTo ex:blockchain ;
+    ex:issn "2435-7278"^^xsd:string ;
+    ex:name "Journal of Engineering and Technology Revolution"^^xsd:string .
+
+ex:924b5177-20b5-464c-84b2-0f813c7a83b9 a ex:journal ;
+    ex:isRelatedTo ex:machine_learning ;
+    ex:issn "0022-3565"^^xsd:string ;
+    ex:name "Journal of Pharmacology and Experimental Therapeutics"^^xsd:string ;
+    ex:url "http://jpet.aspetjournals.org/"^^xsd:string .
+
+ex:c4906074-ce3f-48b7-bc22-2df39bb3e948 a ex:journal ;
+    ex:isRelatedTo ex:internet_of_things ;
+    ex:issn "1674-5647"^^xsd:string ;
+    ex:name "Communications in Mathematical Research"^^xsd:string ;
+    ex:url "http://erf.sbb.spk-berlin.de/han/caj/eng.oversea.cnki.net/kns55/oldnavi/n_item.aspx?NaviID=48&amp;BaseID=DBSX&amp;Flg=local&amp;NaviLink="^^xsd:string .
+
+ex:6f6d7b8f-57c7-49a4-b01b-ed33ed25b3f2 a ex:journal ;
+    ex:isRelatedTo ex:big_data ;
+    ex:issn "2393-9001"^^xsd:string ;
+    ex:name "˜Theœ Apollonian : a journal of interdisciplinary studies"^^xsd:string ;
+    ex:url "http://www.theapollonian.in/"^^xsd:string .
+
+ex:7a2b9da8-de5a-48d9-b77b-781955a16084 a ex:journal ;
+    ex:isRelatedTo ex:deep_learning ;
+    ex:issn "1822-427X"^^xsd:string ;
+    ex:name "Baltic Journal of Road and Bridge Engineering"^^xsd:string ;
+    ex:url "http://ei.libis.lt/pradinis.php?url=http://www.bjrbe.vgtu.lt/index.php"^^xsd:string .
+
+ex:chair rdfs:subClassOf ex:human .
+
+ex:editor rdfs:subClassOf ex:human .
+
+ex:76bda6dd-359d-4a2f-aea7-4e7dab39926c a ex:journal ;
+    ex:isRelatedTo ex:blockchain ;
+    ex:name "Sintaksis"^^xsd:string .
+
+ex:98b33b54-deeb-4e36-9d52-02c86fbfd510 a ex:journal ;
+    ex:isRelatedTo ex:natural_language_processing ;
+    ex:issn "1155-4320"^^xsd:string ;
+    ex:name "Journal de Physique III"^^xsd:string .
 
 ex:ddee628a-b322-4999-9904-2cef31ca23d7 a ex:journal ;
     ex:isRelatedTo ex:data_science ;
@@ -7059,78 +7754,22 @@ ex:e442512f-e7e8-4ad3-ada8-d3cd1b2c86c8 a ex:journal ;
     ex:name "Journal of Education and Ethics in Dentistry"^^xsd:string ;
     ex:url "http://www.jeed.in/"^^xsd:string .
 
-ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 a ex:journal ;
-    ex:isRelatedTo ex:machine_learning ;
-    ex:issn "2616-7263"^^xsd:string ;
-    ex:name "Bulletin of L.N. Gumilyov Eurasian National University. Technical Science and Technology Series"^^xsd:string ;
-    ex:url "https://bultech.enu.kz/"^^xsd:string .
+ex:2247e234-68d6-483d-9dd3-a9b9ed8d8773 a ex:journal ;
+    ex:isRelatedTo ex:natural_language_processing ;
+    ex:issn "0268-3679"^^xsd:string ;
+    ex:name "Teaching Mathematics and its Applications"^^xsd:string ;
+    ex:url "https://academic.oup.com/teamat/advance-article/doi/10.1093/teamat/hrx007/3852147"^^xsd:string .
 
-ex:fa7d940e-a956-44bb-ae0a-cd6835741229 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
-    ex:isRelatedTo ex:social_media_analytics ;
-    ex:issn "0014-3502"^^xsd:string ;
-    ex:name "Evangelische Theologie"^^xsd:string ;
-    ex:url "https://www.degruyter.com/view/j/evth"^^xsd:string .
+ex:5385d627-f38f-4f07-a1fb-840f1cf08c88 a ex:journal ;
+    ex:isRelatedTo ex:artificial_intelligence ;
+    ex:issn "2764-6947"^^xsd:string ;
+    ex:name "Journal of Contemporary Diseases and Advanced Medicine"^^xsd:string .
 
-ex:ff27e671-d9b7-4a58-8044-7a3cb284547f a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:augmented_reality ;
-    ex:issn "2010-2089"^^xsd:string ;
-    ex:name "World Scientific Series in Global Health Economics and Public Policy"^^xsd:string .
-
-ex:machine_learning a ex:area .
-
-ex:04d55eb2-9d8a-4366-baad-c0838563c870 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:social_media_analytics ;
-    ex:issn "0790-7850"^^xsd:string ;
-    ex:name "The Irish Review"^^xsd:string ;
-    ex:url "https://theirishreview.com/"^^xsd:string .
-
-ex:187609691 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:187609691-2100067713,
-        ex:187609691-31886832,
-        ex:187609691-83723095 ;
-    ex:isRelatedTo ex:biochemistry,
-        ex:chemical_engineering,
-        ex:gender_studies,
-        ex:logistics ;
-    ex:publicationDate "2018-03-19"^^xsd:date ;
-    ex:title "การพัฒนาโมเดลการยอมรับทางการเงิน บริบท การซื้อขายหุ้นผ่านแอพพลิเคชัน Streaming บนมือถือ"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
-    ex:updated "2022-01-24T22:39:18.629000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/1c53b1695657edeeb0914efe60eceb734384f48e"^^xsd:string .
-
-ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4 a ex:journal ;
-    ex:isRelatedTo ex:machine_learning ;
-    ex:issn "2654-7945"^^xsd:string ;
-    ex:name "International Journal of Tourism and Hospitality in Asia Pasific"^^xsd:string ;
-    ex:url "http://ejournal.aibpm.org/index.php/IJTH/index"^^xsd:string .
-
-ex:40aaba87-5e4a-4532-b5be-bd59a5ba1611 a ex:journal ;
-    ex:isRelatedTo ex:machine_learning ;
-    ex:issn "2578-6490"^^xsd:string ;
-    ex:name "Alzheimers Disease & Dementia"^^xsd:string ;
-    ex:url "http://scholarlypages.org/journal.php?jid=alzheimers-disease-and-dementia"^^xsd:string .
-
-ex:43684def-b4ea-439b-a4e9-d5a1ea786e3a a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
-    ex:isRelatedTo ex:business_intelligence ;
-    ex:name "CoLogNet Publications"^^xsd:string ;
-    ex:url "http://www.colognet.org/"^^xsd:string .
-
-ex:a6ac75af-84de-4f00-965e-bbf758d6a71f a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:cloud_computing ;
-    ex:issn "2798-4613"^^xsd:string ;
-    ex:name "Jurnal Ilmu Sosial Dan Politik"^^xsd:string .
-
-ex:f00f504c-ecd7-4b17-877f-aa67ce382f58 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:virtual_reality ;
-    ex:issn "0430-3393"^^xsd:string ;
-    ex:name "Festkörperprobleme 31"^^xsd:string .
+ex:c494f143-afa1-4343-9967-bd08727d8305 a ex:journal ;
+    ex:isRelatedTo ex:deep_learning ;
+    ex:issn "2045-7057"^^xsd:string ;
+    ex:name "International Journal of Multidisciplinary Sciences and Engineering"^^xsd:string ;
+    ex:url "http://www.ijmse.org/"^^xsd:string .
 
 ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 a ex:journal ;
     ex:isRelatedTo ex:big_data ;
@@ -7138,192 +7777,50 @@ ex:f48a2213-32cb-4fb4-908d-7c5b231196e9 a ex:journal ;
     ex:name "The Open Public Health Journal"^^xsd:string ;
     ex:url "https://benthamopen.com/TOPHJ/home/"^^xsd:string .
 
-ex:171325798 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:171325798-2188219626,
-        ex:171325798-25842431,
-        ex:171325798-83500001 ;
-    ex:isRelatedTo ex:anthropology,
-        ex:biophysics,
-        ex:climate_change,
-        ex:data_processing,
-        ex:information_retrieval ;
-    ex:title "Eulogy of Northern Song Dynasty:On Liuyong's Eulogy Style Ci"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-02-08T16:53:26.568000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/747f1f1f0480914cf8e7f76d0c584032a58095f2"^^xsd:string .
+ex:1f978602-0f0f-4e8b-a8f0-423b4fe882f4 a ex:journal ;
+    ex:isRelatedTo ex:machine_learning ;
+    ex:issn "2654-7945"^^xsd:string ;
+    ex:name "International Journal of Tourism and Hospitality in Asia Pasific"^^xsd:string ;
+    ex:url "http://ejournal.aibpm.org/index.php/IJTH/index"^^xsd:string .
 
-ex:23019876-9321-4840-8fb7-10fe82b7a015 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
-    ex:isRelatedTo ex:cloud_computing ;
-    ex:issn "0579-9392"^^xsd:string ;
-    ex:name "Vestnik Moskovskogo universiteta. Serii︠a︡ III, Fizika, astronomii︠a︡"^^xsd:string .
+ex:27a6e7c4-31cf-47d3-87f1-3163dec68ab5 a ex:journal ;
+    ex:isRelatedTo ex:big_data ;
+    ex:issn "1523-1712"^^xsd:string ;
+    ex:name "IDEA: A Journal of Social Issues"^^xsd:string ;
+    ex:url "https://www.ideajournal.com/"^^xsd:string .
 
-ex:83e0793c-9677-422e-ab1d-806afdeaaad5 a ex:conference ;
-    ex:conference_type "expert group"^^xsd:string ;
-    ex:isRelatedTo ex:social_media_analytics ;
-    ex:issn "2027-6745"^^xsd:string ;
-    ex:name "CITECSA"^^xsd:string ;
-    ex:url "http://www.unipaz.edu.co/ojs/index.php/revcitecsa"^^xsd:string .
+ex:41bfda96-f67a-4623-976c-d573aa55dfd4 a ex:journal ;
+    ex:isRelatedTo ex:blockchain ;
+    ex:issn "2394-8876"^^xsd:string ;
+    ex:name "SSRG international journal of applied ceramic technology"^^xsd:string .
 
-ex:85090893-f085-44b5-9c38-1034c90750f4 a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:augmented_reality ;
-    ex:issn "2047-4326"^^xsd:string ;
-    ex:name "Country Report Cayman Islands"^^xsd:string ;
-    ex:url "http://www.eiu.com/index.asp?layout=displayIssue&publication_id=860000886"^^xsd:string .
+ex:cc594ac8-f8e4-40fb-abce-cac6f2bcb44b a ex:journal ;
+    ex:isRelatedTo ex:data_science ;
+    ex:issn "2186-7526"^^xsd:string ;
+    ex:name "Boreal Forest Research"^^xsd:string .
 
-ex:9a073da2-0ef8-480a-a5cf-822c1e88c308 a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
-    ex:isRelatedTo ex:computer_vision ;
-    ex:issn "0896-4181"^^xsd:string ;
-    ex:name "Global Finance"^^xsd:string .
+ex:1d52ca9d-7ba3-428b-870d-0370c28589f3 a ex:journal ;
+    ex:isRelatedTo ex:internet_of_things ;
+    ex:issn "2056-5909"^^xsd:string ;
+    ex:name "Clinical Hypertension"^^xsd:string ;
+    ex:url "http://www.clinicalhypertension.com/"^^xsd:string .
 
-ex:a4b7b987-6221-4657-90c5-8f51d7b1126f a ex:conference ;
-    ex:conference_type "workshop"^^xsd:string ;
-    ex:isRelatedTo ex:human-computer_interaction ;
-    ex:issn "2415-7708"^^xsd:string ;
-    ex:name "Sinergiâ"^^xsd:string .
+ex:7b328dcc-4ced-46c5-afe5-d4d091163176 a ex:journal ;
+    ex:isRelatedTo ex:cybersecurity ;
+    ex:issn "0899-9287"^^xsd:string ;
+    ex:name "The Healthcare Forum journal"^^xsd:string .
 
-ex:b528d16b-359b-4d76-ace2-c64a1d496ffe a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
-    ex:isRelatedTo ex:medical_imaging ;
-    ex:issn "2947-910X"^^xsd:string ;
-    ex:name "Palgrave Studies in Water Governance: Policy and Practice"^^xsd:string .
+ex:e835b325-1be9-40c8-9afb-f4f6afeaa028 a ex:journal ;
+    ex:isRelatedTo ex:machine_learning ;
+    ex:issn "2616-7263"^^xsd:string ;
+    ex:name "Bulletin of L.N. Gumilyov Eurasian National University. Technical Science and Technology Series"^^xsd:string ;
+    ex:url "https://bultech.enu.kz/"^^xsd:string .
 
-ex:cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50 a ex:conference ;
-    ex:conference_type "symposium"^^xsd:string ;
-    ex:isRelatedTo ex:social_media_analytics ;
-    ex:issn "1666-6917"^^xsd:string ;
-    ex:name "Revista Tecnología y Ciencia"^^xsd:string ;
-    ex:url "http://rtyc.utn.edu.ar/"^^xsd:string .
-
-ex:ea96e9af-b142-41b8-a817-2fc1bcb6f6fe a ex:conference ;
-    ex:conference_type "regular conference"^^xsd:string ;
-    ex:isRelatedTo ex:human-computer_interaction ;
-    ex:issn "2088-2025"^^xsd:string ;
-    ex:name "Jurnal Linguistik Terapan"^^xsd:string .
-
-ex:188059646 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:188059646-1396536635,
-        ex:188059646-145193808,
-        ex:188059646-3329482 ;
-    ex:isRelatedTo ex:virtual_reality ;
-    ex:title "Neumodulierung und Glykokonjugation von Faktor IX"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
-    ex:updated "2022-02-08T10:25:03.678000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/c396cbbe6c9b5c6f9b6da1229a84ac5d9e82185b"^^xsd:string .
-
-ex:191106316 a ex:paper,
-        ex:publication ;
-    ex:doi "10.14198/FEM.2012.20.11"^^xsd:string ;
-    ex:hasReview ex:191106316-121783265,
-        ex:191106316-83723095 ;
-    ex:isRelatedTo ex:finance,
-        ex:logistics,
-        ex:management,
-        ex:microbiology ;
-    ex:publicationDate "2012-12-15"^^xsd:date ;
-    ex:title "Reclamando sus misterios: La conferencia de la Diosa Ibérica"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-02-08T09:09:41.772000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/8390af8762f5492e54e90ba3356e20b0b962c16a"^^xsd:string .
-
-ex:246009114 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:246009114-135267337,
-        ex:246009114-1396536635,
-        ex:246009114-87926302 ;
-    ex:isRelatedTo ex:blockchain,
-        ex:electrical_engineering ;
-    ex:title "REAL TIME OBJECT DETECTION AND 3D MODELING FOR COMPUTER VISION"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
-    ex:updated "2022-01-19T15:23:48.149000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/e50af5840b30442dd4c989975851077bb532d976"^^xsd:string .
-
-ex:162433415 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:162433415-134791480,
-        ex:162433415-2091352504 ;
-    ex:isRelatedTo ex:computer_vision ;
-    ex:title "El fondo antiguo del Ayuntamiento de Bolaños"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
-    ex:updated "2022-02-08T21:44:11.791000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/0796b6319d18938cb4132d51ca7c3c89f80e3946"^^xsd:string .
-
-ex:166697705 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:166697705-2077232750,
-        ex:166697705-2111149699 ;
-    ex:isRelatedTo ex:health_informatics,
-        ex:instructional_design,
-        ex:medical_imaging ;
-    ex:publicationDate "2007-06-01"^^xsd:date ;
-    ex:title "Doing Business 2008 Morocco : comparing regulation in 178 economies"^^xsd:string ;
-    ex:type "demo paper"^^xsd:string ;
-    ex:updated "2022-02-08T19:21:14.503000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/c32633f7254f5846f4469c3271781b9ee023577b"^^xsd:string .
-
-ex:160964077 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:160964077-2077347087,
-        ex:160964077-48393866,
-        ex:160964077-87926302 ;
-    ex:isRelatedTo ex:cloud_computing,
-        ex:ecology,
-        ex:finance ;
-    ex:title "Die Kommentare von Raschi, Ibn Esra, Radaq, zu Joel"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-01-27T19:10:10.509000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/46e705f1bd730e3d204d39b6c3a9d86b53381920"^^xsd:string .
-
-ex:172111462 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:172111462-16178356,
-        ex:172111462-2164949231,
-        ex:172111462-2167972193 ;
-    ex:isRelatedTo ex:indexing ;
-    ex:title "XI Congreso Internacional de la Sociedad Española de Cuidados Paliativos, Sevilla 12-14 de mayo 2016: Cuidados paliativos; un derecho de todos. Libro de comunicaciones"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-02-08T16:29:09.951000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/da9c7c977f836b13c1f4e53fa8a67dd110a8d34b"^^xsd:string .
-
-ex:184226317 a ex:paper,
-        ex:publication ;
-    ex:doi "10.13109/9783666563980.80"^^xsd:string ;
-    ex:hasReview ex:184226317-121783265,
-        ex:184226317-2198810921 ;
-    ex:isRelatedTo ex:leadership ;
-    ex:title "III. Jüdische moralische Wahrnehmungen von Kindesaussetzung"^^xsd:string ;
-    ex:type "short paper"^^xsd:string ;
-    ex:updated "2022-02-08T11:59:24.110000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/01eb3122e70c477c2cd7f418b9743ba8d6046ac0"^^xsd:string .
-
-ex:178755305 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:178755305-1485468698,
-        ex:178755305-50281777 ;
-    ex:isRelatedTo ex:cancer_research,
-        ex:leadership,
-        ex:machine_learning,
-        ex:organizational_behavior ;
-    ex:title "이 계절의 시 : 장님 걸인-외 1편"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-02-08T14:16:27.883000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/11a0f31c605385fe1e13fff218ea6ae033590613"^^xsd:string .
-
-ex:171903526 a ex:paper,
-        ex:publication ;
-    ex:hasReview ex:171903526-146977915,
-        ex:171903526-2100667744 ;
-    ex:isRelatedTo ex:film_studies,
-        ex:human_resource_management ;
-    ex:publicationDate "2007-09-12"^^xsd:date ;
-    ex:title "CURVAS DE NEUTRALIZAÇÃO DE SOLOS NUMA SUCESSÃO DE FLORESTA COM PASTAGEM NO MUNICÍPIO DE JI-PARANÁ"^^xsd:string ;
-    ex:type "full paper"^^xsd:string ;
-    ex:updated "2022-02-08T16:35:35.516000+00:00"^^xsd:dateTimeStamp ;
-    ex:url "https://www.semanticscholar.org/paper/0aa04a130cf7dac3e43d240fd5fee6aface97048"^^xsd:string .
+ex:9ecf3c50-f992-4389-96c0-a4bafd46c48b a ex:journal ;
+    ex:isRelatedTo ex:natural_language_processing ;
+    ex:issn "2046-147X"^^xsd:string ;
+    ex:name "Public relations inquiry"^^xsd:string ;
+    ex:url "https://journals.sagepub.com/home/pri"^^xsd:string .
 
 ex:publication rdfs:subClassOf ex:paper .
 
@@ -7331,7 +7828,9 @@ ex:journal rdfs:subClassOf ex:venue .
 
 ex:conference rdfs:subClassOf ex:venue .
 
-ex:reviewer rdfs:subClassOf ex:author .
+ex:reviewer rdfs:subClassOf ex:human .
+
+ex:author rdfs:subClassOf ex:human .
 
 ex:area rdfs:range xsd:string .
 
