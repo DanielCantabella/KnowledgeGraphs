@@ -154,11 +154,13 @@ if __name__ == "__main__":
             loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
 
 # INCLUDES
+    diccInProceeding={}
     with open('./data/belongs-to.csv', newline='') as includes: #proceeding includes publication
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
             if diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0:
+                diccInProceeding[data[1]] = True # Not really necessary. We have the constraint made in our csv files, but just in case we add more data.
                 correctedIncludedData = correctPropertiesData(data)
                 loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
@@ -166,7 +168,7 @@ if __name__ == "__main__":
         reader = csv.DictReader(includes)
         for include in reader:
             data = [include['venueID'],include['paperID']]
-            if data[1] not in diccIsPoster and diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0:
+            if diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0 and data[1] not in diccIsPoster and data[1] not in diccInProceeding:
                 correctedIncludedData = correctPropertiesData(data)
                 loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
 
