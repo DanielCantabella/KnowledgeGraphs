@@ -137,21 +137,21 @@ if __name__ == "__main__":
         for relate in reader:
             data = [relate['paperID'],str(relate['keyword']).replace(' ', '_')]
             correctedRelatedData = correctPropertiesData(data)
-            loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
+            loadRelations(correctedRelatedData[0], tbox.paperRelatedTo, correctedRelatedData[1])
     #Journal
     with open('./data/journalsAreas.csv', newline='') as relates:
         reader = csv.DictReader(relates)
         for relate in reader:
             data = [relate['journalID'],str(relate['area']).replace(' ', '_')]
             correctedRelatedData = correctPropertiesData(data)
-            loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
+            loadRelations(correctedRelatedData[0], tbox.journalRelatedTo, correctedRelatedData[1])
     #Conference
     with open('./data/conferencesAreas.csv', newline='') as relates:
         reader = csv.DictReader(relates)
         for relate in reader:
             data = [relate['conferenceID'],str(relate['area']).replace(' ', '_')]
             correctedRelatedData = correctPropertiesData(data)
-            loadRelations(correctedRelatedData[0], tbox.isRelatedTo, correctedRelatedData[1])
+            loadRelations(correctedRelatedData[0], tbox.conferenceRelatedTo, correctedRelatedData[1])
 
 # INCLUDES
     diccInProceeding={}
@@ -162,7 +162,7 @@ if __name__ == "__main__":
             if diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0:
                 diccInProceeding[data[1]] = True # Not really necessary. We have the constraint made in our csv files, but just in case we add more data.
                 correctedIncludedData = correctPropertiesData(data)
-                loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
+                loadRelations(correctedIncludedData[1], tbox.includedInProceeding, correctedIncludedData[0])
 
     with open('./data/published-in.csv', newline='') as includes: #volume includes publication
         reader = csv.DictReader(includes)
@@ -170,7 +170,7 @@ if __name__ == "__main__":
             data = [include['venueID'],include['paperID']]
             if diccNumberReviewers[data[1]] >= 2 and diccAprovedPapers[data[1]] > 0 and data[1] not in diccIsPoster and data[1] not in diccInProceeding:
                 correctedIncludedData = correctPropertiesData(data)
-                loadRelations(correctedIncludedData[0], tbox.includes, correctedIncludedData[1])
+                loadRelations(correctedIncludedData[1], tbox.includedInVolume, correctedIncludedData[0])
 
 #SUBCLASSES OF
 # FROM_CONFERENCE
@@ -191,12 +191,17 @@ if __name__ == "__main__":
             # loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
 
 # ASSIGNS
-    with open('./data/affiliated-to.csv', newline='') as assigns: #proceeding subClassOf conference
+    with open('./data/affiliated-to.csv', newline='') as assigns:
         reader = csv.DictReader(assigns)
         for assign in reader:
-            data = [assign['affiliation'],assign['authorID']]
-            correctedReviewedData = correctPropertiesData(data)
-            loadRelations(correctedReviewedData[0], tbox.assigns, correctedReviewedData[1])
+            if assign['type'] == "editor": #editors
+                data = [assign['affiliation'],assign['authorID']]
+                correctedReviewedData = correctPropertiesData(data)
+                loadRelations(correctedReviewedData[0], tbox.editorAssigns, correctedReviewedData[1])
+            else: #chair
+                data = [assign['affiliation'], assign['authorID']]
+                correctedReviewedData = correctPropertiesData(data)
+                loadRelations(correctedReviewedData[0], tbox.chairAssigns, correctedReviewedData[1])
 
 # HANDLES_CONFERENCES
     with open('./data/handlesConferences.csv', newline='') as handles: #proceeding subClassOf conference
@@ -225,7 +230,7 @@ if __name__ == "__main__":
         for submission in reader:
             data = [submission["paperID"], submission["journalID"]]
             correctedSubmittedData = correctPropertiesData(data)
-            loadRelations(correctedSubmittedData[0], tbox.isSubmittedTo, correctedSubmittedData[1])
+            loadRelations(correctedSubmittedData[0], tbox.isSubmittedToJournal, correctedSubmittedData[1])
 
 # Conferences
     with open('./data/submittedInConference.csv', newline='') as submissions: #proceeding subClassOf conference
@@ -233,7 +238,7 @@ if __name__ == "__main__":
         for submission in reader:
             data = [submission["paperID"], submission["conferenceID"]]
             correctedSubmittedData = correctPropertiesData(data)
-            loadRelations(correctedSubmittedData[0], tbox.isSubmittedTo, correctedSubmittedData[1])
+            loadRelations(correctedSubmittedData[0], tbox.isSubmittedToConference, correctedSubmittedData[1])
 
 print(g.serialize())
 g.serialize(destination="abox.ttl", format="ttl")

@@ -1,4 +1,4 @@
-@prefix ex: <http://example.org/> .
+@prefix ex: <http://www.semanticweb.org/danicantabella/ontologies/2023/4/sdmLab3/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 

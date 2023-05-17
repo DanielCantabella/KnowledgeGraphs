@@ -12,7 +12,7 @@ def loadPapers(data): #[id, title, abstract, DOI, URL, updated, type]
     abstractAtt = Literal(data[2], datatype=XSD.string)
     doiAtt = Literal(data[3], datatype=XSD.string)
     urlAtt = Literal(data[4], datatype=XSD.string)
-    updatedAtt = Literal(data[5], datatype=XSD.dateTimeStamp)
+    updatedAtt = Literal(data[5], datatype=XSD.string)
     typeAtt = Literal (data[6], datatype=XSD.string)
 
     if data[0] is not None: #id
@@ -36,7 +36,7 @@ def correctPaperData(data):
             if i in [0,1,2,3,4,6]: #id, title, abstract, doi, url, type
                data[i] = str(data[i])
             elif i == 5: #updated
-                data[i] = datetime.fromisoformat(data[i].replace('Z', '+00:00'))
+                data[i] = str(datetime.fromisoformat(data[i].replace('Z', '+00:00')))
         else:
             data[i] = None
     return data
@@ -161,9 +161,9 @@ def loadConferences(data): #[id, name, issn, url, type]
     if data[2] is not None:  # issn
         g.add((id, tbox.issn, issnAtt))
     if data[3] is not None:  # url
-        g.add((id, tbox.url, urlAtt))
+        g.add((id, tbox.urlVenue, urlAtt))
     if data[4] is not None:  # type
-        g.add((id, tbox.conference_type, typeAtt))
+        g.add((id, tbox.conferenceType, typeAtt))
 def correctConferenceData(data):
     numFields = len(data)
     for i in range(0, numFields):
@@ -187,7 +187,7 @@ def loadJournals(data):
     if data[2] is not None:  # issn
         g.add((id, tbox.issn, issnAtt))
     if data[3] is not None:  # url
-        g.add((id, tbox.url, urlAtt))
+        g.add((id, tbox.urlVenue, urlAtt))
 def correctJournalData(data):
     numFields = len(data)
     for i in range(0, numFields):

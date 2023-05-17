@@ -11,4 +11,4 @@ for i in published["venueID"]:
     new = pd.concat([new, volume[volume["editionID"]==i]["conferenceID"]], axis=0)
 new.to_csv("/Users/danicantabella/Desktop/SDM/Labs/Lab3/data/newww.csv", index=False)
 # combined_df = pd.concat([combined_df, new], axis=1)
-combined_df.to_csv("/Users/danicantabella/Desktop/SDM/Labs/Lab3/data/submittedInConference.csv", index=False)
+combined_df.to_csv("/Users/danicantabella/Desktop/SDM/Labs/Lab3/data/submittedInConference222.csv", index=False)
