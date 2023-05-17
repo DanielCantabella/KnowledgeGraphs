@@ -67,6 +67,6 @@ WHERE {
     ?author ex:writes ?papers.
     ?papers ex:includedInProceeding ?proceedings.
     ?proceedings ex:fromConference ?conference.
-    ?conference ex:conferenceRelatedTo ex:computer_vision
+    ?conference ex:conferenceRelatedTo ex:database
 }
 ```
