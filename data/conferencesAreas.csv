@@ -4,7 +4,7 @@ conferenceID,area
 dd7777ae-f733-445c-bf89-2486b3117cae,cloud computing
 e2c6a445-18dd-4d4d-bbac-6150d798d2b6,augmented reality
 f00f504c-ecd7-4b17-877f-aa67ce382f58,virtual reality
-099f722f-e5a2-42bb-9ab6-1dcd500bd977,computer vision
+099f722f-e5a2-42bb-9ab6-1dcd500bd977,database
 9042c24c-4c19-4e6a-8334-449eef16f57a,human-computer interaction
 440aa3ea-7d64-4773-9a72-c784812f9be7,social media analytics
 c6c4dde3-3125-4620-988e-9bea2de39345,business intelligence
@@ -15,7 +15,7 @@ ed8c3c93-9e65-41de-8bd0-4d9d4b2eeb41,data science
 945aea8e-5af0-4cc3-bf02-caa0e7d1dd95,cloud computing
 dd7f68a9-b6a3-4dc2-9457-23e2ee5eb640,augmented reality
 bde28bb6-4c6c-4d8e-b6d1-01937b87484f,virtual reality
-76402852-7beb-487d-8d53-954e85516bc0,computer vision
+76402852-7beb-487d-8d53-954e85516bc0,database
 ecf8b9ec-fb19-4803-8b52-05e8791232e4,human-computer interaction
 04d55eb2-9d8a-4366-baad-c0838563c870,social media analytics
 43684def-b4ea-439b-a4e9-d5a1ea786e3a,business intelligence
@@ -26,7 +26,7 @@ dd8f14f5-34b7-4f7f-9156-0ee9dc9c8bfb,data science
 23019876-9321-4840-8fb7-10fe82b7a015,cloud computing
 ff27e671-d9b7-4a58-8044-7a3cb284547f,augmented reality
 9f0e882d-976a-40ca-ac22-ebf18a7402c1,virtual reality
-9a073da2-0ef8-480a-a5cf-822c1e88c308,computer vision
+9a073da2-0ef8-480a-a5cf-822c1e88c308,database
 ea96e9af-b142-41b8-a817-2fc1bcb6f6fe,human-computer interaction
 cb2a3ab0-dcf8-4da7-8d8a-aec4bb1c1f50,social media analytics
 ff19f9df-b1e8-409f-b226-7f7040261537,business intelligence
@@ -37,7 +37,7 @@ ea2f25bf-85c6-412c-81fd-df91179b2607,data science
 a6ac75af-84de-4f00-965e-bbf758d6a71f,cloud computing
 85090893-f085-44b5-9c38-1034c90750f4,augmented reality
 19c1a290-3fa7-433a-b5fa-dc833477d313,virtual reality
-12a8ef42-b7bf-456f-9f91-53324ebd16be,computer vision
+12a8ef42-b7bf-456f-9f91-53324ebd16be,database
 a4b7b987-6221-4657-90c5-8f51d7b1126f,human-computer interaction
 83e0793c-9677-422e-ab1d-806afdeaaad5,social media analytics
 3fdcd86c-8033-4ae8-bb00-dd0e206fbadc,business intelligence
@@ -46,7 +46,7 @@ b528d16b-359b-4d76-ace2-c64a1d496ffe,medical imaging
 c5aefac7-151e-446e-8249-167c5b765a38,cloud computing
 d6d936b6-b6ec-4402-a0b4-921dbfe6c96a,augmented reality
 fe7599c8-3cc9-45de-893c-70a3372fc3e9,virtual reality
-f2e2efab-bec8-4776-8d13-fb9e1349f303,computer vision
+f2e2efab-bec8-4776-8d13-fb9e1349f303,database
 6d2c2dff-f049-4549-9d7a-6fd0be204e80,human-computer interaction
 fa7d940e-a956-44bb-ae0a-cd6835741229,social media analytics
 69ebdcfc-1db1-4543-bacb-5dcb57236738,business intelligence
