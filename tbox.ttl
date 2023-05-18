@@ -1,113 +1,516 @@
-@prefix ex: <http://www.semanticweb.org/danicantabella/ontologies/2023/4/sdmLab3/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3#> .
+@prefix ex: <http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3#> .
 
-ex:abstract rdfs:domain ex:paper ;
-    rdfs:range xsd:string .
+<http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3> rdf:type owl:Ontology ;
+                                                                        rdfs:comment "This ontology is made for Lab3 of SDM" .
 
-ex:accepted rdfs:domain ex:review ;
-    rdfs:range xsd:boolean .
+#################################################################
+#    Annotation properties
+#################################################################
 
-ex:assigns rdfs:domain ex:chair,
-        ex:editor ;
-    rdfs:range ex:reviewer .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/PublicationRestriction
+ex:PublicationRestriction rdf:type owl:AnnotationProperty .
 
-ex:back_up_text rdfs:domain ex:review ;
-    rdfs:range xsd:string .
 
-ex:conference_type rdfs:domain ex:conference ;
-    rdfs:range xsd:string .
+#################################################################
+#    Datatypes
+#################################################################
 
-ex:doi rdfs:domain ex:paper ;
-    rdfs:range xsd:string .
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
-ex:endDate rdfs:domain ex:proceeding ;
-    rdfs:range xsd:date .
 
-ex:fromConference rdfs:domain ex:proceeding ;
-    rdfs:range ex:conference .
+#################################################################
+#    Object Properties
+#################################################################
 
-ex:fromJournal rdfs:domain ex:volume ;
-    rdfs:range ex:journal .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/chairAssigns
+ex:chairAssigns rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Restriction ;
+                              owl:onProperty ex:chairAssigns ;
+                              owl:allValuesFrom ex:chair
+                            ] ;
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty ex:chairAssigns ;
+                             owl:allValuesFrom ex:reviewer
+                           ] .
 
-ex:handlesConference rdfs:domain ex:chair ;
-    rdfs:range ex:conference .
 
-ex:handlesJournal rdfs:domain ex:editor ;
-    rdfs:range ex:journal .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/conferenceRelatedTo
+ex:conferenceRelatedTo rdf:type owl:ObjectProperty ;
+                       rdfs:domain [ rdf:type owl:Restriction ;
+                                     owl:onProperty ex:conferenceRelatedTo ;
+                                     owl:someValuesFrom ex:conference
+                                   ] ;
+                       rdfs:range [ rdf:type owl:Restriction ;
+                                    owl:onProperty ex:conferenceRelatedTo ;
+                                    owl:allValuesFrom ex:area
+                                  ] .
 
-ex:hasReview rdfs:domain ex:paper ;
-    rdfs:range ex:review .
 
-ex:includes rdfs:domain ex:proceeding,
-        ex:volume ;
-    rdfs:range ex:publication .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/editorAssigns
+ex:editorAssigns rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Restriction ;
+                               owl:onProperty ex:editorAssigns ;
+                               owl:allValuesFrom ex:editor
+                             ] ;
+                 rdfs:range [ rdf:type owl:Restriction ;
+                              owl:onProperty ex:editorAssigns ;
+                              owl:allValuesFrom ex:reviewer
+                            ] .
 
-ex:isRelatedTo rdfs:domain ex:conference,
-        ex:journal,
-        ex:paper ;
-    rdfs:range ex:area .
 
-ex:isSubmittedTo rdfs:domain ex:paper ;
-    rdfs:range ex:conference,
-        ex:journal .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/fromConference
+ex:fromConference rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Restriction ;
+                                owl:onProperty ex:fromConference ;
+                                owl:someValuesFrom ex:proceeding
+                              ] ;
+                  rdfs:range [ rdf:type owl:Restriction ;
+                               owl:onProperty ex:fromConference ;
+                               owl:allValuesFrom ex:conference
+                             ] .
 
-ex:issn rdfs:domain ex:venue ;
-    rdfs:range xsd:string .
 
-ex:name rdfs:domain ex:venue ;
-    rdfs:range xsd:string .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/fromJournal
+ex:fromJournal rdf:type owl:ObjectProperty ;
+               rdfs:domain [ rdf:type owl:Restriction ;
+                             owl:onProperty ex:fromJournal ;
+                             owl:someValuesFrom ex:volume
+                           ] ;
+               rdfs:range [ rdf:type owl:Restriction ;
+                            owl:onProperty ex:fromJournal ;
+                            owl:allValuesFrom ex:journal
+                          ] .
 
-ex:name_human rdfs:domain ex:human ;
-    rdfs:range xsd:string .
 
-ex:publicationDate rdfs:domain ex:publication ;
-    rdfs:range xsd:date .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/handlesConference
+ex:handlesConference rdf:type owl:ObjectProperty ;
+                     rdfs:domain [ rdf:type owl:Restriction ;
+                                   owl:onProperty ex:handlesConference ;
+                                   owl:someValuesFrom ex:chair
+                                 ] ;
+                     rdfs:range [ rdf:type owl:Restriction ;
+                                  owl:onProperty ex:handlesConference ;
+                                  owl:allValuesFrom ex:conference
+                                ] .
 
-ex:reviews rdfs:domain ex:reviewer ;
-    rdfs:range ex:paper .
 
-ex:startDate rdfs:domain ex:proceeding ;
-    rdfs:range xsd:date .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/handlesJournal
+ex:handlesJournal rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Restriction ;
+                                owl:onProperty ex:handlesJournal ;
+                                owl:someValuesFrom ex:editor
+                              ] ;
+                  rdfs:range [ rdf:type owl:Restriction ;
+                               owl:onProperty ex:handlesJournal ;
+                               owl:allValuesFrom ex:journal
+                             ] .
 
-ex:submits rdfs:domain ex:reviewer ;
-    rdfs:range ex:review .
 
-ex:title rdfs:domain ex:paper ;
-    rdfs:range xsd:string .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/hasReview
+ex:hasReview rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Restriction ;
+                           owl:onProperty ex:hasReview ;
+                           owl:someValuesFrom ex:paper
+                         ] ;
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty ex:hasReview ;
+                          owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                          owl:onClass ex:review
+                        ] .
 
-ex:type rdfs:domain ex:paper ;
-    rdfs:range xsd:string .
 
-ex:updated rdfs:domain ex:paper ;
-    rdfs:range xsd:dateTimeStamp .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/includedInProceeding
+ex:includedInProceeding rdf:type owl:ObjectProperty ;
+                        rdfs:domain [ rdf:type owl:Restriction ;
+                                      owl:onProperty ex:includedInProceeding ;
+                                      owl:someValuesFrom ex:publication
+                                    ] ;
+                        rdfs:range [ rdf:type owl:Restriction ;
+                                     owl:onProperty ex:includedInProceeding ;
+                                     owl:allValuesFrom ex:proceeding
+                                   ] .
 
-ex:url rdfs:domain ex:paper,
-        ex:venue ;
-    rdfs:range xsd:string .
 
-ex:volumeNr rdfs:domain ex:volume ;
-    rdfs:range xsd:integer .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/includedInVolume
+ex:includedInVolume rdf:type owl:ObjectProperty ;
+                    rdfs:domain [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                         owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty ex:type ;
+                                                                         owl:hasValue "demo paper"
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty ex:type ;
+                                                                         owl:hasValue "full paper"
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty ex:type ;
+                                                                         owl:hasValue "short paper"
+                                                                       ]
+                                                                     )
+                                                       ]
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty ex:includedInVolume ;
+                                                         owl:someValuesFrom ex:publication
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+                    rdfs:range [ rdf:type owl:Restriction ;
+                                 owl:onProperty ex:includedInVolume ;
+                                 owl:allValuesFrom ex:volume
+                               ] .
 
-ex:writes rdfs:domain ex:author ;
-    rdfs:range ex:paper .
 
-ex:year rdfs:domain ex:volume ;
-    rdfs:range xsd:integer .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/isSubmittedToConference
+ex:isSubmittedToConference rdf:type owl:ObjectProperty ;
+                           rdfs:domain [ rdf:type owl:Restriction ;
+                                         owl:onProperty ex:isSubmittedToConference ;
+                                         owl:someValuesFrom ex:paper
+                                       ] ;
+                           rdfs:range [ rdf:type owl:Restriction ;
+                                        owl:onProperty ex:isSubmittedToConference ;
+                                        owl:allValuesFrom ex:conference
+                                      ] .
 
-ex:area rdfs:range xsd:string .
 
-ex:author rdfs:subClassOf ex:human .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/isSubmittedToJournal
+ex:isSubmittedToJournal rdf:type owl:ObjectProperty ;
+                        rdfs:domain [ rdf:type owl:Restriction ;
+                                      owl:onProperty ex:isSubmittedToJournal ;
+                                      owl:someValuesFrom ex:paper
+                                    ] ;
+                        rdfs:range [ rdf:type owl:Restriction ;
+                                     owl:onProperty ex:isSubmittedToJournal ;
+                                     owl:allValuesFrom ex:journal
+                                   ] .
 
-ex:chair rdfs:subClassOf ex:human .
 
-ex:editor rdfs:subClassOf ex:human .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/journalRelatedTo
+ex:journalRelatedTo rdf:type owl:ObjectProperty ;
+                    rdfs:domain [ rdf:type owl:Restriction ;
+                                  owl:onProperty ex:journalRelatedTo ;
+                                  owl:someValuesFrom ex:journal
+                                ] ;
+                    rdfs:range [ rdf:type owl:Restriction ;
+                                 owl:onProperty ex:journalRelatedTo ;
+                                 owl:allValuesFrom ex:area
+                               ] .
 
-ex:publication rdfs:subClassOf ex:paper .
 
-ex:reviewer rdfs:subClassOf ex:human .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/paperRelatedTo
+ex:paperRelatedTo rdf:type owl:ObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Restriction ;
+                                owl:onProperty ex:paperRelatedTo ;
+                                owl:someValuesFrom ex:paper
+                              ] ;
+                  rdfs:range [ rdf:type owl:Restriction ;
+                               owl:onProperty ex:paperRelatedTo ;
+                               owl:allValuesFrom ex:area
+                             ] .
 
-ex:journal rdfs:subClassOf ex:venue .
 
-ex:conference rdfs:subClassOf ex:venue .
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/reviews
+ex:reviews rdf:type owl:ObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty ex:reviews ;
+                         owl:someValuesFrom ex:reviewer
+                       ] ;
+           rdfs:range [ rdf:type owl:Restriction ;
+                        owl:onProperty ex:reviews ;
+                        owl:allValuesFrom ex:paper
+                      ] .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/submits
+ex:submits rdf:type owl:ObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty ex:submits ;
+                         owl:someValuesFrom ex:reviewer
+                       ] ;
+           rdfs:range [ rdf:type owl:Restriction ;
+                        owl:onProperty ex:submits ;
+                        owl:allValuesFrom ex:review
+                      ] .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/writes
+ex:writes rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Restriction ;
+                        owl:onProperty ex:writes ;
+                        owl:someValuesFrom ex:author
+                      ] ;
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty ex:writes ;
+                       owl:allValuesFrom ex:paper
+                     ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/abstract
+ex:abstract rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain ex:paper ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/accepted
+ex:accepted rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain ex:review ;
+            rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/back_up_text
+ex:back_up_text rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain ex:review ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/conferenceType
+ex:conferenceType rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain ex:conference ;
+                  rdfs:range [ rdf:type rdfs:Datatype ;
+                               owl:oneOf [ rdf:type rdf:List ;
+                                           rdf:first "expert group" ;
+                                           rdf:rest [ rdf:type rdf:List ;
+                                                      rdf:first "regular conference" ;
+                                                      rdf:rest [ rdf:type rdf:List ;
+                                                                 rdf:first "symposium" ;
+                                                                 rdf:rest [ rdf:type rdf:List ;
+                                                                            rdf:first "workshop" ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ]
+                             ] .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/doi
+ex:doi rdf:type owl:DatatypeProperty ,
+                owl:FunctionalProperty ;
+       rdfs:domain ex:paper ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/endDate
+ex:endDate rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain ex:proceeding ;
+           rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/issn
+ex:issn rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain ex:venue ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/name
+ex:name rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain ex:venue ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/name_human
+ex:name_human rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain ex:human ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/publicationDate
+ex:publicationDate rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain ex:publication ;
+                   rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/startDate
+ex:startDate rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain ex:proceeding ;
+             rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/title
+ex:title rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain ex:paper ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/type
+ex:type rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain ex:paper ;
+        rdfs:range [ rdf:type rdfs:Datatype ;
+                     owl:oneOf [ rdf:type rdf:List ;
+                                 rdf:first "demo paper" ;
+                                 rdf:rest [ rdf:type rdf:List ;
+                                            rdf:first "full paper" ;
+                                            rdf:rest [ rdf:type rdf:List ;
+                                                       rdf:first "poster" ;
+                                                       rdf:rest [ rdf:type rdf:List ;
+                                                                  rdf:first "short paper" ;
+                                                                  rdf:rest rdf:nil
+                                                                ]
+                                                     ]
+                                          ]
+                               ]
+                   ] .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/updated
+ex:updated rdf:type owl:DatatypeProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain ex:paper ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/url
+ex:url rdf:type owl:DatatypeProperty ,
+                owl:FunctionalProperty ;
+       rdfs:domain ex:paper ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/urlVenue
+ex:urlVenue rdf:type owl:DatatypeProperty ;
+            rdfs:domain ex:venue ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/volumeNr
+ex:volumeNr rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain ex:volume ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/year
+ex:year rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain ex:volume ;
+        rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/area
+ex:area rdf:type owl:Class ;
+        owl:disjointWith ex:human ,
+                         ex:paper ,
+                         ex:proceeding ,
+                         ex:review ,
+                         ex:venue ,
+                         ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/author
+ex:author rdf:type owl:Class ;
+          rdfs:subClassOf ex:human .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/chair
+ex:chair rdf:type owl:Class ;
+         rdfs:subClassOf ex:human ;
+         owl:disjointWith ex:editor .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/conference
+ex:conference rdf:type owl:Class ;
+              rdfs:subClassOf ex:venue ;
+              owl:disjointWith ex:journal ,
+                               ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/editor
+ex:editor rdf:type owl:Class ;
+          rdfs:subClassOf ex:human .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/human
+ex:human rdf:type owl:Class ;
+         owl:disjointWith ex:paper ,
+                          ex:proceeding ,
+                          ex:review ,
+                          ex:venue ,
+                          ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/journal
+ex:journal rdf:type owl:Class ;
+           rdfs:subClassOf ex:venue ;
+           owl:disjointWith ex:proceeding .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/paper
+ex:paper rdf:type owl:Class ;
+         owl:disjointWith ex:proceeding ,
+                          ex:review ,
+                          ex:venue ,
+                          ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/proceeding
+ex:proceeding rdf:type owl:Class ;
+              owl:disjointWith ex:review ,
+                               ex:venue ,
+                               ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/publication
+ex:publication rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty ex:hasReview ;
+                                     owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                     owl:onClass [ owl:intersectionOf ( ex:review
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty ex:accepted ;
+                                                                          owl:hasValue "true"^^xsd:boolean
+                                                                        ]
+                                                                      ) ;
+                                                   rdf:type owl:Class
+                                                 ]
+                                   ] ;
+               rdfs:subClassOf ex:paper .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/review
+ex:review rdf:type owl:Class ;
+          owl:disjointWith ex:venue ,
+                           ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/reviewer
+ex:reviewer rdf:type owl:Class ;
+            rdfs:subClassOf ex:human .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/venue
+ex:venue rdf:type owl:Class ;
+         owl:disjointWith ex:volume .
+
+
+###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/volume
+ex:volume rdf:type owl:Class .
+
 

@@ -15,8 +15,8 @@ def loadPapers(data): #[id, title, abstract, DOI, URL, updated, type]
     updatedAtt = Literal(data[5], datatype=XSD.string)
     typeAtt = Literal (data[6], datatype=XSD.string)
 
-    if data[0] is not None: #id
-        g.add((id,RDF.type,tbox.paper))
+    # if data[0] is not None: #id
+    #     g.add((id,RDF.type,tbox.paper))
     if data[1] is not None: #title
         g.add((id,tbox.title,titleAtt))
     if data[2] is not None: #abstract
@@ -44,8 +44,8 @@ def loadPublications(data):
     if data != None:
         id = EX[data[0]]
         publicationDateAtt = Literal(data[1], datatype=XSD.date)
-        if data[0] is not None:
-            g.add((id, RDF.type, tbox.publication))
+        # if data[0] is not None:
+        #     g.add((id, RDF.type, tbox.publication))
         if data[1] is not None:  #publicationDate
             g.add((id, tbox.publicationDate, publicationDateAtt))
 def correctPublicationData(data):
@@ -92,8 +92,8 @@ def loadVolumes(data): #[id, year, volume_number_of_the_year]
     yearAtt = Literal(data[1], datatype=XSD.integer)
     volumeNrAtt = Literal(data[2], datatype=XSD.integer)
 
-    if data[0] is not None:  # id
-        g.add((id, RDF.type, tbox.volume))
+    # if data[0] is not None:  # id
+    #     g.add((id, RDF.type, tbox.volume))
     if data[1] is not None:  # year
         g.add((id, tbox.year, yearAtt))
     if data[2] is not None:  # volume_number_of_the_year
@@ -129,8 +129,8 @@ def loadProceedings(data):
     startDateAtt = Literal(data[1], datatype=XSD.date)
     endDateAtt = Literal(data[2], datatype=XSD.date)
 
-    if data[0] is not None:  # id
-        g.add((id, RDF.type, tbox.proceeding))
+    # if data[0] is not None:  # id
+    #     g.add((id, RDF.type, tbox.proceeding))
     if data[1] is not None:  # startDate
         g.add((id, tbox.startDate, startDateAtt))
     if data[2] is not None:  # endDate
@@ -154,8 +154,8 @@ def loadConferences(data): #[id, name, issn, url, type]
     urlAtt = Literal(data[3], datatype=XSD.string)
     typeAtt = Literal(data[4], datatype=XSD.string)
 
-    if data[0] is not None:  # id
-        g.add((id, RDF.type, tbox.conference))
+    # if data[0] is not None:  # id
+    #     g.add((id, RDF.type, tbox.conference))
     if data[1] is not None:  # name
         g.add((id, tbox.name, nameAtt))
     if data[2] is not None:  # issn
@@ -203,8 +203,8 @@ def loadReviews(data):
     acceptedAtt = Literal(data[1], datatype=XSD.boolean)
     back_up_textAtt = Literal(data[2], datatype=XSD.string)
 
-    if data[0] is not None:  # id
-        g.add((id, RDF.type, tbox.review))
+    # if data[0] is not None:  # id
+    #     g.add((id, RDF.type, tbox.review))
     if data[1] is not None:  # accepted
         g.add((id, tbox.accepted, acceptedAtt))
     if data[2] is not None:  # back_up_text
@@ -233,33 +233,6 @@ def getRevisions():
                     diccNumberReviewers[data[0]] += 1
 
     return diccAprovedPapers, diccNumberReviewers
-# def correctReviewData(data): #paperId, reviewerID, grade, review
-#     numFields = len(data)
-#     newData=[str(data[0]+"-"+data[1]), "accepted", "back_up_text"] #id is paperId-reviewerID
-#     for i in range(0, numFields):
-#         if bool(data[i]) == True:
-#             if i in [2]: #accepted
-#                 if int(data[i]) > 2: #if grade > 2 approved
-#                     newData[i-1] = True
-#                     if data[0] not in diccAprovedPapers:
-#                         diccAprovedPapers[data[0]] = 1
-#                         diccNumberReviewers[data[0]] = 1
-#                     else:
-#                         diccAprovedPapers[data[0]] +=1
-#                         diccNumberReviewers[data[0]] +=1
-#                 else:
-#                     newData[i-1] = False
-#                     if data[0] not in diccAprovedPapers:
-#                         diccAprovedPapers[data[0]] = -1
-#                         diccNumberReviewers[data[0]] = 1
-#                     else:
-#                         diccAprovedPapers[data[0]] -=1
-#                         diccNumberReviewers[data[0]] +=1
-#             elif i in [3]: #paperId, reviewerID, review
-#                 newData[i-1] = str(data[i])
-#         else:
-#             newData[i] = None
-#     return newData, diccAprovedPapers, diccNumberReviewers
 
 def correctReviewData(data): #paperId, reviewerID, grade, review
     numFields = len(data)

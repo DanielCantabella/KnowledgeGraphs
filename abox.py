@@ -8,7 +8,7 @@ if __name__ == "__main__":
 #LOAD TBOX
 #crear funcio que inici tbox.py
     # subprocess.run(["python3", "tbox.py"])
-#LOAD CLASSES
+#LOAD DATA PROPERTIES
 #ABOX PAPERS
     diccIsPoster = {}
     with open('./data/papers-processed.csv', newline='', encoding='utf-8') as papers:
@@ -105,7 +105,7 @@ if __name__ == "__main__":
             correctedEditorsData = correctChairEditorData(data)
             loadEditors(correctedEditorsData)
 
-#LOAD PROPERTIES
+#LOAD OBJECT PROPERTIES
 # WRITES
     with open('./data/written-by.csv', newline='') as writes:
         reader = csv.DictReader(writes)
@@ -172,7 +172,6 @@ if __name__ == "__main__":
                 correctedIncludedData = correctPropertiesData(data)
                 loadRelations(correctedIncludedData[1], tbox.includedInVolume, correctedIncludedData[0])
 
-#SUBCLASSES OF
 # FROM_CONFERENCE
     with open('./data/is-from.csv', newline='') as includes: #proceeding subClassOf conference
         reader = csv.DictReader(includes)
@@ -180,7 +179,7 @@ if __name__ == "__main__":
             data = [include['editionID'],include['conferenceID']]
             correctedReviewedData = correctPropertiesData(data)
             loadRelations(correctedReviewedData[0], tbox.fromConference, correctedReviewedData[1])
-            # loadRelations(correctedReviewedData[0], RDFS.subClassOf, correctedReviewedData[1])
+
 # FROM_JOURNAL
     with open('./data/volume-from.csv', newline='') as includes: #volume subClassOf journal
         reader = csv.DictReader(includes)
