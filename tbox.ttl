@@ -34,7 +34,7 @@ xsd:date rdf:type rdfs:Datatype .
 ex:chairAssigns rdf:type owl:ObjectProperty ;
                 rdfs:domain [ rdf:type owl:Restriction ;
                               owl:onProperty ex:chairAssigns ;
-                              owl:allValuesFrom ex:chair
+                              owl:someValuesFrom ex:chair
                             ] ;
                 rdfs:range [ rdf:type owl:Restriction ;
                              owl:onProperty ex:chairAssigns ;
@@ -58,7 +58,7 @@ ex:conferenceRelatedTo rdf:type owl:ObjectProperty ;
 ex:editorAssigns rdf:type owl:ObjectProperty ;
                  rdfs:domain [ rdf:type owl:Restriction ;
                                owl:onProperty ex:editorAssigns ;
-                               owl:allValuesFrom ex:editor
+                               owl:someValuesFrom ex:editor
                              ] ;
                  rdfs:range [ rdf:type owl:Restriction ;
                               owl:onProperty ex:editorAssigns ;
@@ -431,8 +431,7 @@ ex:author rdf:type owl:Class ;
 
 ###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/chair
 ex:chair rdf:type owl:Class ;
-         rdfs:subClassOf ex:human ;
-         owl:disjointWith ex:editor .
+         rdfs:subClassOf ex:human .
 
 
 ###  http://www.semanticweb.org/danicantabella/ontologies/2023/4/SDM_Lab3/conference
